@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
   "version": "1.1.3",
-  "download_url": "",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
-  "homepage": "",
-  "last_updated": "2026-02-05 18:42:21",
+  "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
+  "last_updated": "2026-02-05 18:45:28",
   "sections": {
-    "changelog": "<p>See CHANGELOG.md for details.</p>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Automatic update system via public JSON metadata server (plugin-update-checker v5.6)</li>\n<li>Bundled update checker library for standalone distribution</li>\n</ul>"
   }
 }
