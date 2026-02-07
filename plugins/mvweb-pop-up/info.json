@@ -1,0 +1,15 @@
+{
+  "name": "mvweb-pop-up",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.0.zip",
+  "requires": "6.4",
+  "tested": "6.7",
+  "requires_php": "8.0",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-pop-up",
+  "last_updated": "2026-02-07 08:19:58",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Initial release</li>\n<li>Shortcode `[mvweb_popup]` for trigger button with customizable text</li>\n<li>Backward-compatible shortcode alias `[mvweb_pop-up]`</li>\n<li>Admin settings page with 4 tabs: General, Content, Styles, Advanced</li>\n<li>HTML popup content with strict wp_kses allowlist</li>\n<li>4 animation types: Fade, Slide Up, Slide Down, Zoom</li>\n<li>Configurable animation duration (100–2000 ms)</li>\n<li>Custom CSS for button and popup with security sanitization</li>\n<li>Close on overlay click (configurable)</li>\n<li>Close on Escape key (configurable)</li>\n<li>Conditional asset loading — CSS/JS only on pages with shortcode</li>\n<li>Full accessibility: ARIA attributes, focus trap, keyboard navigation</li>\n<li>`prefers-reduced-motion` support — animations disabled for users with this preference</li>\n<li>Scroll lock with scrollbar width compensation (no layout shift)</li>\n<li>Focus return to trigger button on close</li>\n<li>Keep data on uninstall option</li>\n<li>Multisite support for uninstall cleanup</li>\n<li>English and Russian translations</li>\n<li>Automatic updates via MVweb update server</li>\n</ul>"
+  }
+}
