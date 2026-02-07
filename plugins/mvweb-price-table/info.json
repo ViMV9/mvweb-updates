@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
-  "version": "1.1.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.4.zip",
+  "version": "1.1.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
-  "last_updated": "2026-02-07 08:22:14",
+  "last_updated": "2026-02-07 09:03:12",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>MVweb Menu refactored to v2.0.0: dynamic plugin registration via `mvweb_registered_plugins` filter</li>\n<li>Plugin descriptions on hub page now properly translated via `all_plugins` filter</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>Russian translations for MVweb Menu shared strings (hub page UI)</li>\n<li>Self-registration with MVweb Menu hub page via `add_filter`</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Menu position collision with WooCommerce: changed from float to string `'99.5'` to prevent PHP float-to-int array key casting</li>\n</ul>"
   }
 }
