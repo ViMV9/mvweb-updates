@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
-  "version": "1.1.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.5.zip",
+  "version": "1.1.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.6.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
-  "last_updated": "2026-02-07 09:03:12",
+  "last_updated": "2026-02-07 09:21:26",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Menu position collision with WooCommerce: changed from float to string `'99.5'` to prevent PHP float-to-int array key casting</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Menu not appearing on some servers due to OPcache serving stale bytecode without get_instance() call</li>\n</ul>"
   }
 }
