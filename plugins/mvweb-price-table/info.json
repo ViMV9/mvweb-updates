@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
-  "version": "1.1.7",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.7.zip",
+  "version": "1.1.8",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.8.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
-  "last_updated": "2026-02-07 11:11:45",
+  "last_updated": "2026-02-07 17:58:52",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Fatal error when multiple MVweb plugins active: added class_exists() guard to MVweb_Updater</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Natural alphabetical/numerical sorting (natcasesort) for all select dropdowns</li>\n<li>\"All\" mode now loads next hierarchy level for user interaction when only level-1 is preset</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Choices.js dropdown appearing behind results table (z-index stacking context)</li>\n<li>CI/CD build excluding `assets/vendor/` directory (Choices.js, Chart.js) from ZIP archives</li>\n</ul>"
   }
 }
