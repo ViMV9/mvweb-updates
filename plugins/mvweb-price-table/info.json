@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
-  "version": "1.1.9",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.9.zip",
+  "version": "1.1.10",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.10.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
-  "last_updated": "2026-02-07 18:08:31",
+  "last_updated": "2026-02-08 18:17:05",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Vendor assets (Choices.js, Chart.js) missing from release ZIP: `vendor/` in .gitignore was excluding `assets/vendor/` at all depths</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Choices.js dropdown hidden behind adjacent page sections on themes with `overflow: hidden` (added z-index stacking context on `.mvweb-pc` container)</li>\n</ul>"
   }
 }
