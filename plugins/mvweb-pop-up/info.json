@@ -1,15 +1,15 @@
 {
   "name": "mvweb-pop-up",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-pop-up",
-  "last_updated": "2026-02-07 11:12:15",
+  "last_updated": "2026-02-09 11:58:09",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Fatal error when multiple MVweb plugins active: added class_exists() guard to MVweb_Updater</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundled MVweb_Menu: added `MVWEB_DE_VERSION` to `detect_textdomain()`</li>\n<li>Admin menu renamed from \"MVweb\" to \"MVweb Hub\"</li>\n<li>Added \"MVweb Hub\" string to ru_RU translations</li>\n</ul>"
   }
 }
