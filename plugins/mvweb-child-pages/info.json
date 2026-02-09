@@ -1,15 +1,15 @@
 {
   "name": "mvweb-child-pages",
-  "version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.0.zip",
+  "version": "1.0.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.1.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-child-pages",
-  "last_updated": "2026-02-09 14:07:48",
+  "last_updated": "2026-02-09 16:30:17",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Shortcode `[mvweb-cp id=\"...\"]` to display child pages</li>\n<li>Shortcode attributes: id, limit, orderby, order, show_image, class, image_size</li>\n<li>Admin settings page with General, Custom CSS, and Help tabs</li>\n<li>Global defaults for image display, size, limit, sorting</li>\n<li>Custom CSS field with frontend-only output via `wp_add_inline_style()`</li>\n<li>Responsive flex layout with CSS variables</li>\n<li>Placeholder SVG for pages without featured image</li>\n<li>BEM modifiers: `--{parent_id}`, `--no-images`, `--empty`</li>\n<li>Parent page validation (existence, type, status, password)</li>\n<li>Filters: `mvweb_cp_query_args`, `mvweb_cp_item_html`, `mvweb_cp_shortcode_atts`, `mvweb_cp_placeholder_url`</li>\n<li>Actions: `mvweb_cp_before_list`, `mvweb_cp_after_list`</li>\n<li>Russian (ru_RU) translation</li>\n<li>Help tab with Quick Start, attributes table, CSS examples, FAQ</li>\n<li>MVweb Hub integration</li>\n<li>Auto-update support via PUC</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Natural sort for title ordering: digits always come before letters, numeric titles sort as numbers (11 > 9 instead of lexicographic \"11\" < \"9\")</li>\n</ul>"
   }
 }
