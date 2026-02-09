@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-3-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-4-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -28,9 +28,10 @@
 
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
-| [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.12](https://img.shields.io/badge/v1.1.12-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
-| [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
-| [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
+| [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.13](https://img.shields.io/badge/v1.1.13-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
+| [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
+| [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
+| [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 
 ---
 
@@ -39,7 +40,7 @@
 > Интерактивный прайс-калькулятор с каскадными выпадающими списками на основе Google Sheets.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.12</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.13</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-latest.zip"><strong>mvweb-price-table-latest.zip</strong></a></td></tr>
@@ -62,7 +63,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.12 (последняя) | [mvweb-price-table-1.1.12.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.12.zip) |
+| 1.1.13 (последняя) | [mvweb-price-table-1.1.13.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.13.zip) |
+| 1.1.12 | [mvweb-price-table-1.1.12.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.12.zip) |
 | 1.1.11 | [mvweb-price-table-1.1.11.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.11.zip) |
 | 1.1.10 | [mvweb-price-table-1.1.10.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.10.zip) |
 | 1.1.9 | [mvweb-price-table-1.1.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.9.zip) |
@@ -82,7 +84,7 @@
 > Мощный инструмент экспорта данных WordPress: записи, страницы, произвольные типы записей и товары WooCommerce.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.6+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-latest.zip"><strong>mvweb-data-export-latest.zip</strong></a></td></tr>
@@ -109,7 +111,42 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-data-export-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.0.zip) |
+| 1.0.2 (последняя) | [mvweb-data-export-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.2.zip) |
+| 1.0.1 | [mvweb-data-export-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.1.zip) |
+| 1.0.0 | [mvweb-data-export-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128196; MVweb Child Pages
+
+> Вывод дочерних страниц в виде стилизованного списка с помощью шорткода.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-latest.zip"><strong>mvweb-child-pages-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Шорткод `[mvweb-cp]`** &mdash; вывод дочерних страниц указанного родителя с гибкой настройкой
+- **Атрибуты шорткода** &mdash; id, limit, orderby, order, show_image, class, image_size
+- **Миниатюры** &mdash; отображение изображений записей с настраиваемым размером и SVG-заглушкой
+- **Адаптивная вёрстка** &mdash; flex-лейаут с CSS-переменными, корректное отображение на мобильных
+- **Глобальные настройки** &mdash; admin-страница с табами: общие настройки, пользовательский CSS, справка
+- **Пользовательские стили** &mdash; поле для CSS с выводом только на фронтенде
+- **Фильтры и экшены** &mdash; `mvweb_cp_query_args`, `mvweb_cp_item_html`, `mvweb_cp_shortcode_atts` и другие
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-child-pages-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.0.zip) |
 
 </details>
 
@@ -120,7 +157,7 @@
 > Лёгкий и полностью доступный плагин попапов, вызываемый простым шорткодом.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.4</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.5</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-latest.zip"><strong>mvweb-pop-up-latest.zip</strong></a></td></tr>
@@ -144,7 +181,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.4 (последняя) | [mvweb-pop-up-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.4.zip) |
+| 1.0.5 (последняя) | [mvweb-pop-up-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.5.zip) |
+| 1.0.4 | [mvweb-pop-up-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.4.zip) |
 | 1.0.3 | [mvweb-pop-up-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.3.zip) |
 | 1.0.2 | [mvweb-pop-up-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.2.zip) |
 | 1.0.1 | [mvweb-pop-up-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.1.zip) |
