@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://mvweb.ru/wp-content/uploads/2024/01/mvweb-logo.png" alt="MVweb Logo" width="200">
+  <img src=".github/logo.png" alt="MVweb Logo" width="200">
 </p>
 
 <h1 align="center">MVweb &mdash; WordPress-плагины</h1>
