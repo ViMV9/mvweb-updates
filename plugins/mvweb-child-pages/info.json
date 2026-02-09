@@ -1,15 +1,15 @@
 {
   "name": "mvweb-child-pages",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.2.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-child-pages",
-  "last_updated": "2026-02-09 16:30:17",
+  "last_updated": "2026-02-09 17:27:56",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Natural sort for title ordering: digits always come before letters, numeric titles sort as numbers (11 > 9 instead of lexicographic \"11\" < \"9\")</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Tab hover: smooth transition via `transition: all 0.2s ease` (matching UI Kit standard)</li>\n<li>Tab hover underline removed via admin.css (UI Kit level fix)</li>\n</ul>"
   }
 }
