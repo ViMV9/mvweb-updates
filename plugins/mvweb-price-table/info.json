@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-table",
-  "version": "1.1.13",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.13.zip",
+  "version": "1.1.14",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-table/mvweb-price-table-1.1.14.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-table",
-  "last_updated": "2026-02-09 11:57:41",
+  "last_updated": "2026-02-10 18:38:44",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundled MVweb_Menu: added `MVWEB_DE_VERSION` to `detect_textdomain()`</li>\n<li>Admin menu renamed from \"MVweb\" to \"MVweb Hub\"</li>\n<li>Updated ru_RU translation for menu rename</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Admin CSS migrated to MVweb UI Kit \"Classic Clean\" shared framework</li>\n<li>Split admin styles into `admin.css` (shared UI Kit) and `plugin.css` (plugin-specific)</li>\n<li>Replaced custom `--mvweb-pc-*` CSS variables with shared `--mvweb-*` UI Kit variables</li>\n<li>HTML templates updated to use UI Kit classes: `.mvweb-section-title`, `.mvweb-select`, `.mvweb-checkbox`, `.mvweb-btn`, `.mvweb-badge`, `.mvweb-notice`, `.mvweb-table`, `.mvweb-details`, `.mvweb-help`</li>\n<li>Help tab migrated from `.mvweb-pc-help` to shared `.mvweb-help` BEM structure</li>\n<li>FAQ items migrated from `.mvweb-pc-help__faq-item` to `.mvweb-details` component</li>\n<li>Page title updated to \"MVweb Price Table\"</li>\n<li>Copy shortcode button styled as ghost button</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Action buttons layout in forms table (removed `display: flex` on `<td>`, use `white-space: nowrap`)</li>\n<li>UI Kit: checkbox vertical alignment, input font-size, notice spacing</li>\n</ul>"
   }
 }
