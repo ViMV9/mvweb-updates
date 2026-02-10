@@ -1,15 +1,15 @@
 {
   "name": "mvweb-pop-up",
-  "version": "1.0.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.5.zip",
+  "version": "1.0.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.6.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-pop-up",
-  "last_updated": "2026-02-09 11:58:09",
+  "last_updated": "2026-02-10 18:38:07",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundled MVweb_Menu: added `MVWEB_DE_VERSION` to `detect_textdomain()`</li>\n<li>Admin menu renamed from \"MVweb\" to \"MVweb Hub\"</li>\n<li>Added \"MVweb Hub\" string to ru_RU translations</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Admin CSS migrated to MVweb UI Kit \"Classic Clean\" shared framework</li>\n<li>Split admin styles into `admin.css` (shared UI Kit) and `plugin.css` (plugin-specific)</li>\n<li>HTML templates updated to use UI Kit classes: `.mvweb-section-title`, `.mvweb-select`, `.mvweb-checkbox`, `.mvweb-notice`, `.mvweb-table`, `.mvweb-help-text`, `.mvweb-textarea`</li>\n<li>Page title updated to \"MVweb Pop-Up\"</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Tab switching broken due to JS selector mismatch (`.mvweb-pu-tab-content` → `.mvweb-tab-content`)</li>\n<li>UI Kit: checkbox vertical alignment, input font-size, notice spacing</li>\n</ul>"
   }
 }
