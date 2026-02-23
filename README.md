@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-4-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-5-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -31,6 +31,7 @@
 | [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.13](https://img.shields.io/badge/v1.1.13-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
 | [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
+| [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 
 ---
@@ -147,6 +148,44 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-child-pages-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128222; MVweb Contact Bar
+
+> Плавающая контактная панель в стиле Liquid Glass с телефоном, мессенджерами и социальными сетями.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-latest.zip"><strong>mvweb-contact-bar-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Liquid Glass дизайн** &mdash; светлая и тёмная тема панели с эффектом стекла
+- **19 пресетов кнопок** &mdash; телефон, email, Telegram, WhatsApp, Viber, VK, OK, Instagram, X и другие с брендовыми SVG-иконками
+- **12 шаблонов модальных окон** &mdash; Classic Glass, Frosted Card, Map Pin, Dark Neon, Timeline, FAB и другие
+- **Филиалы и ветви** &mdash; модальные окна для выбора контактов нескольких филиалов
+- **FontAwesome Solid** &mdash; встроенный пикер из 2000+ иконок для кастомных кнопок
+- **Анимации** &mdash; появление (slide up, fade, none), скрытие при скролле, сворачивание в мини-кнопку
+- **Управление видимостью** &mdash; независимые чекбоксы для десктопа, планшета и мобильного
+- **Размеры и стили** &mdash; пресеты S/M/L, позиция (центр/лево/право), border-radius (capsule/rounded/rect)
+- **Аналитика** &mdash; интеграция Google Analytics (gtag) и Яндекс.Метрика
+- **Доступность** &mdash; ARIA-атрибуты, ловушка фокуса, навигация с клавиатуры, поддержка `prefers-reduced-motion`
+- **Пользовательский CSS** &mdash; поле ввода с XSS-безопасной санитизацией
+- **Отложенная загрузка** &mdash; defer-режим с инлайн критического CSS для высоких показателей производительности
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-contact-bar-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.0.zip) |
 
 </details>
 
