@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.0.zip",
+  "version": "1.0.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.1.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-02-23 05:25:10",
+  "last_updated": "2026-02-23 09:47:15",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Float bar panel with Liquid Glass design (light/dark themes)</li>\n<li>19 button presets with SVG icons (phone, email, messengers, social)</li>\n<li>Modal windows for branches with 12 visual templates</li>\n<li>Scroll hide/show with requestAnimationFrame throttle</li>\n<li>Entrance animations (slide up, fade, none)</li>\n<li>Collapse/expand with localStorage persistence</li>\n<li>Delay appearance (time + scroll distance)</li>\n<li>Device visibility control (desktop/tablet/mobile)</li>\n<li>Size presets (S/M/L) and border-radius presets</li>\n<li>Google Analytics + Yandex.Metrika event tracking</li>\n<li>Accessibility: ARIA labels, focus trap, keyboard navigation, prefers-reduced-motion</li>\n<li>Custom CSS field with XSS-safe sanitization</li>\n<li>URL allowlist for non-standard schemes (viber, skype, tg, etc.)</li>\n<li>Normal and deferred CSS/JS loading modes</li>\n<li>FontAwesome Solid icon picker (2000+ icons)</li>\n<li>Plugin infrastructure: entry point, settings, MVweb Hub integration</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Direct URL field for buttons — link directly to external URLs bypassing branches/contacts modal</li>\n</ul>"
   }
 }
