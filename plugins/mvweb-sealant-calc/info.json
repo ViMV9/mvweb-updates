@@ -1,0 +1,15 @@
+{
+  "name": "mvweb-sealant-calc",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-sealant-calc/mvweb-sealant-calc-1.0.0.zip",
+  "requires": "6.4",
+  "tested": "6.7",
+  "requires_php": "8.0",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-sealant-calc",
+  "last_updated": "2026-03-31 08:00:08",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>8 joint types: rectangular, triangular, round bead, flat layer, U-shaped, conical, trapezoidal, ring</li>\n<li>Multiple sections support (up to 20 per calculation)</li>\n<li>12 built-in task presets with quick start dropdown</li>\n<li>Interactive SVG cross-section diagrams with dimension labels</li>\n<li>Configurable packaging options (tubes, cartridges, buckets — 14 defaults)</li>\n<li>Packaging recommendation table with optimal choice highlight</li>\n<li>Formula transparency popup (\"How we calculate?\")</li>\n<li>Material waste percentage setting (0-30%)</li>\n<li>Optional price calculation with currency support</li>\n<li>Customizable colors: accent, header gradient, result block background/border</li>\n<li>Gradient presets for header and result block (Material Design)</li>\n<li>WooCommerce integration: product meta fields, auto-show on products, price/packaging auto-fill</li>\n<li>Usage analytics with dashboard (joint types, presets, volumes by period)</li>\n<li>Admin settings page with 5 tabs (General, Packaging, WooCommerce, Analytics, Help)</li>\n<li>Help tab with WooCommerce integration guide and shortcode reference</li>\n<li>Shortcode [mvweb_sealant_calc] with attributes: layout, product_id, show_presets, bg_color, border_color</li>\n<li>Responsive design (desktop, tablet 782px, mobile 480px)</li>\n<li>Print-friendly output with dedicated print styles</li>\n<li>Accessibility: ARIA labels, focus management, keyboard navigation, tooltips</li>\n<li>Full Russian (ru_RU) localization (221 strings)</li>\n<li>CSS isolation from theme styles (all: unset + scoped variables)</li>\n<li>MVweb Hub integration (menu, updater, plugin registration)</li>\n</ul>"
+  }
+}
