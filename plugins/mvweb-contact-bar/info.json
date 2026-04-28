@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.0-sealant-calc",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.0-sealant-calc.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.2.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-03-31 07:41:24",
+  "last_updated": "2026-04-28 06:03:12",
   "sections": {
-    "changelog": "<p>See CHANGELOG.md for details.</p>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Custom uploaded button icon now fills the entire colored circle and centers correctly (previously rendered at the small built-in glyph size, leaving the user logo visually offset)</li>\n</ul>"
   }
 }
