@@ -31,7 +31,7 @@
 | [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.13](https://img.shields.io/badge/v1.1.13-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
 | [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
-| [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
+| [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 
@@ -159,7 +159,7 @@
 > Плавающая контактная панель в стиле Liquid Glass с телефоном, мессенджерами и социальными сетями.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-latest.zip"><strong>mvweb-contact-bar-latest.zip</strong></a></td></tr>
@@ -186,7 +186,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.2 (последняя) | [mvweb-contact-bar-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.2.zip) |
+| 1.0.3 (последняя) | [mvweb-contact-bar-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.3.zip) |
+| 1.0.2 | [mvweb-contact-bar-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.2.zip) |
 | 1.0.1 | [mvweb-contact-bar-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.1.zip) |
 | 1.0.0 | [mvweb-contact-bar-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.0.zip) |
 
