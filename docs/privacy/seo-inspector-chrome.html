@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>MVweb SEO Inspector — Privacy Policy</title>
+<meta name="description" content="Privacy policy for MVweb SEO Inspector — a Chromium browser extension by MVweb.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f;
+    background: #fff;
+    margin: 0;
+    padding: 32px 20px 80px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+  h2 { font-size: 20px; line-height: 1.3; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid #ececec; }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, ul, ol, table { margin: 0 0 14px; }
+  a { color: #793ea4; }
+  a:hover { text-decoration: none; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  th, td { border: 1px solid #e5e5e5; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f6f6f6; font-weight: 600; }
+  code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+  code { background: #f3f3f3; padding: 2px 5px; border-radius: 3px; }
+  pre { background: #f3f3f3; padding: 12px 14px; border-radius: 6px; overflow-x: auto; line-height: 1.45; }
+  pre code { background: none; padding: 0; }
+  .meta { color: #6e6e73; font-size: 14px; margin: 0 0 28px; }
+  .meta strong { color: #1d1d1f; }
+  hr { border: none; border-top: 1px solid #ececec; margin: 28px 0; }
+  footer { color: #6e6e73; font-size: 13px; margin-top: 48px; padding-top: 16px; border-top: 1px solid #ececec; }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<h1>MVweb SEO Inspector — Privacy Policy</h1>
+
+<p class="meta">
+<strong>Effective date:</strong> 2026-05-09<br>
+<strong>Maintainer:</strong> MVweb · <a href="https://mvweb.ru">mvweb.ru</a>
+</p>
+
+<p>MVweb SEO Inspector is a browser extension that analyzes the on-page SEO setup of the page you currently view. This document explains exactly what data the extension reads, sends, and stores.</p>
+
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> We operate no servers and have no telemetry, analytics, error reporting, or remote logging. The extension reads the DOM of the page you explicitly open it on and renders the result locally inside the popup.</p>
+
+<h2>What we store</h2>
+<p>The extension uses your browser's local extension storage (<code>chrome.storage.local</code>). All stored data lives <strong>on your device</strong> and is removed when you uninstall the extension. We store:</p>
+<table>
+<thead><tr><th>Key</th><th>What</th><th>Lifetime</th></tr></thead>
+<tbody>
+<tr><td><code>mvwebLinkStatusCache</code></td><td>HTTP-status results from the optional «Check Status» feature</td><td>Per page load — discarded when the page reloads</td></tr>
+<tr><td><code>mvwebSqi:{hostname}</code></td><td>Cached Yandex SQI value (number or PNG badge) — only if you opt-in</td><td>24 hours</td></tr>
+<tr><td><code>serpNumberingYandex</code>, <code>serpNumberingGoogle</code></td><td>SERP numbering preferences (off by default)</td><td>Until you change them</td></tr>
+<tr><td><code>enableYandexSqi</code>, <code>enableYandexFeatures</code></td><td>Yandex feature opt-in flags (off by default in English UI)</td><td>Until you change them</td></tr>
+<tr><td><code>textStatsTopN</code>, <code>textStatsStopWords</code>, <code>copySummaryTemplate</code></td><td>Text statistics and Copy summary preferences</td><td>Until you change them</td></tr>
+</tbody>
+</table>
+<p>The data <strong>never leaves your device</strong>.</p>
+
+<h2>What network requests we make</h2>
+<p>When you open the popup on a page, the extension makes the following requests <strong>on your behalf, from your browser</strong>:</p>
+<table>
+<thead><tr><th>Request</th><th>Why</th><th>Conditions</th></tr></thead>
+<tbody>
+<tr><td><code>GET &lt;origin&gt;/robots.txt</code></td><td>Parse robots.txt to surface <code>Sitemap:</code> directives and check whether the current URL is allowed for crawler UA <code>*</code> and Yandex</td><td>Only on <strong>shareable</strong> URLs (skips <code>localhost</code>, <code>127.x</code>, <code>10.x</code>, <code>192.168.x</code>, <code>172.16-31.x</code>, <code>.local</code>)</td></tr>
+<tr><td><code>HEAD &lt;current-page-url&gt;</code></td><td>Read HTTP status code and <code>X-Robots-Tag</code> header of the current page</td><td>Only on shareable URLs</td></tr>
+<tr><td><code>GET https://bar-navig.yandex.ru/...</code> and <code>GET https://yandex.ru/cycounter?...</code></td><td>Fetch the Yandex SQI value/badge for the current site</td><td><strong>Only if you opt-in</strong> in Settings (<code>enableYandexSqi</code>), cached 24 hours</td></tr>
+</tbody>
+</table>
+<p>When you click <strong>«Check Status»</strong> in the «Links» tab, the extension issues parallel <code>HEAD</code> requests (with <code>GET</code> fallback for servers that respond 405 / 501) to every link visible on the page. We use 12 parallel workers and an 8-second timeout per request. No request body is sent; no custom headers are added. <strong>Private/intranet URLs are skipped</strong> (no SSRF on local networks).</p>
+<p>All requests originate from your browser session and contain whatever your browser would normally send (cookies, user-agent). They are never proxied through any server we control.</p>
+
+<h2>Content scripts</h2>
+<p>The extension registers one content script (<code>serp-numbering.js</code>) that runs <strong>only on Google and Yandex search result pages</strong> (10 regional domains). It does not collect anything — it only adds visual position numbers (1, 2, 3, ...) next to organic search results, <strong>and only if you have enabled it in Settings</strong> (off by default). It does not communicate with any server.</p>
+
+<h2>Third-party services</h2>
+<p>The <strong>«Tools»</strong> tab provides shortcut links to external SEO services (Google PageSpeed Insights, Schema.org Validator, Wayback Machine, SSL Labs, WAVE, Yandex.Webmaster, Yandex Wordstat, etc.). These open in <strong>new tabs</strong>. Once you click such a link, you are interacting with the third-party service directly, governed by <strong>its</strong> privacy policy — not this one.</p>
+<p>The <strong>«Search»</strong> tab works the same way — clicking a search operator (e.g. <code>site:domain.ru</code>) opens Yandex or Google in a new tab.</p>
+<p>The extension itself does <strong>not</strong> transmit anything to those services behind the scenes; it only constructs a URL with your current page as a parameter when you click.</p>
+
+<h2>Permissions justification</h2>
+<table>
+<thead><tr><th>Permission</th><th>Why we need it</th></tr></thead>
+<tbody>
+<tr><td><code>activeTab</code></td><td>Read the DOM of the page you click the toolbar icon on. Without this, the extension cannot inspect any meta tags, headings, links, or images.</td></tr>
+<tr><td><code>scripting</code></td><td>Inject the <code>collector.js</code> script into the active tab via <code>chrome.scripting.executeScript</code>. The script reads the page DOM and sends the result to the popup via <code>runtime.sendMessage</code>.</td></tr>
+<tr><td><code>storage</code></td><td>Persist user preferences (Settings) and short-lived caches (Check Status results, Yandex SQI 24-hour cache) in <code>chrome.storage.local</code>. No data is shared off-device.</td></tr>
+<tr><td><code>host_permissions: &lt;all_urls&gt;</code></td><td>(a) Keep the toolbar icon active on every page (otherwise Chrome grays it out until interaction), (b) make <code>robots.txt</code> and <code>HEAD</code> requests without CORS errors, (c) make <code>HEAD</code> requests for the «Check Status» feature on links the page contains.</td></tr>
+<tr><td><code>content_scripts</code> (<code>serp-numbering.js</code> on Google/Yandex search)</td><td>Add position numbers to organic search results, <strong>only if you opt-in</strong> in Settings. Off by default.</td></tr>
+</tbody>
+</table>
+
+<h2>Remote code</h2>
+<p>The extension ships <strong>no remote code</strong>. There is no <code>eval</code>, no remote script, no dynamic <code>import()</code>, no fetch-and-eval pattern, and the manifest enforces a strict Content Security Policy:</p>
+<pre><code>script-src 'self'; object-src 'none'; base-uri 'none'</code></pre>
+<p>All logic lives in the JavaScript files included in the ZIP package shipped to the Chrome Web Store.</p>
+
+<h2>Privacy-by-default</h2>
+<ul>
+<li><strong>Yandex SQI</strong> counter is <strong>off by default</strong>. The hostname of the current page is sent to <code>yandex.ru</code> only after you explicitly enable it in Settings.</li>
+<li><strong>SERP numbering</strong> is <strong>off by default</strong>. The content script does nothing until you enable Yandex or Google numbering in Settings.</li>
+<li><strong>Yandex features</strong> as a whole (robots.txt rules, Webmaster shortcuts, search operators, SQI option, SERP-numbering option) are <strong>hidden by default in the English UI</strong>. They are always available in the Russian UI.</li>
+<li><strong>Private hosts</strong> (intranet, localhost, RFC 1918) are excluded from <code>robots.txt</code>, <code>HEAD</code>, SQI, and Check Status requests — the extension does not perform side-channel reconnaissance on local networks.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The extension does not target children under 13 and does not knowingly collect any personal data about anyone — adult or child.</p>
+
+<h2>Changes to this policy</h2>
+<p>If we change this policy, we will update the <strong>Effective date</strong> at the top and publish the revision in the extension's repository.</p>
+
+<h2>Contact</h2>
+<ul>
+<li>Website — <a href="https://mvweb.ru">mvweb.ru</a></li>
+<li>Telegram — <a href="https://t.me/mvweb_ru">@mvweb_ru</a></li>
+<li>Twitter / X — <a href="https://twitter.com/MVweb_master">@MVweb_master</a></li>
+</ul>
+
+<footer>
+© MVweb · <a href="https://mvweb.ru">mvweb.ru</a>
+</footer>
+
+</main>
+</body>
+</html>
