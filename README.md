@@ -378,7 +378,7 @@
 ## &#128222; Поддержка
 
 - **Сайт:** [mvweb.ru](https://mvweb.ru)
-- **Telegram:** [https://t.me/mvwebru](@mvwebru)
+- **Telegram:** [@mvwebru](https://t.me/mvwebru)
 
 ---
 
