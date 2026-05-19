@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.0.zip",
+  "version": "1.0.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.1.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-05-19 09:01:41",
+  "last_updated": "2026-05-19 10:33:00",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>CSV / YML (Yandex.Market) / XLSX import with streaming parsers</li>\n<li>Auto-detection of delimiter, encoding (UTF-8/Windows-1251) and column mapping</li>\n<li>Google Sheets URL auto-conversion to CSV export</li>\n<li>ETag/Last-Modified change detection — skips download when source is unchanged</li>\n<li>Multi-warehouse SKU merge with per-warehouse stock JSON</li>\n<li>Field mapping UI with 11 dropdowns and auto-detect button</li>\n<li>Category import with parent/child hierarchy</li>\n<li>Featured image + gallery import with URL-change detection</li>\n<li>WP-Cron scheduler with custom intervals + CLI runner + REST endpoint</li>\n<li>Checkpoint/resume support for interrupted imports</li>\n<li>Yandex.Market YML feed generation (general + per-warehouse)</li>\n<li>Per-warehouse stock breakdown on product page and admin order view</li>\n<li>JSONL file logger with rotation and paginated viewer</li>\n<li>Full Russian (ru_RU) localization</li>\n<li>Image import policy setting (new_only / always / never)</li>\n<li>5-tab admin UI: Main, Mapping, Log, Feeds, Help</li>\n</ul>\n<h4>Security</h4>\n<ul>\n<li>SSRF protection: IP allowlist, DNS rebinding detection, redirect blocking</li>\n<li>XLSX ZIP-bomb guard (250 MB decompression limit)</li>\n<li>Memory exhaustion guard during multi-warehouse merge</li>\n<li>Credential leakage prevention in logs</li>\n<li>Nonce verification + manage_options capability on all admin/REST endpoints</li>\n<li>XXE-disabled XML parsing (LIBXML_NONET | LIBXML_NOENT)</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Separate CLI runner for feeds (`feeds-cron-runner.php`).** Lets you schedule feed regeneration independently of import via system cron — useful when the price source updates rarely (e.g. daily) but you want feeds rebuilt on a tighter cadence to keep `<yml_catalog date>` fresh. Calls `MVweb_PI_Feeds::generate_all()` directly without going through the import pipeline.</li>\n<li>**Help tab coverage for the feeds cron.** New Step 7 in Quick Start, a dedicated FAQ entry (\"How do feeds get updated, and do I need a separate cron for them?\"), and a second crontab template alongside the import one in the Note block at the bottom.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**\"Settings saved\" notice reappeared on every refresh.** The settings form posted to itself and rendered the success notice in the same request, so Safari (and other browsers that re-submit POSTs without prompting) replayed the save on every Cmd+R. Switched to a proper Post/Redirect/Get flow: after a successful save we stash a one-shot flag in a per-user transient and `wp_safe_redirect()` to the page as a clean GET. The notice renders exactly once on the GET that follows the save; refreshes, back/forward navigation, and visits from the menu produce a clean screen with no spurious notice.</li>\n</ul>"
   }
 }
