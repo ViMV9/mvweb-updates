@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-6-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-7-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -34,6 +34,7 @@
 | [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
+| [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 
 ---
 
@@ -266,6 +267,46 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-sealant-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-sealant-calc/mvweb-sealant-calc-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128229; MVweb Price Importer
+
+> Импорт каталога товаров WooCommerce из прайс-листов CSV / YML / XLSX с поддержкой мультискладов и генерацией YML-фидов для Яндекс.Маркета.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+ &bull; WooCommerce</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-latest.zip"><strong>mvweb-price-importer-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **3 формата источника** &mdash; CSV, YML (Яндекс.Маркет), XLSX со стриминговыми парсерами (SplFileObject, XMLReader, SimpleXLSX)
+- **Автоопределение** &mdash; разделителя CSV, кодировки (UTF-8/Windows-1251) и соответствия колонок (EN + RU ключевые слова)
+- **Google Sheets** &mdash; автоматическая конвертация публичной таблицы в CSV-экспорт по ссылке
+- **Мультисклады** &mdash; объединение SKU из нескольких источников с per-warehouse остатками в JSON
+- **Маппинг полей** &mdash; UI с 11 выпадающими списками и кнопкой автодетекта
+- **Импорт категорий** &mdash; с иерархией parent/child и привязкой по внешнему ID
+- **Импорт изображений** &mdash; основное фото + галерея с детекцией смены URL; режимы `new_only` / `always` / `never`
+- **Защита от изменений** &mdash; ETag/Last-Modified detection пропускает скачивание, если источник не менялся
+- **Планировщик** &mdash; WP-Cron с интервалами (час, 6ч, 12ч, день), CLI runner и REST endpoint `POST /wp-json/mvweb-pi/v1/run-import`
+- **Возобновление** &mdash; checkpoint/resume при прерывании импорта; wall-clock budget для веб-cron
+- **YML-фиды** &mdash; генерация общего фида + per-warehouse фидов через `XMLWriter` (memory-efficient)
+- **Фронтенд** &mdash; per-warehouse остатки на карточке товара и в админке заказа
+- **Логи** &mdash; JSONL-логгер с ротацией (10 MB / 30 дней), пагинированный просмотр в админке
+- **Безопасность** &mdash; SSRF-защита (IP allowlist + DNS rebinding), XLSX ZIP-bomb guard, XXE-disabled XML
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-price-importer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.0.zip) |
 
 </details>
 
