@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-7-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-8-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -35,6 +35,7 @@
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
+| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 
 ---
 
@@ -308,6 +309,40 @@
 |:-------|:--------|
 | 1.0.1 (последняя) | [mvweb-price-importer-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.1.zip) |
 | 1.0.0 | [mvweb-price-importer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#129518; MVweb Build Calc
+
+> Библиотека строительных калькуляторов для WordPress. Любой калькулятор встраивается в страницу, запись или виджет одним шорткодом.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-latest.zip"><strong>mvweb-build-calc-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Шорткод `[mvweb_calc id="..."]`** &mdash; встраивание калькулятора в любую страницу, запись, виджет или Gutenberg-блок Shortcode
+- **Серверный расчёт** &mdash; вычисления выполняются через admin-ajax с защитой nonce и валидацией каждого поля
+- **Реестр калькуляторов** &mdash; автодискавери из папки `calculators/`, каждый калькулятор &mdash; отдельный PHP-файл с вызовом `mvweb_bc_register()`
+- **Настройки внешнего вида** &mdash; скругление углов, цвет и толщина рамки, опциональная обёртка формы, варианты кнопки (Solid / Outline / Ghost), акцентный цвет
+- **CSS custom properties** &mdash; виджет фронтенда наследует цвета активной темы через `currentColor`; пустые поля цвета означают theme-driven look
+- **Форматирование результата** &mdash; настраиваемое число знаков после запятой, разделитель целой и дробной части, разделитель тысяч (по умолчанию &mdash; неразрывный пробел для RU-локали)
+- **Базовый калькулятор** &mdash; `foundation-concrete-volume` (объём бетона для фундамента: плита, лента, столбы с резервом на потери)
+- **Inline-подсказки** &mdash; контекстные рекомендации к полям и пояснения формулы
+- **Мультиязычность** &mdash; английский и русский (ru_RU) из коробки
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-build-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.0.zip) |
 
 </details>
 
