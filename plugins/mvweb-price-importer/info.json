@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-05-21 10:08:47",
+  "last_updated": "2026-05-21 10:33:46",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**YML feed offers now include `<count>` with the available stock.** Generated feeds (`?page=mvweb-price-importer#feeds`) previously emitted only `available=\"true\"` and dropped the actual quantity — so any consumer expecting a numeric stock value (Yandex.Market, marketplace pipelines, custom integrations) saw products as \"in stock\" without knowing how many. The general feed now writes the total WooCommerce `stock_quantity`, and per-warehouse feeds write the warehouse-specific value from `_mvweb_pi_stocks`. The element is placed right after `<currencyId>` and is omitted when stock is zero.</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>**Settings page no longer duplicates the plugin name and tagline.** The `.mvweb-main__header` block (`<h1>` + intro paragraph) was a visual repeat of `.mvweb-sidebar__brand`, which already shows the plugin name and version at the top of the left rail. Removing it gives the actual settings sections (`.mvweb-block`) more vertical room and matches the updated `_boilerplate/plugin-template` reference.</li>\n<li>**Help tab no longer renders the decorative `.mvweb-statusbar` footer.** The \"IDE\"-style status line at the bottom of the Help tab (`mvweb-price-importer · UTF-8 · vX.Y.Z · MVweb UI Kit`) carried no functional information — the version is already visible in the sidebar brand, the slug and UI Kit label were noise. Dropped to match the boilerplate.</li>\n<li>**Top padding on the settings shell restored.** `.wrap.mvweb-settings` was flush against the WordPress admin bar after the header block was removed; `margin-top: 20px` was added in `admin.css` for breathing room.</li>\n<li>**Bundled `MVweb_Menu` updated to v2.2.0.** The Hub page (`admin.php?page=mvweb-hub`) was rewritten on top of the current UI Kit (`.mvweb-hero`, `.mvweb-card` plugin cards with two-letter icons, `.mvweb-badge` status pills) and now serves admin CSS from the first installed MVweb plugin instead of inlining a duplicate stylesheet.</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>**Brand logo asset (`images/mv-logo-violet.png`) bundled with the plugin.** The Hub hero looks for `images/mv-logo-violet.png` in the first installed MVweb plugin and renders it as the actual brand mark; the textual \"MV\" placeholder remains only as a fallback. Bundling the file here ensures the real logo appears whenever this plugin is installed.</li>\n</ul>"
   }
 }
