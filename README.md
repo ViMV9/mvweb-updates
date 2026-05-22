@@ -35,7 +35,7 @@
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
-| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
+| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 
 ---
 
@@ -323,7 +323,7 @@
 > Библиотека строительных калькуляторов для WordPress. Любой калькулятор встраивается в страницу, запись или виджет одним шорткодом.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-latest.zip"><strong>mvweb-build-calc-latest.zip</strong></a></td></tr>
@@ -334,10 +334,12 @@
 - **Шорткод `[mvweb_calc id="..."]`** &mdash; встраивание калькулятора в любую страницу, запись, виджет или Gutenberg-блок Shortcode
 - **Серверный расчёт** &mdash; вычисления выполняются через admin-ajax с защитой nonce и валидацией каждого поля
 - **Реестр калькуляторов** &mdash; автодискавери из папки `calculators/`, каждый калькулятор &mdash; отдельный PHP-файл с вызовом `mvweb_bc_register()`
+- **10 встроенных калькуляторов фундамента** &mdash; объём бетона, арматура, опалубка, песчаная и щебёночная подушки, объём траншеи и котлована (СНиП 12-04-2002), глубина промерзания для 34 городов RU/BY (СП 22.13330.2016), уклон участка и перепад высот
+- **10 фронтенд-тем** &mdash; shadcn, pico, openprops, shoelace, material, bulma, halfmoon, tabler, daisyui, modern. Стилевой пресет выбирается одним select-полем, CSS темы подгружается лениво
 - **Настройки внешнего вида** &mdash; скругление углов, цвет и толщина рамки, опциональная обёртка формы, варианты кнопки (Solid / Outline / Ghost), акцентный цвет
-- **CSS custom properties** &mdash; виджет фронтенда наследует цвета активной темы через `currentColor`; пустые поля цвета означают theme-driven look
+- **CSS custom properties** &mdash; виджет фронтенда работает на `--mvbc-*` переменных, переопределяемых через настройки или тему
 - **Форматирование результата** &mdash; настраиваемое число знаков после запятой, разделитель целой и дробной части, разделитель тысяч (по умолчанию &mdash; неразрывный пробел для RU-локали)
-- **Базовый калькулятор** &mdash; `foundation-concrete-volume` (объём бетона для фундамента: плита, лента, столбы с резервом на потери)
+- **Группировка опций select** &mdash; поддержка `<optgroup>` через двухуровневый массив опций
 - **Inline-подсказки** &mdash; контекстные рекомендации к полям и пояснения формулы
 - **Мультиязычность** &mdash; английский и русский (ru_RU) из коробки
 
@@ -346,7 +348,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-build-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.0.zip) |
+| 1.0.1 (последняя) | [mvweb-build-calc-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.1.zip) |
+| 1.0.0 | [mvweb-build-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.0.zip) |
 
 </details>
 
