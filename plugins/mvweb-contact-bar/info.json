@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.4.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-04-28 06:28:02",
+  "last_updated": "2026-05-26 14:50:44",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Custom uploaded button icon no longer drifts out of the colored circle on sites whose theme sets default `img` margin/padding/max-width — icon rule is now scoped under `#mvweb-contact-bar` for higher specificity, explicitly resets margin/padding/border/max-* and adds `overflow: hidden` on the circle as a second-line guard</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Admin UI migrated to MVweb Admin UI Kit v2 (slate palette, Yoast-style sidebar + main layout) — settings page rebuilt around `.mvweb-sidebar` / `.mvweb-main`, tabs use `.mvweb-block` sections</li>\n<li>All tabs rebuilt under new component classes: `.mvweb-input` / `.mvweb-select` / `.mvweb-toggle` / `.mvweb-faq` / `.mvweb-steps` instead of legacy classes</li>\n<li>Bundled MVweb Hub menu (`includes/class-mvweb-menu.php`) updated to the latest shared version with brand logo support and About-page hero strip</li>\n<li>Bundled `images/mv-logo-violet.png` so the MVweb Hub can render the brand logo even if no other plugin provides it</li>\n<li>Code cleanup: removed redundant inline comments across PHP/JS/CSS per project style</li>\n</ul>"
   }
 }
