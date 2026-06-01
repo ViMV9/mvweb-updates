@@ -1,15 +1,15 @@
 {
   "name": "mvweb-build-calc",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-06-01 14:41:15",
+  "last_updated": "2026-06-01 16:05:13",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Updated the bundled MVweb Hub menu class (`MVweb_Menu`) to version 2.2.0: new UI Kit markup for the hub page, hub stylesheet now loaded from the shared `admin.css` instead of inline styles, brand logo and CSS resolved from any installed MVweb plugin.</li>\n<li>Singleton `MVweb_Menu` now blocks cloning and unserialization (`__clone()` / `__wakeup()`).</li>\n<li>Refreshed `admin/css/admin.css` to the current MVweb UI Kit baseline (button and input normalization, dashicon sizing inside `.mvweb-btn`).</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Formula syntax highlighting in the Calculators tab — token CSS classes now match the stylesheet (`.tok-var` / `.tok-num` / `.tok-op`), so variables, numbers and operators render coloured again.</li>\n</ul>\n<h4>Removed</h4>\n<ul>\n<li>Obsolete `includes/languages/mvweb-hub-*` catalogue — hub strings are translated through the plugin text domain.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Russian translation of the plugin Description header on the Plugins screen — the full header string was missing from the catalogue, so it stayed in English.</li>\n<li>Hub strings `Installed plugins`, `Available plugins`, `not installed`, `active`, `inactive` were marked fuzzy and dropped from the compiled `.mo`; unmarked and recompiled. Corrected the `active` translation.</li>\n</ul>"
   }
 }
