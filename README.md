@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-8-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-9-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -36,6 +36,7 @@
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.10](https://img.shields.io/badge/v1.0.10-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
+| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 
 ---
 
@@ -356,6 +357,43 @@
 |:-------|:--------|
 | 1.0.1 (последняя) | [mvweb-build-calc-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.1.zip) |
 | 1.0.0 | [mvweb-build-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#9889; MVweb Site Optimizer
+
+> Модульный оптимизатор WordPress: 10 функциональных вкладок чистки `<head>`, SEO, безопасности, производительности и режима обслуживания.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-latest.zip"><strong>mvweb-site-optimizer-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Чистка фронтенда** &mdash; эмодзи, jQuery Migrate, recent comments style, минификация HTML
+- **SEO-помощники** &mdash; noindex для пагинации, кастомный robots.txt, авто-alt для картинок, интеграция с Yoast SEO
+- **Защита от дублей** &mdash; редирект 301 для пагинации записей, страниц вложений, архивов автора/даты/тега, защита от `?author=N`
+- **Безопасность** &mdash; блокировка REST API для гостей с whitelist маршрутов, скрытие `wp-login.php` на произвольный URL, лимит попыток входа с журналом IP, принудительный HTTPS
+- **Модули ядра** &mdash; отключение комментариев (5 подопций), Gutenberg, классические виджеты, Gravatar (локальный плейсхолдер), RSS-фиды, admin bar
+- **Расширенные настройки** &mdash; кастомные сниппеты в `<head>`/`<body>`, нейтральные ошибки логина, cookie-баннер (152-ФЗ), отключение ревизий или лимит, заголовки `Last-Modified` / `If-Modified-Since` с поддержкой 304, passive event listeners, удаление `?ver=` у CSS/JS
+- **Менеджер редиректов** &mdash; 301/302 с режимами exact и regex, AJAX add/update/delete/toggle
+- **IndexNow** &mdash; автоотправка изменений публичных записей в Яндекс и Bing, виртуальный ключевой файл, дебаунс, журнал последних 200 отправок
+- **Режим обслуживания** &mdash; HTTP 503 + кастомная страница + Retry-After + whitelist IP для тестирования
+- **Аварийное отключение** &mdash; константа `MVWEB_SO_DISABLE` в `wp-config.php` отключает плагин без захода в админку
+- **Встроенная справка** &mdash; вкладка Help с Quick Start и FAQ (18 вопросов)
+- **Мультиязычность** &mdash; английский и русский (i18n ready, 454 строки)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-site-optimizer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.0.zip) |
 
 </details>
 
