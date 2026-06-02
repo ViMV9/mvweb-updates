@@ -36,7 +36,7 @@
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.10](https://img.shields.io/badge/v1.0.10-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
-| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
+| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 
 ---
 
@@ -371,7 +371,7 @@
 > Модульный оптимизатор WordPress: 10 функциональных вкладок чистки `<head>`, SEO, безопасности, производительности и режима обслуживания.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-latest.zip"><strong>mvweb-site-optimizer-latest.zip</strong></a></td></tr>
@@ -397,7 +397,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-site-optimizer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.0.zip) |
+| 1.0.1 (последняя) | [mvweb-site-optimizer-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.1.zip) |
+| 1.0.0 | [mvweb-site-optimizer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.0.zip) |
 
 </details>
 
