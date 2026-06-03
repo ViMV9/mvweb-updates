@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-9-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-10-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -37,6 +37,7 @@
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.10](https://img.shields.io/badge/v1.0.10-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
+| [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 
 ---
 
@@ -403,6 +404,38 @@
 |:-------|:--------|
 | 1.0.1 (последняя) | [mvweb-site-optimizer-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.1.zip) |
 | 1.0.0 | [mvweb-site-optimizer-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128187; MVweb Custom Functions
+
+> Выполнение пользовательского PHP-кода прямо из админки WordPress &mdash; без редактирования файлов темы или создания отдельного плагина.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-latest.zip"><strong>mvweb-custom-functions-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Редактор кода** &mdash; ввод PHP-сниппетов с подсветкой синтаксиса (CodeMirror)
+- **Проверка синтаксиса** &mdash; код проверяется перед сохранением, ошибочный не сохраняется
+- **Переключатель выполнения** &mdash; включение и отключение кода одним тумблером
+- **Защита от ошибок** &mdash; автоматическое отключение кода при фатальной ошибке, сайт остаётся рабочим
+- **Аварийное отключение** &mdash; константа `MVWEB_CF_DISABLE` в `wp-config.php`
+- **Журнал ошибок** &mdash; запись проблем в `debug.log`
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.1 (последняя) | [mvweb-custom-functions-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-1.0.1.zip) |
 
 </details>
 
