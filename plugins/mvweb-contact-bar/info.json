@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-05-26 14:50:44",
+  "last_updated": "2026-06-03 16:22:55",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Admin UI migrated to MVweb Admin UI Kit v2 (slate palette, Yoast-style sidebar + main layout) — settings page rebuilt around `.mvweb-sidebar` / `.mvweb-main`, tabs use `.mvweb-block` sections</li>\n<li>All tabs rebuilt under new component classes: `.mvweb-input` / `.mvweb-select` / `.mvweb-toggle` / `.mvweb-faq` / `.mvweb-steps` instead of legacy classes</li>\n<li>Bundled MVweb Hub menu (`includes/class-mvweb-menu.php`) updated to the latest shared version with brand logo support and About-page hero strip</li>\n<li>Bundled `images/mv-logo-violet.png` so the MVweb Hub can render the brand logo even if no other plugin provides it</li>\n<li>Code cleanup: removed redundant inline comments across PHP/JS/CSS per project style</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Smart contact input: branch and button contacts now accept a bare phone number or username and auto-expand to the correct link by button type (phone → `tel:`, WhatsApp → `wa.me`, Viber → `viber://`, Telegram → `t.me`, email → `mailto:`, social networks → their canonical profile URL). Full links and existing values are kept untouched.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Submit areas use the UI Kit `.mvweb-submit` component (with a `.mvweb-submit--cb` modifier for the reset button and inline spinner) instead of the custom `.mvweb-cb-save-area`</li>\n<li>Empty states (Buttons, Branches tabs) use semantic `<h3>` / `<p>` and inline SVG icons instead of `<div>` and Dashicons</li>\n<li>Save spinner visibility is controlled via `.mvweb-cb-spinner--active` (visibility) instead of the legacy `.is-active` display toggle</li>\n<li>Moved inline `max-width` styles on z-index and Yandex.Metrika counter inputs into dedicated CSS classes</li>\n<li>Contact input placeholders updated to reflect the new number/username-friendly format</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Custom buttons without an uploaded image no longer show a broken-image icon — a neutral link icon is used as the default</li>\n<li>Completed Russian translation: 20 previously untranslated admin strings (labels, placeholders, JS notices) are now localized</li>\n<li>Per-button contact URL/text now always takes priority over the branch default when filled in manually; an empty field cleanly falls back to the branch default (shown as a placeholder hint)</li>\n</ul>"
   }
 }
