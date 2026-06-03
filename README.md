@@ -30,7 +30,7 @@
 |:-------|:------:|:---------|
 | [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.13](https://img.shields.io/badge/v1.1.13-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
-| [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
+| [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
 | [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
@@ -151,7 +151,11 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-child-pages-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.0.zip) |
+| 1.0.4 (последняя) | [mvweb-child-pages-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.4.zip) |
+| 1.0.3 | [mvweb-child-pages-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.3.zip) |
+| 1.0.2 | [mvweb-child-pages-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.2.zip) |
+| 1.0.1 | [mvweb-child-pages-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.1.zip) |
+| 1.0.0 | [mvweb-child-pages-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.0.zip) |
 
 </details>
 
