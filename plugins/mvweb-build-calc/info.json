@@ -1,15 +1,15 @@
 {
   "name": "mvweb-build-calc",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-06-02 05:53:33",
+  "last_updated": "2026-06-03 15:50:44",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Converters hub** — 13 new unit converters (`hub => converters`), each with a \"Convert from\" selector plus a single value field; the result shows the value in the base SI unit and lists every other unit in the hints:</li>\n<li>Russian (ru_RU) translation for all converter strings — titles, descriptions, unit selectors, option labels and hint units (110 new strings added to `.po`/`.pot` and compiled into `.mo`).</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Calculators admin list is now grouped by hub: a header row with the localized hub name and a count badge is shown above each group (Foundation and earthworks, Unit converters). Hub labels resolved via the new `mvweb_bc_hub_label()` helper.</li>\n</ul>"
   }
 }
