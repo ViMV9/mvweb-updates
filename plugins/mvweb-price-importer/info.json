@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.12",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.12.zip",
+  "version": "1.0.13",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.13.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-04 16:47:56",
+  "last_updated": "2026-06-04 17:37:24",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Bundled MVweb Hub menu class refreshed to ship the full plugin catalog.** The copy of `class-mvweb-menu.php` bundled with this plugin lagged behind the shared source and carried an empty catalog (no `CATALOG`/`CATALOG_VERSION`). Because the hub renders its \"available plugins\" promo from the newest catalog any installed plugin contributes, a site whose freshest plugin was this one showed no available-plugins list. Re-synced the bundled class from the shared source so this plugin now contributes the complete, current catalog.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**MVweb Hub menu class upgraded to the newest-wins loader (2.5.0) and Russian hub strings restored.** The bundled `class-mvweb-menu.php` previously won only if it loaded first; if an alphabetically-earlier plugin shipped an older copy, that older one took over and the hub lost its available-plugins promo. The bundled class now uses a two-phase loader that declares the highest-versioned copy regardless of load order. Also refreshed the bundled `mvweb-hub-ru_RU` translation, whose compiled `.mo` lagged behind the source and left the hub hero and section headings in English on ru_RU.</li>\n</ul>"
   }
 }
