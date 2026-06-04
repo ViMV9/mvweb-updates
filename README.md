@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-10-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-11-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -38,6 +38,7 @@
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
+| [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 
 ---
 
@@ -443,6 +444,40 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.1 (последняя) | [mvweb-custom-functions-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-1.0.1.zip) |
+
+</details>
+
+---
+
+## &#128247; MVweb Gallery Wall
+
+> Гибкая фотогалерея с четырьмя макетами, встроенным лайтбоксом и фильтром по тегам.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-latest.zip"><strong>mvweb-gallery-wall-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Четыре макета** &mdash; сетка, кирпичная кладка, выравнивание по рядам и бегущая лента
+- **Встроенный лайтбокс** &mdash; навигация клавиатурой и свайпом, просмотр в полном размере
+- **Фильтр по тегам** &mdash; быстрый отбор фотографий по категориям
+- **«Показать ещё»** &mdash; постраничный показ без лишних запросов
+- **Ленивая загрузка** &mdash; фото подгружаются по мере прокрутки
+- **Адаптивные колонки** &mdash; отдельная настройка для десктопа, планшета и мобильного
+- **Пресеты оформления** &mdash; единый стиль чипсов и кнопок под дизайн сайта
+- **Шорткод и виджет** &mdash; вставка галереи в любое место, поддержка классического виджета
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-gallery-wall-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.0.zip) |
 
 </details>
 
