@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.11",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.11.zip",
+  "version": "1.0.12",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.12.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-04 15:36:27",
+  "last_updated": "2026-06-04 16:47:56",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Stock-out now covers every duplicate copy of a SKU, not just one.** The catalog can hold several products sharing one SKU — duplicates left behind by an older plugin build that failed to dedupe. Both stock paths previously resolved a SKU to a single product (`process_batch()` via `resolve_existing_skus()` → one lookup id; `zero_missing_stock()` via `wc_get_product_id_by_sku()` → one lookup row), so when a SKU had duplicates only one copy ever got its stock updated and the rest stayed \"in stock\" — including SKUs that were already sold out or dropped from the feed. Both paths now resolve a SKU to *every* live product carrying it through a single `_sku` postmeta query (new `resolve_all_ids_by_skus()`, batched — one SELECT per import batch / per missing-SKU set, not per row), excluding trashed posts. For a SKU present in the feed, the canonical (lowest-id) copy is updated and the extra duplicates are forced out of stock (zeroing is unconditional, so a duplicate is never left in stock even if the canonical update bails); for a SKU dropped from the feed, all copies are zeroed. Stock-out is centralised in a new `zero_out_product()` helper shared by both paths so they apply identical semantics. The plugin still never deletes products — clearing the duplicate rows themselves stays a manual catalog tidy.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Bundled MVweb Hub menu class refreshed to ship the full plugin catalog.** The copy of `class-mvweb-menu.php` bundled with this plugin lagged behind the shared source and carried an empty catalog (no `CATALOG`/`CATALOG_VERSION`). Because the hub renders its \"available plugins\" promo from the newest catalog any installed plugin contributes, a site whose freshest plugin was this one showed no available-plugins list. Re-synced the bundled class from the shared source so this plugin now contributes the complete, current catalog.</li>\n</ul>"
   }
 }
