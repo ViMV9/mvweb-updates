@@ -1,15 +1,15 @@
 {
   "name": "mvweb-pop-up",
-  "version": "1.0.6",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.6.zip",
+  "version": "1.0.7",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-pop-up/mvweb-pop-up-1.0.7.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-pop-up",
-  "last_updated": "2026-02-10 18:38:07",
+  "last_updated": "2026-06-05 06:07:32",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Admin CSS migrated to MVweb UI Kit \"Classic Clean\" shared framework</li>\n<li>Split admin styles into `admin.css` (shared UI Kit) and `plugin.css` (plugin-specific)</li>\n<li>HTML templates updated to use UI Kit classes: `.mvweb-section-title`, `.mvweb-select`, `.mvweb-checkbox`, `.mvweb-notice`, `.mvweb-table`, `.mvweb-help-text`, `.mvweb-textarea`</li>\n<li>Page title updated to \"MVweb Pop-Up\"</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Tab switching broken due to JS selector mismatch (`.mvweb-pu-tab-content` → `.mvweb-tab-content`)</li>\n<li>UI Kit: checkbox vertical alignment, input font-size, notice spacing</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Migrated admin UI to MVweb Admin UI Kit v2 (slate palette, Yoast-style sidebar layout)</li>\n<li>Settings page rebuilt with sidebar navigation (`.mvweb-sidebar` + `.mvweb-nav`) and main content column (`.mvweb-main`)</li>\n<li>Tabs rewritten with UI Kit components: `.mvweb-block`, `.mvweb-form-row`, `.mvweb-input`, `.mvweb-select`, `.mvweb-textarea`, `.mvweb-toggle`, `.mvweb-alert`, `.mvweb-table`</li>\n<li>Save button replaced with `.mvweb-btn--primary`</li>\n<li>Bundled MVweb_Menu updated to 2.5.0 (newest-wins loader, plugin catalog with one-click install, alphabetical hub submenu, dedicated hub textdomain)</li>\n<li>Refreshed bundled UI Kit `admin.css` (block spacing, FAQ card styling)</li>\n<li>Tab navigation reworked to drive `.mvweb-nav__link` instead of legacy `.nav-tab`</li>\n<li>Added `declare(strict_types=1)` to helpers</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>Help tab with quick start, FAQ and support sections</li>\n<li>Bundled `images/mv-logo-violet.png` for the MVweb Hub hero logo</li>\n</ul>\n<h4>Security</h4>\n<ul>\n<li>Restrict allowed link and image protocols in popup HTML (`wp_kses`) to block `javascript:` and other unsafe schemes</li>\n<li>Harden Custom CSS sanitizer against `@import` bypass via comments and missing whitespace</li>\n<li>Strip legacy CSS `expression()` from Custom CSS</li>\n<li>Strip slashes from submitted settings before sanitizing (`wp_unslash`)</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Escape animation attribute on popup output</li>\n<li>Associate toggle labels with their inputs via `for` on the Advanced tab</li>\n<li>Escape navigation and tab class output on the settings page</li>\n<li>Wrap Help tab step content in a block so it aligns with the grid-based `.mvweb-steps` layout</li>\n<li>Render the Styles info alert with icon and `.mvweb-alert__body` per UI Kit</li>\n<li>Keep the \"ms\" suffix on the same line as the duration input</li>\n<li>Add spacing between content/style textareas and their descriptions</li>\n<li>Vertically centre form-row labels next to toggle switches</li>\n<li>Merge saved options with defaults (`wp_parse_args`) so upgrades from older versions never hit missing keys</li>\n<li>Print user Custom CSS in the document head by attaching it at enqueue time</li>\n<li>Show the native \"Settings saved\" notice on the settings page</li>\n<li>Run uninstall cleanup once per site on multisite (no duplicate pass on the main site)</li>\n</ul>\n<h4>Translations</h4>\n<ul>\n<li>Regenerated POT and updated Russian (ru_RU) translation for the new UI strings (Help tab, Save Changes)</li>\n</ul>"
   }
 }
