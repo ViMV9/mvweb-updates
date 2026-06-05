@@ -28,7 +28,7 @@
 
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
-| [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.13](https://img.shields.io/badge/v1.1.13-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
+| [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
 | [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
 | [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
@@ -47,9 +47,9 @@
 > Интерактивный прайс-калькулятор с каскадными выпадающими списками на основе Google Sheets.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.13</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.15</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-latest.zip"><strong>mvweb-price-table-latest.zip</strong></a></td></tr>
 </table>
 
@@ -70,7 +70,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.13 (последняя) | [mvweb-price-table-1.1.13.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.13.zip) |
+| 1.1.15 (последняя) | [mvweb-price-table-1.1.15.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.15.zip) |
+| 1.1.13 | [mvweb-price-table-1.1.13.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.13.zip) |
 | 1.1.12 | [mvweb-price-table-1.1.12.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.12.zip) |
 | 1.1.11 | [mvweb-price-table-1.1.11.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.11.zip) |
 | 1.1.10 | [mvweb-price-table-1.1.10.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.10.zip) |
