@@ -1,15 +1,15 @@
 {
   "name": "mvweb-site-optimizer",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.4.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-site-optimizer",
-  "last_updated": "2026-06-03 13:09:09",
+  "last_updated": "2026-06-05 06:34:26",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Hotfix: plugin updates were not delivered to sites.** Релизный ZIP не содержал библиотеку `plugin-update-checker` (PUC v5) — wrapper `MVweb_Updater::load_update_checker()` молча возвращал `false` из-за отсутствия `includes/plugin-update-checker/plugin-update-checker.php`, не регистрировал хуки опроса `info.json` и WordPress на сайтах не получал уведомлений о новых версиях. PUC теперь bundled в `includes/plugin-update-checker/`, как и в других плагинах студии (`mvweb-custom-functions` и т.д.). Затронуты сайты с версиями 1.0.0 — 1.0.2 — после ручной установки 1.0.3 автообновления начнут приходить штатно.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Запрет обновлений ядра, плагинов и тем** — три новых тоггла на вкладке «Безопасность» (`disable_core_updates`, `disable_plugin_updates`, `disable_theme_updates`). Подключаются к нативным WordPress-фильтрам: `auto_update_core` / `auto_update_plugin` / `auto_update_theme` → `__return_false` (запрет авто-апдейтов), `pre_site_transient_update_core` / `_update_plugins` / `_update_themes` → пустой объект (скрытие уведомлений и счётчиков). Дополнительно снимаются `_maybe_update_*` actions и периодические проверки. Полезно для production-сайтов, где апдейты выполняет администратор вручную или через CI/CD.</li>\n</ul>"
   }
 }
