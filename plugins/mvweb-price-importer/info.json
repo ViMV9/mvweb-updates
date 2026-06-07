@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.13",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.13.zip",
+  "version": "1.0.14",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.14.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-04 17:37:24",
+  "last_updated": "2026-06-07 12:56:49",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**MVweb Hub menu class upgraded to the newest-wins loader (2.5.0) and Russian hub strings restored.** The bundled `class-mvweb-menu.php` previously won only if it loaded first; if an alphabetically-earlier plugin shipped an older copy, that older one took over and the hub lost its available-plugins promo. The bundled class now uses a two-phase loader that declares the highest-versioned copy regardless of load order. Also refreshed the bundled `mvweb-hub-ru_RU` translation, whose compiled `.mo` lagged behind the source and left the hub hero and section headings in English on ru_RU.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Stock status and catalogue visibility no longer drift apart.** When `woocommerce_hide_out_of_stock_items` is enabled, WooCommerce hides products carrying the `product_visibility` `outofstock` term. That term is added when a SKU drops to zero (via `zero_out_product()`'s `WC_Product->save()`), but the low-level `update_product()` path that brings a SKU back in stock only rewrote the `_stock_status` meta and never cleared the term — so a returning product stayed invisible on the storefront despite reading as in stock. `update_product()` now syncs the term with the new status (mirroring WooCommerce's own rule that the term exists only while the hide option is on), removing it on return to stock and adding it on a drop to zero, without falling back to a full `save()`. `create_product()` had the mirror gap — a freshly imported zero-stock SKU was left visible — and now tags it `outofstock` the same way. A one-shot upgrade routine (`resync_hidden_instock_visibility()`, run once on version bump) clears the stale term from every already-affected product in a single query and recounts the term natively, so updating the plugin restores their visibility automatically.</li>\n</ul>"
   }
 }
