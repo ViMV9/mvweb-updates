@@ -29,7 +29,7 @@
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
 | [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
-| [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
+| [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT |
 | [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
 | [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
@@ -92,9 +92,9 @@
 > Мощный инструмент экспорта данных WordPress: записи, страницы, произвольные типы записей и товары WooCommerce.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.5</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.6+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 6.7</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-latest.zip"><strong>mvweb-data-export-latest.zip</strong></a></td></tr>
 </table>
 
@@ -119,7 +119,10 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.2 (последняя) | [mvweb-data-export-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.2.zip) |
+| 1.0.5 (последняя) | [mvweb-data-export-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.5.zip) |
+| 1.0.4 | [mvweb-data-export-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.4.zip) |
+| 1.0.3 | [mvweb-data-export-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.3.zip) |
+| 1.0.2 | [mvweb-data-export-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.2.zip) |
 | 1.0.1 | [mvweb-data-export-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.1.zip) |
 | 1.0.0 | [mvweb-data-export-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-data-export/mvweb-data-export-1.0.0.zip) |
 
