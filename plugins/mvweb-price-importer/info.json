@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.14",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.14.zip",
+  "version": "1.0.15",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.15.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-07 12:56:49",
+  "last_updated": "2026-06-07 16:00:31",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Stock status and catalogue visibility no longer drift apart.** When `woocommerce_hide_out_of_stock_items` is enabled, WooCommerce hides products carrying the `product_visibility` `outofstock` term. That term is added when a SKU drops to zero (via `zero_out_product()`'s `WC_Product->save()`), but the low-level `update_product()` path that brings a SKU back in stock only rewrote the `_stock_status` meta and never cleared the term — so a returning product stayed invisible on the storefront despite reading as in stock. `update_product()` now syncs the term with the new status (mirroring WooCommerce's own rule that the term exists only while the hide option is on), removing it on return to stock and adding it on a drop to zero, without falling back to a full `save()`. `create_product()` had the mirror gap — a freshly imported zero-stock SKU was left visible — and now tags it `outofstock` the same way. A one-shot upgrade routine (`resync_hidden_instock_visibility()`, run once on version bump) clears the stale term from every already-affected product in a single query and recounts the term natively, so updating the plugin restores their visibility automatically.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Category product counts in wp-admin no longer drift after an import.** The import writes `_stock_status` low-level (`update_post_meta`) for speed, which never fires the term-count hook WooCommerce uses to keep `product_cat`/`product_tag` counts current — so the counts shown next to categories grew stale after every run (a category could read 1237 while actually holding 1268 in-stock products). The importer now calls WooCommerce's own `wc_recount_all_terms()` once at the end of each import, recounting all product terms with visibility taken into account, so the admin counts match the catalogue. Storefront listings were never affected (they query products directly); this only corrects the cached counters.</li>\n<li>**The wp-admin menu label stays in English on localized sites.** The Russian translation rendered the sidebar menu item as «Импорт прайсов», out of step with every other MVweb plugin, whose menu labels stay English in the admin sidebar. The menu string is now left untranslated so the item reads \"Price Importer\" everywhere; the settings screen itself remains fully localized.</li>\n</ul>"
   }
 }
