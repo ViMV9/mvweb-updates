@@ -1,15 +1,15 @@
 {
   "name": "mvweb-child-pages",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-child-pages",
-  "last_updated": "2026-06-03 05:59:42",
+  "last_updated": "2026-06-07 19:00:19",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Migrated admin UI to the new MVweb Admin UI Kit (slate palette, Yoast-style sidebar layout)</li>\n<li>`admin.css` replaced with the current boilerplate UI Kit</li>\n<li>Updated bundled `MVweb_Menu` shared class to v2.2.0</li>\n<li>Settings page split into per-tab partials (`tab-general.php`, `tab-custom-css.php`, `tab-help.php`) using `.mvweb-form-row`, `.mvweb-toggle`, `.mvweb-block`, `.mvweb-steps`, `.mvweb-faq`, `.mvweb-table`, `.mvweb-codeblock`</li>\n<li>Tab navigation reworked from WP `.nav-tab` to UI Kit `.mvweb-nav` (admin.js + plugin.css updated)</li>\n<li>Localized the Hub registration `name` and `description` strings (the Hub card now shows «MVweb Дочерние страницы» in ru_RU)</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>`languages/` with `.pot`, `ru_RU.po`/`.mo` (plugin + MVweb Hub strings) and README</li>\n<li>`images/mv-logo-violet.png` for the MVweb Hub brand logo</li>\n<li>`build:locale` npm script</li>\n<li>`declare(strict_types=1)` in `includes/helpers.php`</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Tab panels: restored `.mvweb-tab-content` / `.active` show-hide rules in `plugin.css` (all tabs were rendering stacked on one screen)</li>\n<li>Quick start steps: wrapped each `.mvweb-steps li` content in a `<div>` so it lands in the grid text column (text was breaking one word per line)</li>\n<li>Help code examples: switched from the dark UI Kit `.mvweb-codeblock` to a light plugin `.mvweb-cp-code` card</li>\n<li>Help FAQ: attached the open answer to its question as a single card (the answer was detached below the summary)</li>\n<li>Block head spacing: `.mvweb-block__head` now keeps a 16px gap to the content when the block has no `.mvweb-block__sub` (e.g. the FAQ block) — the UI Kit only spaced it via `__sub`'s margin</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Settings page title and sidebar menu item now use the short name «Child Pages», matching the other MVweb plugins</li>\n<li>Plugin display names (menu item, settings brand, hub card) are left in English like the other MVweb plugins — only descriptions and UI strings are translated to Russian</li>\n<li>Rewrote the shortcode attribute descriptions in the Help tab to be more user-friendly (explain what each attribute does, not just list values)</li>\n</ul>"
   }
 }
