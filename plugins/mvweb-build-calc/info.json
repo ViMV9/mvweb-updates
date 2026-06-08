@@ -1,15 +1,15 @@
 {
   "name": "mvweb-build-calc",
-  "version": "1.0.7",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.7.zip",
+  "version": "1.0.8",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.8.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-06-04 18:23:46",
+  "last_updated": "2026-06-08 03:45:57",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Plugin name is no longer translated in the admin menu, Plugins screen and MVweb Hub — it stays \"MVweb Build Calc\" (product brand name), matching the other MVweb plugins. The Russian description is kept.</li>\n<li>MVweb Hub header (studio info and the \"Visit our website\" button) is now translated: bundled the missing `mvweb-hub` textdomain catalogue (`includes/languages/mvweb-hub-ru_RU.mo`). Since this plugin loads first and wins the newest-wins menu loader, the hub rendered its copy and showed English strings without it.</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>`mvweb_bc_format_number()` now treats the decimals argument as a maximum and strips trailing zeros (and a dangling separator). Whole and short results render cleanly across all calculators and converters (e.g. `1 m` instead of `1.0000 m`, `1 000 mm` instead of `1 000.0000 mm`) while small values keep the precision they need (`0.00001 bar` is preserved).</li>\n</ul>"
   }
 }
