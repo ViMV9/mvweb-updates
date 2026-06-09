@@ -37,7 +37,7 @@
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.15](https://img.shields.io/badge/v1.0.15-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.8](https://img.shields.io/badge/v1.0.8-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
-| [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
+| [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 
 ---
@@ -437,7 +437,7 @@
 > Выполнение пользовательского PHP-кода прямо из админки WordPress &mdash; без редактирования файлов темы или создания отдельного плагина.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-latest.zip"><strong>mvweb-custom-functions-latest.zip</strong></a></td></tr>
@@ -458,7 +458,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.1 (последняя) | [mvweb-custom-functions-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-1.0.1.zip) |
+| 1.0.2 (последняя) | [mvweb-custom-functions-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-1.0.2.zip) |
+| 1.0.1 | [mvweb-custom-functions-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-custom-functions/mvweb-custom-functions-1.0.1.zip) |
 
 </details>
 
