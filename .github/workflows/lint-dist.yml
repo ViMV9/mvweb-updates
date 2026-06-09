@@ -1,0 +1,74 @@
+name: Lint distributions
+
+# Cleanliness gate for the public update feed.
+# Checks every ZIP changed in a push (and all latest.zip on manual run)
+# for dev-only files (README/CHANGELOG/docs) and any content patterns
+# supplied via repository secrets.
+
+on:
+  push:
+    paths:
+      - 'plugins/**/*.zip'
+      - 'themes/**/*.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint changed distributions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Determine ZIPs to lint
+        id: pick
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            # Manual run: lint every latest.zip (the artifacts clients actually receive).
+            ZIPS=$(find plugins themes -name '*-latest.zip' 2>/dev/null | sort)
+          else
+            # Push: lint only the ZIPs changed in this push.
+            ZIPS=$(git diff --name-only --diff-filter=d HEAD^ HEAD -- '*.zip' 2>/dev/null | sort)
+          fi
+
+          {
+            echo 'zips<<EOF'
+            echo "$ZIPS"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+          if [ -z "$ZIPS" ]; then
+            echo "No ZIPs to lint."
+          else
+            echo "Will lint:"
+            echo "$ZIPS"
+          fi
+
+      - name: Run distribution lint
+        env:
+          ZIPS: ${{ steps.pick.outputs.zips }}
+          DIST_LINT_PATTERNS: ${{ secrets.DIST_LINT_PATTERNS }}
+          DIST_LINT_DIRS: ${{ secrets.DIST_LINT_DIRS }}
+        run: |
+          chmod +x scripts/lint-dist.sh
+          FAIL=0
+          if [ -z "$ZIPS" ]; then
+            echo "Nothing to lint — skipping."
+            exit 0
+          fi
+          while IFS= read -r zip; do
+            [ -z "$zip" ] && continue
+            [ -f "$zip" ] || continue
+            echo "::group::$zip"
+            ./scripts/lint-dist.sh "$zip" || FAIL=1
+            echo "::endgroup::"
+          done <<< "$ZIPS"
+          exit $FAIL
