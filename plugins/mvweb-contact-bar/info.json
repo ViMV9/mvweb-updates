@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.5.zip",
+  "version": "1.0.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.6.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-06-03 16:22:55",
+  "last_updated": "2026-06-09 12:16:48",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Smart contact input: branch and button contacts now accept a bare phone number or username and auto-expand to the correct link by button type (phone → `tel:`, WhatsApp → `wa.me`, Viber → `viber://`, Telegram → `t.me`, email → `mailto:`, social networks → their canonical profile URL). Full links and existing values are kept untouched.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Submit areas use the UI Kit `.mvweb-submit` component (with a `.mvweb-submit--cb` modifier for the reset button and inline spinner) instead of the custom `.mvweb-cb-save-area`</li>\n<li>Empty states (Buttons, Branches tabs) use semantic `<h3>` / `<p>` and inline SVG icons instead of `<div>` and Dashicons</li>\n<li>Save spinner visibility is controlled via `.mvweb-cb-spinner--active` (visibility) instead of the legacy `.is-active` display toggle</li>\n<li>Moved inline `max-width` styles on z-index and Yandex.Metrika counter inputs into dedicated CSS classes</li>\n<li>Contact input placeholders updated to reflect the new number/username-friendly format</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Custom buttons without an uploaded image no longer show a broken-image icon — a neutral link icon is used as the default</li>\n<li>Completed Russian translation: 20 previously untranslated admin strings (labels, placeholders, JS notices) are now localized</li>\n<li>Per-button contact URL/text now always takes priority over the branch default when filled in manually; an empty field cleanly falls back to the branch default (shown as a placeholder hint)</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Plugin name and description on the Plugins screen are now localizable (Russian translation added)</li>\n<li>Cleaned up the translation catalog: removed stale entries for presets/themes no longer in the plugin, added the missing \"Bubbles\" modal template string, and fixed the contact-count plural form in the new-button template</li>\n<li>Settings are no longer autoloaded on every request — slightly lighter page loads, especially on sites with a large options table</li>\n<li>Updated the bundled MVweb Hub menu to the latest version: the hub now lists available MVweb plugins for one-click installation and sorts plugin entries alphabetically in the admin sidebar</li>\n<li>The MVweb Hub screen is now fully translated into Russian, and the plugin's admin sidebar menu item stays \"Contact Bar\" (English) regardless of locale so it sorts predictably alongside the other MVweb plugins</li>\n</ul>"
   }
 }
