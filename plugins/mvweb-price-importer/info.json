@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.17",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.17.zip",
+  "version": "1.0.18",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.18.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-15 07:33:00",
+  "last_updated": "2026-06-15 08:02:14",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>**\"Fetch category tree\" button on the Categories tab.** Loads the category tree straight from the supplier feed without importing any products, so the operator can pick the branches to import *before* the first run. Previously the filter tree only appeared after a full import had already created terms, which meant a fresh site got every wrapper branch of the feed (including the ones it never meant to import) created as empty categories. The button parses only the feed's `<categories>` section and stores it; no WooCommerce terms are created until an import runs.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>**Category include/exclude filter now also applies when categories are created, not just to products.** The category-creation pass walked the entire feed tree regardless of the filter, so un-ticked branches still landed in the catalogue as empty wrapper terms (and reappeared on every re-import even after manual deletion). The same branch filter used for products now runs before any term is created, so only categories inside the ticked branches (in include mode) — or outside them (in exclude mode) — are created. An empty ticked set is treated as \"no filter\", matching the product side, so it can never wipe the catalogue.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**The category tree map is no longer truncated to the filtered subset.** When the category-creation filter was added, the sidecar tree map (`mvweb_pi_category_meta`) was written from the *filtered* category list, so it only held the ticked branches. The product filter walks that map UP a category's parent chain to decide whether a SKU belongs to a ticked branch — with a truncated map, ancestors outside the ticked branches were missing, the chain broke, and products were misclassified (most ended up with no category at all). The full feed tree is now persisted to the map before any filtering; the filter only governs which terms get created, never what the map contains.</li>\n<li>**Reconciliation no longer deletes the categories you chose to keep in include mode.** The pass that removes products and terms of newly-excluded categories was written for exclude mode only — it treated every ticked category as \"to delete\". In include mode the ticked categories are the ones to *keep*, so on every import it deleted exactly the wanted branches (and their products), leaving the catalogue empty. It now honours the filter mode: in include mode it removes the inverse set (categories not under any ticked branch), matching the product filter.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Products with no category are no longer imported in \"include only\" mode.** When the category filter is set to import only the ticked branches, a product whose feed entry carries an empty category id used to slip past the filter and land in the catalogue uncategorised. Such a product belongs to none of the ticked branches, so it is now dropped — matching the operator's intent of importing only the selected categories. In exclude mode (and when no filter is configured) products without a category are still kept, exactly as before.</li>\n</ul>"
   }
 }
