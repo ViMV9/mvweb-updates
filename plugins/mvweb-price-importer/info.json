@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.19",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.19.zip",
+  "version": "1.0.20",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.20.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-15 18:49:50",
+  "last_updated": "2026-06-15 19:22:34",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>**Category URLs are now readable and SEO-friendly.** Category slugs are transliterated to clean ASCII (e.g. «15 Pro» → `15-pro`, «Дисплеи» → `displei`) instead of being left percent-encoded. When two categories under different branches share the same leaf name, the slug is disambiguated with the parent slug (`frontalnaya-kamera-15-pro`) rather than an opaque suffix, keeping the hierarchy visible in the URL.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**Same-named leaf categories from different branches are no longer lost.** A supplier feed routinely lists the same leaf name («15 Pro») under many branches. The auto-generated slug appended the full parent path to deduplicate; with long Cyrillic parents that url-encoded slug overflowed the slug column and the insert failed, silently dropping the category and leaving its products uncategorised. Slugs are now built so this can no longer happen, and every leaf is created.</li>\n<li>**Manually written descriptions and names survive re-import.** A sparse feed carries a description or name on only some offers, so an empty value means \"not supplied\", not \"clear it\". The importer no longer overwrites a non-empty product title or description with a blank feed value, preserving copy edited by hand for SEO.</li>\n<li>**An unchanged feed is no longer re-downloaded every run.** The feed's validators (ETag / Last-Modified / Content-Length) are now stored after each check, so a subsequent import can correctly skip downloading a price list that has not changed.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Field auto-detection now finds tags that appear only on some offers.** A YML feed is sparse — optional tags such as `<description>` and `<picture>` are present only on the offers that carry them, often far into the file. Column detection used to sample only the first offers and miss those tags, so they never appeared in the field-mapping dropdown and product descriptions and images could not be mapped. Detection now scans the whole feed (streamed, so memory stays flat and a typical feed scans in a few milliseconds), surfacing every field present anywhere in the file.</li>\n</ul>"
   }
 }
