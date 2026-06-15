@@ -1,15 +1,15 @@
 {
   "name": "mvweb-faq",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.2.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-faq",
-  "last_updated": "2026-06-15 17:37:44",
+  "last_updated": "2026-06-15 18:30:12",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Discard FAQ items whose question is a re-parse artifact (leading encoded</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Settings now save reliably: the Save button submits its value, so the form</li>\n<li>Escape square brackets in answer text when building the shortcode, so an</li>\n<li>Clean up plugin options on all sites when uninstalling on large multisite</li>\n</ul>"
   }
 }
