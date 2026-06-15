@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-11-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-12-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -39,6 +39,7 @@
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
+| [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
 
 ---
 
@@ -500,6 +501,39 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-gallery-wall-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#10067; MVweb FAQ
+
+> Блоки «вопрос-ответ» (FAQ) с микроразметкой Schema.org, вставляемые кнопкой прямо из классического редактора.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.6+ &bull; PHP 7.4+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-latest.zip"><strong>mvweb-faq-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Кнопка в редакторе** &mdash; вставка FAQ-блока из панели инструментов классического редактора (визуальный и текстовый режим)
+- **Конструктор вопросов** &mdash; модальное окно с добавлением пар «вопрос-ответ», сортировкой и базовым форматированием (жирный, ссылка, список)
+- **Шорткоды** &mdash; `[mvweb_faq]` и `[mvweb_faq_item]` работают везде, где работают шорткоды
+- **Два вида на фронте** &mdash; нативный аккордеон или раскрытый список; эксклюзивный аккордеон без JavaScript
+- **Микроразметка FAQPage** &mdash; один блок JSON-LD на страницу для Яндекса и Google, с защитой от дублей
+- **Настройки оформления** &mdash; цвет иконки, размер вопроса и ответа, жирность вопроса
+- **Стили темы** &mdash; режим, при котором оформление полностью отдаётся теме сайта
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-faq-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.0.zip) |
 
 </details>
 
