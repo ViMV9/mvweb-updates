@@ -35,7 +35,7 @@
 | [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.20](https://img.shields.io/badge/v1.0.20-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
-| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.0.9](https://img.shields.io/badge/v1.0.9-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
+| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
@@ -357,7 +357,7 @@
 > Библиотека строительных калькуляторов для WordPress. Любой калькулятор встраивается в страницу, запись или виджет одним шорткодом.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.9</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.0</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-latest.zip"><strong>mvweb-build-calc-latest.zip</strong></a></td></tr>
@@ -383,7 +383,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.9 (последняя) | [mvweb-build-calc-1.0.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.9.zip) |
+| 1.1.0 (последняя) | [mvweb-build-calc-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.1.0.zip) |
+| 1.0.9 | [mvweb-build-calc-1.0.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.9.zip) |
 | 1.0.8 | [mvweb-build-calc-1.0.8.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.8.zip) |
 | 1.0.7 | [mvweb-build-calc-1.0.7.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.7.zip) |
 | 1.0.6 | [mvweb-build-calc-1.0.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.6.zip) |
