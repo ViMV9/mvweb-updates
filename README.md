@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-12-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-13-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -36,6 +36,7 @@
 | [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.20](https://img.shields.io/badge/v1.0.20-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
+| [**MVweb Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
@@ -395,6 +396,39 @@
 | 1.0.2 | [mvweb-build-calc-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.2.zip) |
 | 1.0.1 | [mvweb-build-calc-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.1.zip) |
 | 1.0.0 | [mvweb-build-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-build-calc/mvweb-build-calc-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128293; MVweb Fireplace Calc
+
+> Библиотека калькуляторов для каминов, печей, дымоходов, барбекю и отопления. Любой калькулятор встраивается в страницу, запись или виджет одним шорткодом.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-fireplace-calc/mvweb-fireplace-calc-latest.zip"><strong>mvweb-fireplace-calc-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Шорткод `[mvweb_fcalc id="..."]`** &mdash; встраивание калькулятора в любую страницу, запись, виджет или Gutenberg-блок Shortcode
+- **36 калькуляторов в 6 группах** &mdash; мощность отопления и подбор топки, дымоходы и тяга, кладка и материалы, фундаменты и площадки, топливо и расходы, безопасность и обустройство
+- **Серверный расчёт** &mdash; вычисления выполняются через admin-ajax с защитой nonce и валидацией каждого поля
+- **Практические рекомендации** &mdash; контекстные подсказки и вывод рядом с результатом, а не просто число
+- **11 фронтенд-тем** &mdash; стилевой пресет выбирается одним полем, CSS темы подгружается лениво
+- **Настройки внешнего вида** &mdash; скругление углов, цвет и толщина рамки, опциональная обёртка формы, варианты кнопки (Solid / Outline / Ghost), акцентный цвет
+- **Форматирование результата** &mdash; настраиваемое число знаков, разделители целой и дробной части и тысяч
+- **Мультиязычность** &mdash; английский и русский (ru_RU) из коробки
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-fireplace-calc-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-fireplace-calc/mvweb-fireplace-calc-1.0.0.zip) |
 
 </details>
 
