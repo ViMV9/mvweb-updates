@@ -1,15 +1,15 @@
 {
   "name": "mvweb-build-calc",
-  "version": "1.1.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.1.0.zip",
+  "version": "1.1.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.1.1.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-06-16 06:28:07",
+  "last_updated": "2026-06-17 09:50:36",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Russian (ru_RU) translation for the Outbuildings, Windows/doors/openings, Engineering systems and Insulation/thermal hubs — all calculator titles, descriptions, field labels, options and hint strings (580 new strings added to `.po` and compiled into `.mo`).</li>\n<li>**Insulation and thermal engineering hub** (`hub => heat`) — preliminary thermal-protection checks (SP 50.13330.2012):</li>\n<li>New hub label `Insulation and thermal engineering` in `mvweb_bc_hub_label()` for the grouped admin list.</li>\n<li>**Engineering systems hub** (`hub => engineering`) — preliminary sizing of home systems:</li>\n<li>New hub label `Engineering systems` in `mvweb_bc_hub_label()` for the grouped admin list.</li>\n<li>**Windows, doors and openings hub** (`hub => openings`) — sizing and checking openings:</li>\n<li>New hub label `Windows, doors and openings` in `mvweb_bc_hub_label()` for the grouped admin list.</li>\n<li>**Outbuildings hub** (`hub => outbuildings`) — sizing garden and yard structures:</li>\n<li>New hub label `Outbuildings` in `mvweb_bc_hub_label()` for the grouped admin list.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Russian (ru_RU) translations for the Rooms, Plot and Structural hub labels (previously shown in English) and the car-count plural in the one-or-two-car garage calculator.</li>\n</ul>"
   }
 }
