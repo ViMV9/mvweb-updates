@@ -1,0 +1,15 @@
+{
+  "name": "mvweb-fireplace-calc",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-fireplace-calc/mvweb-fireplace-calc-1.0.0.zip",
+  "requires": "6.4",
+  "tested": "6.7",
+  "requires_php": "8.0",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-fireplace-calc",
+  "last_updated": "2026-06-17 14:30:51",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Initial release. Calculator library for fireplaces, stoves, chimneys, barbecues, fireboxes and flues, rendered via the `[mvweb_fcalc id=\"...\"]` shortcode.</li>\n<li>Six calculator hubs: Heating and power, Chimneys and draft, Masonry and materials, Foundations and pads, Fuel and economics, Safety and layout.</li>\n<li>36 bundled calculators.</li>\n<li>Appearance settings under MVweb Hub → Fireplace Calc: 11 frontend theme presets, border, corner rounding, accent color and submit button variant.</li>\n<li>Full English and Russian (ru_RU) localization.</li>\n</ul>"
+  }
+}
