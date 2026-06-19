@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.20",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.20.zip",
+  "version": "1.0.21",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.21.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-06-15 19:22:34",
+  "last_updated": "2026-06-19 12:56:17",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Field auto-detection now finds tags that appear only on some offers.** A YML feed is sparse — optional tags such as `<description>` and `<picture>` are present only on the offers that carry them, often far into the file. Column detection used to sample only the first offers and miss those tags, so they never appeared in the field-mapping dropdown and product descriptions and images could not be mapped. Detection now scans the whole feed (streamed, so memory stays flat and a typical feed scans in a few milliseconds), surfacing every field present anywhere in the file.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Products dropped from the price list now reliably go out of stock.** Stock-out detection used to rely on a remembered list of the previous import's SKUs. When a feed (or the category filter) narrowed, products imported under an earlier, wider feed fell out of that list for good and stayed in stock even though the supplier no longer carried them. Detection now compares the price list against the live catalogue in the categories the import manages, so a product can no longer drift out of tracking. The partial-feed safeguard that prevents wiping the catalogue on a truncated download is kept.</li>\n<li>**Renaming a product no longer creates a duplicate.** When a supplier reissues a product's id on edit (changing its SKU), the item used to be re-created as a new product while the old one lingered in stock. The importer now recognises the same product by its barcode, updates it in place onto the new SKU, and only creates a new product when the barcode doesn't uniquely identify an existing one.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Skipped re-processing products that are already out of stock on every run, and an offer arriving with an empty SKU is now recorded in the invalid-rows report instead of being dropped without a trace.</li>\n</ul>"
   }
 }
