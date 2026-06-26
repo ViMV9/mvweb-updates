@@ -37,7 +37,7 @@
 | [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.21](https://img.shields.io/badge/v1.0.21-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX |
 | [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**MVweb Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
-| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
+| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 | [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
@@ -441,7 +441,7 @@
 > Модульный оптимизатор WordPress: 10 функциональных вкладок чистки `<head>`, SEO, безопасности, производительности и режима обслуживания.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.6</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.7</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-latest.zip"><strong>mvweb-site-optimizer-latest.zip</strong></a></td></tr>
@@ -467,7 +467,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.6 (последняя) | [mvweb-site-optimizer-1.0.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.6.zip) |
+| 1.0.7 (последняя) | [mvweb-site-optimizer-1.0.7.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.7.zip) |
+| 1.0.6 | [mvweb-site-optimizer-1.0.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.6.zip) |
 | 1.0.5 | [mvweb-site-optimizer-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.5.zip) |
 | 1.0.4 | [mvweb-site-optimizer-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.4.zip) |
 | 1.0.3 | [mvweb-site-optimizer-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.3.zip) |
