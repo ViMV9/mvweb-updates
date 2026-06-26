@@ -1,15 +1,15 @@
 {
   "name": "mvweb-child-pages",
-  "version": "1.0.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.5.zip",
+  "version": "1.0.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.6.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-child-pages",
-  "last_updated": "2026-06-07 19:00:19",
+  "last_updated": "2026-06-26 04:31:09",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Settings page title and sidebar menu item now use the short name «Child Pages», matching the other MVweb plugins</li>\n<li>Plugin display names (menu item, settings brand, hub card) are left in English like the other MVweb plugins — only descriptions and UI strings are translated to Russian</li>\n<li>Rewrote the shortcode attribute descriptions in the Help tab to be more user-friendly (explain what each attribute does, not just list values)</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Refreshed the bundled MVweb hub class so the plugins catalog (Available plugins) shows up on the hub even when this plugin loads first</li>\n</ul>"
   }
 }
