@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-14-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-15-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -42,6 +42,7 @@
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 | [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
 | [**MVweb Smart Links**](#-mvweb-smart-links) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
+| [**MVweb Smart Search**](#-mvweb-smart-search) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 
 ---
 
@@ -616,6 +617,39 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-smart-links-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-links/mvweb-smart-links-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128269; MVweb Smart Search
+
+> Единый поиск по сайту со своим индексом: живая выпадашка с товарами, записями и страницами, русская и английская морфология, устойчивость к опечаткам.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-search/mvweb-smart-search-latest.zip"><strong>mvweb-smart-search-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Живой поиск** &mdash; мгновенная выпадашка по товарам, записям, страницам и произвольным типам, со своим индексом и ранжированием по релевантности
+- **Морфология и опечатки** &mdash; русская и английская лемматизация, устойчивость к опечаткам, синонимы и подгружаемые словари
+- **WooCommerce** &mdash; картинка, цена, наличие и кнопка «в корзину» прямо в выдаче
+- **Фильтр по категории** &mdash; выбор раздела перед поиском, поиск в пределах категории и её подкатегорий
+- **Подсказки** &mdash; популярные и недавние запросы при фокусе на пустом поле
+- **Аналитика** &mdash; частые запросы, запросы без результатов, трекинг кликов и CTR, экспорт в CSV
+- **Гибкий вид** &mdash; размер, форма, цвета, режимы «строка» и «иконка» отдельно для ПК и мобильных
+- **Размещение** &mdash; шорткод, блок, виджет сайдбара и пункт меню; мультиязычность WPML/Polylang
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-smart-search-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.0.zip) |
 
 </details>
 
