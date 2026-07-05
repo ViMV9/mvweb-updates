@@ -1,0 +1,15 @@
+{
+  "name": "mvweb-object-map",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-object-map/mvweb-object-map-1.0.0.zip",
+  "requires": "6.4",
+  "tested": "6.7",
+  "requires_php": "8.0",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-object-map",
+  "last_updated": "2026-07-05 09:59:47",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Non-public `mvweb_object` custom post type and hierarchical</li>\n<li>Object metaboxes: coordinates with a Yandex mini-map and address geocoder,</li>\n<li>Settings page with the Yandex Maps API key (and built-in setup guide),</li>\n<li>`[mvweb_map]` shortcode rendering a Yandex map with markers, clustering,</li>\n<li>Public REST endpoint (`/wp-json/mvweb-om/v1/objects`) with transient caching.</li>\n<li>Russian translation and an uninstall routine that respects the</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Object titles containing quotes rendered as raw HTML entities</li>\n</ul>\n<h4>Security</h4>\n<ul>\n<li>Hardened the public REST endpoint against unbounded transient growth:</li>\n</ul>"
+  }
+}
