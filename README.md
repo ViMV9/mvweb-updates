@@ -43,7 +43,7 @@
 | [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
 | [**MVweb Smart Links**](#-mvweb-smart-links) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
 | [**MVweb Smart Search**](#-mvweb-smart-search) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
-| [**MVweb Object Map**](#-mvweb-object-map) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
+| [**MVweb Object Map**](#-mvweb-object-map) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 
 ---
 
@@ -662,7 +662,7 @@
 > Каталог объектов на интерактивной карте Яндекса: непубличный тип записи с координатами, фото, контактами и характеристиками, вывод на фронт через шорткод `[mvweb_map]`.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-latest.zip"><strong>mvweb-object-map-latest.zip</strong></a></td></tr>
@@ -673,8 +673,8 @@
 - **Карта Яндекс** &mdash; метки с кластеризацией, фильтр по категориям, балуны с фото, адресом и контактами
 - **Объекты** &mdash; координаты с мини-картой и геокодером адреса, галерея, иконки меток, контакты, ссылки и произвольные характеристики
 - **Список-каталог** &mdash; карточки с поиском и сортировкой рядом с картой, переключатель «Карта/Список» на мобильных
-- **Внешний вид** &mdash; цвета, форма, плотность и фото карточек, акцентный цвет, опциональное модальное окно
-- **Маршрут** &mdash; кнопка «Как добраться» открывает Яндекс Карты
+- **Внешний вид** &mdash; цвета, форма, плотность, размер и пропорция фото карточек, акцентный цвет, опциональное модальное окно
+- **Маршрут** &mdash; опциональная кнопка «Как добраться» открывает Яндекс Карты
 - **Размещение** &mdash; шорткод `[mvweb_map]` с атрибутами: категория, список, фильтр, высота, центр, зум
 
 <details>
@@ -682,7 +682,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.2 (последняя) | [mvweb-object-map-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.2.zip) |
+| 1.0.3 (последняя) | [mvweb-object-map-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.3.zip) |
+| 1.0.2 | [mvweb-object-map-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.2.zip) |
 | 1.0.1 | [mvweb-object-map-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.1.zip) |
 | 1.0.0 | [mvweb-object-map-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.0.zip) |
 
