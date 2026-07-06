@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-16-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-17-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -44,6 +44,7 @@
 | [**MVweb Smart Links**](#-mvweb-smart-links) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
 | [**MVweb Smart Search**](#-mvweb-smart-search) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**MVweb Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
+| [**MVweb Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
 
 ---
 
@@ -689,6 +690,37 @@
 | 1.0.2 | [mvweb-object-map-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.2.zip) |
 | 1.0.1 | [mvweb-object-map-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.1.zip) |
 | 1.0.0 | [mvweb-object-map-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-object-map/mvweb-object-map-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128274; MVweb Registration Domain Filter
+
+> Ограничение регистрации новых пользователей по доменной зоне e-mail — белый список разрешённых зон.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-latest.zip"><strong>mvweb-reg-domain-filter-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Белый список зон** &mdash; регистрация только с адресов e-mail в разрешённых доменных зонах (например `.ru`, `.рф`, `.by`)
+- **Стандартная форма и WooCommerce** &mdash; проверка на форме регистрации WordPress и в WooCommerce (Личный кабинет и оформление заказа)
+- **Вход не затрагивается** &mdash; существующие пользователи входят с любого домена, ограничение только на новые регистрации
+- **Кириллические зоны** &mdash; поддержка `.рф` и других кириллических доменных зон
+- **Простые настройки** &mdash; тумблер включения и список зон по одной в строке
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-reg-domain-filter-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-1.0.0.zip) |
 
 </details>
 
