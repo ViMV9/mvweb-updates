@@ -1,15 +1,15 @@
 {
   "name": "mvweb-object-map",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-object-map/mvweb-object-map-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-object-map/mvweb-object-map-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-object-map",
-  "last_updated": "2026-07-06 06:19:07",
+  "last_updated": "2026-07-06 07:50:51",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Optional card colours (title, hover border) were saved as `#ffffff` instead</li>\n<li>Category terms were not removed on uninstall (with \"delete data\" enabled)</li>\n<li>The map object list cache was not cleared when a category term was renamed,</li>\n<li>The object editor script now declares the Yandex Maps API as a dependency</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>List search field and sort dropdown now sit side by side on a single row</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>\"Photo aspect ratio\" appearance setting (1:1, 4:3, 3:2, 16:9, 3:4, 2:3, 9:16)</li>\n<li>\"Route button\" toggle to hide the \"Get directions\" button in balloons and</li>\n<li>Object links (label + URL from the object editor) are now shown in the</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>The map balloon now opens as a card pinned to the top-center of the map</li>\n<li>The \"Custom color\" toggle and its color picker now sit on one row, and the</li>\n<li>The global \"Default center\" setting now applies on the frontend (it was</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Balloon and modal action buttons, phone links and object links no longer</li>\n</ul>\n<h4>Removed</h4>\n<ul>\n<li>The \"Map type\" (Scheme/Satellite/Hybrid) setting. The Yandex JS API free</li>\n</ul>"
   }
 }
