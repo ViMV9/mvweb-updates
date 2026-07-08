@@ -1,15 +1,15 @@
 {
   "name": "mvweb-gallery-wall",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-gallery-wall",
-  "last_updated": "2026-06-19 12:15:34",
+  "last_updated": "2026-07-08 16:49:05",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Ticker \"Speed\" is now a constant scroll speed in pixels per second (higher = faster) instead of \"seconds per cycle\". The previous setting timed one full loop, so the same value scrolled faster on galleries with more photos and slower on smaller ones. The speed now stays the same regardless of how many photos are in the strip — the animation duration is derived from the measured loop distance (`duration = distance / speed`).</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Built-in lightbox did not work in the Ticker layout — clicking a photo did nothing. Ticker slides now render the lightbox trigger just like the other layouts (when the built-in lightbox is enabled and the photo has no custom link), so a click opens the photo and lets you browse the whole gallery. Clicks on the duplicated slides (created for the seamless loop) map back to the correct original photo.</li>\n<li>Per-collection boolean toggles (\"Pause on hover\", \"Lightbox\", \"Show collection title\") ignored an unchecked box and fell back to the global default. A native `false` meta is stored as an empty string, which the settings merge treated as \"unset\" and replaced with the global default — so turning a toggle off in a collection had no effect when the global default was on (most visibly, the ticker kept pausing on hover). These booleans are now stored as explicit `'1'`/`'0'` strings, so \"off\" survives the merge. Existing collections that were toggled off before this fix need to be re-saved once.</li>\n</ul>"
   }
 }
