@@ -1,15 +1,15 @@
 {
   "name": "mvweb-faq",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-faq",
-  "last_updated": "2026-06-15 18:30:12",
+  "last_updated": "2026-07-08 15:11:20",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Settings now save reliably: the Save button submits its value, so the form</li>\n<li>Escape square brackets in answer text when building the shortcode, so an</li>\n<li>Clean up plugin options on all sites when uninstalling on large multisite</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Keep FAQ answers exactly as written: the shortcode content is excluded from</li>\n<li>Cleaner FAQ schema text: HTML entities and non-breaking spaces are normalized</li>\n</ul>"
   }
 }
