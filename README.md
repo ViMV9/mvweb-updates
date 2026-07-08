@@ -40,7 +40,7 @@
 | [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
-| [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
+| [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
 | [**MVweb Smart Links**](#-mvweb-smart-links) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
 | [**MVweb Smart Search**](#-mvweb-smart-search) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**MVweb Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
@@ -562,7 +562,7 @@
 > Блоки «вопрос-ответ» (FAQ) с микроразметкой Schema.org, вставляемые кнопкой прямо из классического редактора.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.6+ &bull; PHP 7.4+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-latest.zip"><strong>mvweb-faq-latest.zip</strong></a></td></tr>
@@ -584,7 +584,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.2 (последняя) | [mvweb-faq-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.2.zip) |
+| 1.0.3 (последняя) | [mvweb-faq-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.3.zip) |
+| 1.0.2 | [mvweb-faq-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.2.zip) |
 | 1.0.1 | [mvweb-faq-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.1.zip) |
 | 1.0.0 | [mvweb-faq-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.0.zip) |
 
