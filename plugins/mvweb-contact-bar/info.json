@@ -1,15 +1,15 @@
 {
   "name": "mvweb-contact-bar",
-  "version": "1.0.6",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.6.zip",
+  "version": "1.0.7",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-contact-bar/mvweb-contact-bar-1.0.7.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-contact-bar",
-  "last_updated": "2026-06-09 12:16:48",
+  "last_updated": "2026-07-09 11:24:08",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Plugin name and description on the Plugins screen are now localizable (Russian translation added)</li>\n<li>Cleaned up the translation catalog: removed stale entries for presets/themes no longer in the plugin, added the missing \"Bubbles\" modal template string, and fixed the contact-count plural form in the new-button template</li>\n<li>Settings are no longer autoloaded on every request — slightly lighter page loads, especially on sites with a large options table</li>\n<li>Updated the bundled MVweb Hub menu to the latest version: the hub now lists available MVweb plugins for one-click installation and sorts plugin entries alphabetically in the admin sidebar</li>\n<li>The MVweb Hub screen is now fully translated into Russian, and the plugin's admin sidebar menu item stays \"Contact Bar\" (English) regardless of locale so it sorts predictably alongside the other MVweb plugins</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>The MVweb Hub screen now displays in Russian again — the hub translation catalogue that ships with the plugin was missing from the previous package, so the hub fell back to English whenever this plugin drove its rendering</li>\n<li>Removed a stray compiled translation file from the plugin root</li>\n</ul>"
   }
 }
