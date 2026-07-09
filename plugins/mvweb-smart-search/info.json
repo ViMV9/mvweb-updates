@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-07-09 17:49:07",
+  "last_updated": "2026-07-09 18:28:07",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Search strictness setting (Strict / Balanced / Loose) that controls how many of the query words a result must contain. Balanced (the new default) keeps results that share most of the words and drops loose one- or two-word coincidences, so a multi-word query no longer floods with unrelated products; Strict requires every word, Loose accepts any single one. Replaces the previous All-words / Any-words logic.</li>\n<li>Text-weight control in Appearance (normal / medium / bold) for the query text in the field and result titles in the dropdown; it overrides the theme's own font weight so bold styling bleeding in from the theme can be turned off.</li>\n<li>Plain-magnifier option in Appearance: in Icon display mode the trigger can be shown as a bare accent-colored icon without the filled box around it.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Broadening passes (synonyms and typo correction) now respect the search-strictness floor as well, so they widen the wording without dropping to unrelated single-word matches.</li>\n<li>On phones, the magnifier (Icon display mode) now opens a full-screen search panel with the field at the top and a close button, instead of trying to expand the field inline. This fixes the missing input field, the layout breaking when the panel closed, and the field being hidden behind the overlay when the search sits in a tight header.</li>\n<li>The \"Matching categories\" toggle moved from Appearance to the Coverage tab, next to the indexed content types, where it is easier to find.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Completed the Russian translation for the search-bar height, font-size and clear-button controls added in 1.0.3.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Separate color control for the plain magnifier icon in Appearance, so it no longer has to match the accent color.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Synonyms are now folded into the primary ranking pass, so a result that also matches a synonym of a query word rises to the top (and, in Strict mode, results missing that word drop out) instead of only being appended below the plain matches. The strictness floor still counts the original query words, so adding a synonym never raises the bar.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>The clear \"×\" no longer overlaps the collapsed magnifier on a results page in Icon display mode (it is hidden while the field is collapsed).</li>\n</ul>"
   }
 }
