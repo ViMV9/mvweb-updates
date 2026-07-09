@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.2.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-07-09 12:02:16",
+  "last_updated": "2026-07-09 12:19:20",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Menu placement: a \"MVweb Search\" box in Appearance → Menus adds a search item that can be dragged anywhere in a classic menu and is rendered as the live search bar on the front-end.</li>\n<li>Text-link display mode: alongside \"Search bar\" and \"Icon\", the bar can now show as a clickable word (custom label) that expands the field, chosen separately for desktop and mobile.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>The old \"Show in menu\" location setting is replaced by the draggable menu item, which can be placed anywhere in the menu rather than only appended to the end of a location.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundle the update-checker library with the plugin so one-click updates from the MVweb update server work; earlier builds shipped without it and never offered updates.</li>\n</ul>"
   }
 }
