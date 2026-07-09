@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-07-09 12:19:20",
+  "last_updated": "2026-07-09 13:34:15",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundle the update-checker library with the plugin so one-click updates from the MVweb update server work; earlier builds shipped without it and never offered updates.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Clear button: a small \"×\" appears inside the search field once something is typed, clearing it in one tap.</li>\n<li>Search-bar height and font-size controls in Appearance (0 = automatic from the size preset), alongside the existing width setting.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Full reindex now runs one batch at a time driven from the browser, so it keeps progressing on hosts where background cron does not fire reliably, without loading the server. \"Items in index\" now shows a live count instead of only updating when a reindex finishes.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>The live dropdown no longer blanks a theme's mobile menu when the search bar is placed inside it (a closed results panel could cover the screen on mobile).</li>\n</ul>"
   }
 }
