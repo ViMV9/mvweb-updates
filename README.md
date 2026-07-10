@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-17-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-18-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -45,6 +45,7 @@
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
+| [**Local Business**](#-mvweb-local-business) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 
 ---
 
@@ -733,6 +734,37 @@
 |:-------|:--------|
 | 1.0.1 (последняя) | [mvweb-reg-domain-filter-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-1.0.1.zip) |
 | 1.0.0 | [mvweb-reg-domain-filter-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#127970; MVweb Local Business
+
+> Разметка Schema.org LocalBusiness для Google и Яндекса — данные компании, часы работы, встраивание в граф Yoast/Rank Math без дублей.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-latest.zip"><strong>mvweb-local-business-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Разметка LocalBusiness** &mdash; структурированные данные Schema.org для главной страницы, настроенные под Google и Яндекс
+- **Встраивание без дублей** &mdash; данные добавляются в существующий граф организации Yoast или Rank Math с тем же `@id`; отдельный блок выводится, только если SEO-плагин не строит граф
+- **Сканер главной страницы** &mdash; находит уже имеющуюся разметку организации и её источник до того, как вы создадите дубль
+- **Данные компании** &mdash; адрес, телефоны, e-mail, мессенджеры, часы работы с перерывами и особыми днями, зона обслуживания, соцпрофили
+- **Отзывы без риска** &mdash; ссылка на доверенный агрегатор вместо «самонарисованного» рейтинга (политика поисковиков)
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-local-business-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.0.zip) |
 
 </details>
 
