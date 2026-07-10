@@ -28,23 +28,23 @@
 
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
-| [**MVweb Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
-| [**MVweb Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
-| [**MVweb Child Pages**](#-mvweb-child-pages) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
-| [**MVweb Contact Bar**](#-mvweb-contact-bar) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
-| [**MVweb Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
-| [**MVweb Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
-| [**MVweb Price Importer**](#-mvweb-price-importer) | ![v1.0.23](https://img.shields.io/badge/v1.0.23-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX/XLS |
-| [**MVweb Build Calc**](#-mvweb-build-calc) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
-| [**MVweb Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
-| [**MVweb Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
-| [**MVweb Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
-| [**MVweb Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
-| [**MVweb FAQ**](#-mvweb-faq) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
-| [**MVweb Smart Links**](#-mvweb-smart-links) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
-| [**MVweb Smart Search**](#-mvweb-smart-search) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
-| [**MVweb Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
-| [**MVweb Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
+| [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
+| [**Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
+| [**Child Pages**](#-mvweb-child-pages) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
+| [**Contact Bar**](#-mvweb-contact-bar) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
+| [**Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
+| [**Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
+| [**Price Importer**](#-mvweb-price-importer) | ![v1.0.23](https://img.shields.io/badge/v1.0.23-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX/XLS |
+| [**Build Calc**](#-mvweb-build-calc) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
+| [**Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
+| [**Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
+| [**Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
+| [**Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
+| [**FAQ**](#-mvweb-faq) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
+| [**Smart Links**](#-mvweb-smart-links) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
+| [**Smart Search**](#-mvweb-smart-search) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
+| [**Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
+| [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
 
 ---
 
