@@ -1,15 +1,15 @@
 {
   "name": "mvweb-local-business",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip",
   "requires": "6.4",
   "tested": "7.0.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-local-business",
-  "last_updated": "2026-07-11 15:32:25",
+  "last_updated": "2026-07-11 15:59:45",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Opening hours: a \"Same time for every day\" control that applies one time range to all seven days at once.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Homepage scanner now shows the full discovered data (name, phone, email and the actual address) instead of a generic \"address\" label.</li>\n<li>Neutralized all placeholder and hint examples (city, region, street, phone, description, business type, messenger handles) so they no longer reference a specific city or trade.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Checkboxes and radio buttons sat above their label (boilerplate top-alignment); they are now vertically centered across the plugin.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Checkbox and radio inputs still sat above their labels: reset the negative top margin WordPress applies to native checkboxes so `align-items: center` actually centers them (payments, languages and day flags).</li>\n</ul>"
   }
 }
