@@ -271,7 +271,7 @@
 > Универсальный калькулятор расхода герметика, клея и других жидких строительных материалов.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-sealant-calc/mvweb-sealant-calc-latest.zip"><strong>mvweb-sealant-calc-latest.zip</strong></a></td></tr>
@@ -602,7 +602,7 @@
 > Автоматическая внутренняя перелинковка: подсказывает и расставляет релевантные ссылки по контенту, обратимо, без переписывания записей.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 7.4+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-links/mvweb-smart-links-latest.zip"><strong>mvweb-smart-links-latest.zip</strong></a></td></tr>
@@ -712,7 +712,7 @@
 > Ограничение регистрации новых пользователей по доменной зоне e-mail — белый список разрешённых зон.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-latest.zip"><strong>mvweb-reg-domain-filter-latest.zip</strong></a></td></tr>
