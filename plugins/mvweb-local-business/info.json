@@ -1,15 +1,15 @@
 {
   "name": "mvweb-local-business",
-  "version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.0.zip",
+  "version": "1.0.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.1.zip",
   "requires": "6.4",
   "tested": "7.0.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-local-business",
-  "last_updated": "2026-07-10 11:44:09",
+  "last_updated": "2026-07-11 15:32:25",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>LocalBusiness (Schema.org) JSON-LD output for the front page, tuned for both Google and Yandex.</li>\n<li>Business-type selector mapped to schema.org subtypes (deprecated `ProfessionalService` excluded).</li>\n<li>Anti-duplicate integration: augments the existing Organization graph of Yoast (`wpseo_schema_organization`) or Rank Math (`rank_math/json_ld`) with the same `@id`; prints a standalone node only when no SEO plugin renders the graph.</li>\n<li>Homepage schema scanner (AJAX + DOMDocument): detects an existing Organization/LocalBusiness node and its source before you create a duplicate.</li>\n<li>Settings page on the MVweb Hub (UI Kit v2): identity, address, contacts, geo, weekly opening hours with presets and breaks, social/catalogue profiles, media, price range, payments, languages.</li>\n<li>Opening hours builder with quick presets, per-day intervals and lunch breaks (`openingHoursSpecification`).</li>\n<li>Special days (holidays / one-off closures) emitted as single-date closed specs (`validFrom`/`validThrough`, `opens` = `closes` = `00:00`).</li>\n<li>Reviews handled via a trusted aggregator link only — no self-serving `aggregateRating` (Google policy).</li>\n<li>Media picker (logo, facade, gallery) via the WordPress media modal.</li>\n<li>Built-in validation links: Google Rich Results Test and Yandex Webmaster validator.</li>\n<li>Messenger fields (WhatsApp, Telegram, Viber, MAX) with format-tolerant input — a handle, a phone or a full link are all normalized.</li>\n<li>Company identity, address, contacts and geo consolidated on a single \"Company\" tab; the \"General\" tab is a control panel (output toggle, homepage scan, validation links).</li>\n<li>Asset cache-busting via file mtime.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Opening hours: a \"Same time for every day\" control that applies one time range to all seven days at once.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Homepage scanner now shows the full discovered data (name, phone, email and the actual address) instead of a generic \"address\" label.</li>\n<li>Neutralized all placeholder and hint examples (city, region, street, phone, description, business type, messenger handles) so they no longer reference a specific city or trade.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Checkboxes and radio buttons sat above their label (boilerplate top-alignment); they are now vertically centered across the plugin.</li>\n</ul>"
   }
 }
