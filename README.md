@@ -45,7 +45,7 @@
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
-| [**Local Business**](#-mvweb-local-business) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
+| [**Local Business**](#-mvweb-local-business) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 
 ---
 
@@ -744,7 +744,7 @@
 > Разметка Schema.org LocalBusiness для Google и Яндекса — данные компании, часы работы, встраивание в граф Yoast/Rank Math без дублей.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-latest.zip"><strong>mvweb-local-business-latest.zip</strong></a></td></tr>
@@ -764,7 +764,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.2 (последняя) | [mvweb-local-business-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip) |
+| 1.0.3 (последняя) | [mvweb-local-business-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.3.zip) |
+| 1.0.2 | [mvweb-local-business-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip) |
 | 1.0.1 | [mvweb-local-business-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.1.zip) |
 | 1.0.0 | [mvweb-local-business-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.0.zip) |
 
