@@ -1,15 +1,15 @@
 {
   "name": "mvweb-local-business",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.3.zip",
   "requires": "6.4",
   "tested": "7.0.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-local-business",
-  "last_updated": "2026-07-11 15:59:45",
+  "last_updated": "2026-07-11 17:27:34",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Checkbox and radio inputs still sat above their labels: reset the negative top margin WordPress applies to native checkboxes so `align-items: center` actually centers them (payments, languages and day flags).</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Checkbox groups (payments, languages) sat above the row label: the label carries a 9px top offset that the boilerplate only mirrors for a directly-nested checkbox, not for our wrapped groups — apply the same offset so the group lines up with the label.</li>\n</ul>"
   }
 }
