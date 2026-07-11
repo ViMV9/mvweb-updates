@@ -1,15 +1,15 @@
 {
   "name": "mvweb-local-business",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.4.zip",
   "requires": "6.4",
   "tested": "7.0.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-local-business",
-  "last_updated": "2026-07-11 17:27:34",
+  "last_updated": "2026-07-11 23:07:07",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Checkbox groups (payments, languages) sat above the row label: the label carries a 9px top offset that the boilerplate only mirrors for a directly-nested checkbox, not for our wrapped groups — apply the same offset so the group lines up with the label.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Toggle rows (output switch, on-site visits) sat above the row label when their caption fit on one line: the switch is now anchored to the label's first text line, so it lines up regardless of how many lines the caption wraps to.</li>\n</ul>"
   }
 }
