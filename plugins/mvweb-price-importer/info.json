@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.23",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.23.zip",
+  "version": "1.0.24",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.24.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-07-09 09:05:52",
+  "last_updated": "2026-07-18 18:40:58",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Legacy binary Excel (.xls) price lists are now supported.** In addition to CSV, YML and XLSX, the importer can read the old binary `.xls` format (Excel 97-2003), including Cyrillic content — handy for suppliers whose systems only export the legacy format. Column mapping, category detection and everything else work exactly as for the other formats.</li>\n<li>**Hierarchical category paths.** A price list that ships categories as a slash-path (e.g. `/Apple/iPhone/Screen protectors`) now builds the full category tree instead of a single category named after the whole path. Each level becomes its own category with the correct parent, and the product is placed on the leaf. Flat category ids and YML feeds are unchanged.</li>\n<li>Column auto-detection now recognises a few more common Russian headers (wholesale «ОПТ», images «Изображения»).</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Category filter for feeds.** The Feeds screen now has a \"Feed Categories\" picker that controls which product categories are exported to the generated feeds — the same include/exclude tree used for import, but working on the site's own WooCommerce categories. Ticking a parent covers its whole branch, the choice applies to the general feed and every per-warehouse feed, and leaving everything unticked exports all categories (unchanged default). Products and the feed's category tree stay in lock-step, so nothing outside the selection leaks in.</li>\n</ul>"
   }
 }
