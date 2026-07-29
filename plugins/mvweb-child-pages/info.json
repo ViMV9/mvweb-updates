@@ -1,15 +1,15 @@
 {
   "name": "mvweb-child-pages",
-  "version": "1.0.6",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.6.zip",
+  "version": "1.0.7",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.7.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-child-pages",
-  "last_updated": "2026-06-26 04:31:09",
+  "last_updated": "2026-07-29 11:55:42",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Refreshed the bundled MVweb hub class so the plugins catalog (Available plugins) shows up on the hub even when this plugin loads first</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Placeholder image is now picked in the UI: General tab → «Placeholder image» opens the WordPress media library, with a preview and a «Reset to default» button. No code needed to replace the image shipped with the plugin</li>\n<li>Placeholder rendering moved to `mvweb_cp_get_placeholder_html()` — a picked image goes through `wp_get_attachment_image()`, so it gets `srcset`/`sizes` and honours the chosen image size; a deleted attachment silently falls back to the bundled SVG</li>\n<li>`exclude` shortcode attribute: leave selected child pages out of a list by ID (`[mvweb-cp id=\"10\" exclude=\"12,15\"]`), passed straight to the native `exclude` argument of `get_pages()`</li>\n<li>Help tab: FAQ entries on setting the manual page order, where a newly created page lands, and how to hide a single page; `exclude` added to the attributes table</li>\n<li>General tab: hint under «Order by» explaining that Menu order comes from the page's own «Order» field</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Menu order sorting: WordPress gives every new page `menu_order = 0`, so 0 is now read as «position not set» — those pages go after the numbered ones instead of jumping to the top, and are sorted by ID (creation order) among themselves</li>\n<li>Menu order sorting: pages sharing the same `menu_order` now fall back to ID, so the order no longer depends on what MySQL happens to return</li>\n<li>Updated the bundled `MVweb_Menu` shared class to v2.6.0 (catalog 2026.07.11, `-latest.zip` download URLs, Local Business and Object Map entries)</li>\n<li>`admin.css` refreshed from the current boilerplate UI Kit (element resets scoped to `.mvweb-settings`/`.mvweb-ui` via `:where()`, `.mvweb-tab-content` rules, checkbox row alignment)</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>`limit` is now applied after sorting: with a PHP-side sort (menu order, natural title order) the SQL `LIMIT` used to cut the wrong pages before they were reordered</li>\n<li>Help tab: comments inside the CSS examples are now translatable, so the ru_RU screen no longer mixes Russian prose with English code comments</li>\n<li>Settings page: the toggle in a form row is aligned with its label again (a 24px switch sat ~6px above the label text, which carries `padding-top: 9px` for input rows) — fixed in the shared UI Kit, so it applies to every plugin on the next refresh</li>\n</ul>"
   }
 }
