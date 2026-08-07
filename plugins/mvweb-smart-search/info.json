@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.1.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.1.2.zip",
+  "version": "1.1.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.1.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-07 18:03:06",
+  "last_updated": "2026-08-07 18:40:11",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Maximum number of terms to list in the Category and Brand dropdown groups is now configurable (Coverage → Categories in results), so the groups no longer push the product results out of view.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>The live dropdown now lists only categories and brands that actually contain products matching the query, and each shows the count of matching products rather than the term's total size. A refined query like \"iPhone 11 стекло\" no longer surfaces unrelated categories that hold no matching product. Turn either group off entirely with the existing Category / Brand toggles (Coverage → Categories in results).</li>\n<li>Field-weight and boost-strength controls on the Relevance tab now pair the slider with an editable number box, so a value can be typed exactly instead of only dragged.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>New \"Match words in product data, not the description\" option (General tab). A query word counts toward the strictness rule only when it appears in the product name, SKU, attributes, brand or category — not in the long or short description. This stops an unrelated product from satisfying an all-words query just because its marketing text incidentally mentions a model number or a part word (e.g. a used phone whose description says \"12 MP camera\" and \"glass body\" surfacing for \"iPhone 12 glass\"). The description still contributes to ranking. Off by default; recommended for parts and accessories shops.</li>\n</ul>"
   }
 }
