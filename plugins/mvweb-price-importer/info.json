@@ -1,15 +1,15 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.0.25",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.25.zip",
+  "version": "1.0.26",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.26.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-08-06 17:16:46",
+  "last_updated": "2026-08-07 03:32:09",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Supplier text is now cleaned up on import.** Price lists often arrive with text mangled by the exporter — `Bluetooth-гарнитура &amp;quot;Saches&amp;quot; R3` instead of proper quotes — and with non-breaking spaces glued into names. Such text is now decoded to its intended form, and invisible characters (non-breaking space, zero-width space, soft hyphen, byte-order mark) are removed, so product names, descriptions and category names arrive in the catalogue readable. Product descriptions keep their HTML and their line breaks, and text such as «вес < 5 кг, длина > 2 м» is preserved intact. Article numbers and barcodes are deliberately left byte-for-byte as supplied, since they are matching keys. Categories created earlier with mangled names are repaired on the next import, while manual renames are kept.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**A dedicated article-number column now wins over the generic offer id.** When a YML feed ships both an `<offer id=\"…\">` attribute and a `<vendorCode>` element, the article number is taken from `vendorCode`; previously whichever came first in the file won. Feeds that carry only the offer id keep using it, as before.</li>\n<li>**Column detection no longer misses columns with invisible characters.** A header such as «Розничная<nbsp>цена» is now recognised. The saved mapping still stores the original header, so existing setups are unaffected.</li>\n<li>**Empty detection result is no longer reported as success.** When a price list contains no products, the field-mapping screen said «0 columns detected» with a green badge; it now shows a warning explaining that the file holds no products.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**A category name WordPress keeps encoded is no longer rewritten on every import.** A name such as «Провод <5мм» is stored by WordPress as `Провод &lt;5мм`; the repair check compared it against its decoded form, which never matched, so the term was updated on every single run — an extra write and a term-cache flush each time, with no actual change to the data. The check now asks the only question that matters: would saving the cleaned name change what is already stored.</li>\n<li>**Control bytes in a price list no longer eat the surrounding description.** Bytes `0x01`/`0x02` arriving verbatim from a feed were mistaken for the placeholders used internally to protect real markup, turned into angle brackets, and took the text between them with them. They are now dropped up front, along with the other meaningless characters.</li>\n<li>**The column-detection error message is escaped before it reaches the page.** It was the only status message in the admin script rendered without escaping.</li>\n<li>**Six log and notice messages are shown in Russian again.** Four had never been translated, and two lost their translation when their English wording was reworded in the code — among them the warning about a truncated feed and the report on stock zeroed for products that left the feed.</li>\n</ul>"
   }
 }
