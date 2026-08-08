@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-18-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-17-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -41,7 +41,6 @@
 | [**Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 | [**FAQ**](#-mvweb-faq) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
-| [**Smart Links**](#-mvweb-smart-links) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Автоматическая внутренняя перелинковка: контекстные ссылки, кластеры, отчёты, импорт ключей |
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.1.5](https://img.shields.io/badge/v1.1.5-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
@@ -601,40 +600,6 @@
 | 1.0.2 | [mvweb-faq-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.2.zip) |
 | 1.0.1 | [mvweb-faq-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.1.zip) |
 | 1.0.0 | [mvweb-faq-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-faq/mvweb-faq-1.0.0.zip) |
-
-</details>
-
----
-
-## &#128279; MVweb Smart Links
-
-> Автоматическая внутренняя перелинковка: подсказывает и расставляет релевантные ссылки по контенту, обратимо, без переписывания записей.
-
-<table>
-<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
-<tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 7.4+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
-<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-links/mvweb-smart-links-latest.zip"><strong>mvweb-smart-links-latest.zip</strong></a></td></tr>
-</table>
-
-### Возможности
-
-- **Контекстные ссылки** &mdash; автоматическая расстановка релевантных внутренних ссылок в тексте с лимитами на страницу, абзац и минимумом слов между ссылками
-- **Три режима** &mdash; ручной, «подсказать и одобрить» или полностью автоматический с порогом уверенности
-- **Тематические кластеры** &mdash; опорная страница и её спицы, метрики состояния и пресеты перелинковки
-- **Блок «Похожие записи»** &mdash; три шаблона вывода и шорткод `[mvweb_related]`
-- **Ротация анкоров** &mdash; замена повторяющихся анкоров синонимами для естественного профиля
-- **Отчёты** &mdash; страницы-сироты, битые ссылки, каннибализация ключей, глубина обхода, клики по ссылкам
-- **Импорт ключей** &mdash; из Yoast, Rank Math, All in One SEO и поисковых запросов; импорт/экспорт CSV
-- **Мультиязычность** &mdash; английский и русский, поддержка WPML/Polylang; без внешних сервисов
-
-<details>
-<summary><strong>Все релизы</strong></summary>
-
-| Версия | Скачать |
-|:-------|:--------|
-| 1.0.1 (последняя) | [mvweb-smart-links-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-links/mvweb-smart-links-1.0.1.zip) |
-| 1.0.0 | [mvweb-smart-links-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-links/mvweb-smart-links-1.0.0.zip) |
 
 </details>
 
