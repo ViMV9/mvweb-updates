@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.3.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.3.1.zip",
+  "version": "1.4.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.4.0.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-10 04:45:56",
+  "last_updated": "2026-08-10 06:32:58",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Ready-made dictionaries update in place, without a page reload.** Installing, updating or removing a dictionary pack now refreshes just that row — its version badge and buttons — instead of reloading the whole settings page.</li>\n<li>**The dictionary \"Update\" button only appears when an update is actually available.** An installed pack that is already on the latest version now shows an \"Installed\" state instead of an \"Update\" button that appeared to do nothing when clicked.</li>\n<li>**Excluded IDs and the custom-field whitelist survive a settings round-trip.** These two list settings are now read correctly whether they arrive as a textarea (a manual save) or as an array (applying a setup profile, or importing previously exported settings), so a configured exclude list is no longer silently cleared.</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>**One-click setup profiles.** A new \"Quick setup\" section at the top of the General tab lets a non-technical owner pick the profile closest to their store — electronics & spare parts, auto parts, construction & adhesives, clothing & footwear, a general store, or a content site — and apply the recommended settings in one click. Each profile fills only the handful of settings that actually depend on the store type (model-code splitting, group order, popularity boost, strictness) and adds a small starter set of relevant synonyms; everything else — including appearance — is left untouched, and every setting can still be fine-tuned by hand afterwards. Applying a profile never overwrites the owner's own synonyms or duplicates lines.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**English-language search, on par with Russian.** Ready-made synonym dictionaries now ship for English stores too — electronics parts, auto parts and clothing/footwear, each with US/UK spelling variants (tyre/tire, trousers/pants, sneakers/trainers) — installable in one click from the Relevance tab. English morphology already worked out of the box; this fills the one gap that was Russian-only.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>**Fuller English stop-word list.** Common English function words (pronouns, auxiliaries, prepositions, conjunctions) are no longer indexed, so they stop diluting relevance on English and mixed-language catalogs. Product- and brand-anchoring words (Pro, Air, Max, Off-White, New Balance, price words like \"under/over\") are deliberately kept. Reindex to apply to existing content.</li>\n</ul>"
   }
 }
