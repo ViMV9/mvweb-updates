@@ -1,15 +1,15 @@
 {
   "name": "mvweb-site-optimizer",
-  "version": "1.0.7",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.7.zip",
+  "version": "1.0.8",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.8.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-site-optimizer",
-  "last_updated": "2026-06-26 04:43:43",
+  "last_updated": "2026-08-11 13:07:16",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Импорт настроек и Reset фактически не применялись — форма перезаписывала их.** После успешного AJAX-импорта/сброса опция в БД обновлялась, но поля 11 табов формы оставались со старыми значениями. Следующее нажатие «Сохранить» отправляло форму с прежним содержимым и затирало только что импортированную/сброшенную опцию. Теперь после успеха страница автоматически перезагружается через 1.2 с, и поля перерисовываются из свежей опции. Reset аналогично.</li>\n<li>**Parse error в `class-tab-redirect.php` на legacy-PHP.** Приватный метод `extract_rule_from_post()` объявлял union-возврат `array|WP_Error` (синтаксис PHP 8.0+). При парсинге файла на PHP 7.x — например, через wp-cli с системным PHP-CLI на хостингах с двойным PHP-стэком — это валило весь файл и латентно ломало AJAX вкладки «Редиректы». Заявленный `Requires PHP: 8.0` корректен (на проде 8.0+ всё работает), но wp-cli в окружении с старым CLI-бинарём всё равно цеплял parse error. Return type убран; runtime-проверка результата через `is_wp_error()` сохранена.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Свой robots.txt печатался на сайтах, закрытых от индексации.** Проверка видимости в `MVweb_SO_Tab_Seo::render_robots_txt()` сравнивала `'0' === (string) $public`, что рассчитано на старое поведение ядра. Начиная с WP 6.8 `do_robots()` приводит значение к `bool` (`$public = (bool) get_option( 'blog_public' )`), поэтому при снятой галочке «Попросить поисковые системы не индексировать сайт» в фильтр приходит `false`, а `(string) false` даёт пустую строку — условие никогда не выполнялось. В результате на непубличном сайте отдавался кастомный robots.txt с `Sitemap:` и `Allow`-правилами вместо минимального ядрового. Сравнение заменено на `! $public` — корректно и для строки `'0'` (WP 6.6–6.7), и для `false` (WP 6.8+). На индексацию закрытого сайта дефект не влиял: за неё отвечает `wp_robots_noindex()`, ядро `Disallow: /` в robots.txt не выводит начиная с версий этого диапазона.</li>\n</ul>"
   }
 }
