@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.4.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.4.2.zip",
+  "version": "1.4.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.4.3.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-13 08:44:03",
+  "last_updated": "2026-08-13 12:31:46",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>**Separate colors for the search button and its magnifier.** The submit button's background and its magnifier glyph now have their own color pickers in Appearance → Bar style, independent of the accent color (which keeps driving the live dropdown — prices, links, focus ring). Both inherit the previous look by default, so existing bars are unchanged.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Mobile search bar no longer breaks on narrow screens.** With a plain search bar, the live results now stay readable on phones in both modes: with full-screen search on, the input field stays pinned at the top above the results instead of being hidden behind the overlay; with it off, the inline dropdown drops the desktop-only side preview so the results list keeps the full width instead of being squeezed into a sliver. The icon and text-link trigger modes are unchanged.</li>\n</ul>"
   }
 }
