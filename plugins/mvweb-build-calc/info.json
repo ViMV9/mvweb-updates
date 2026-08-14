@@ -1,15 +1,15 @@
 {
   "name": "mvweb-build-calc",
-  "version": "1.1.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.1.1.zip",
+  "version": "1.1.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-build-calc/mvweb-build-calc-1.1.2.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-06-17 09:50:36",
+  "last_updated": "2026-08-14 13:06:16",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Russian (ru_RU) translations for the Rooms, Plot and Structural hub labels (previously shown in English) and the car-count plural in the one-or-two-car garage calculator.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>`_load_textdomain_just_in_time` notice on every request: calculator discovery moved from `plugins_loaded:20` to `init:0`. Calculator metadata is wrapped in `__()`, and WordPress 6.7+ warns about translations requested before `after_setup_theme`.</li>\n</ul>"
   }
 }
