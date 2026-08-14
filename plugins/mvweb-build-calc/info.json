@@ -8,7 +8,7 @@
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-build-calc",
-  "last_updated": "2026-08-14 13:06:16",
+  "last_updated": "2026-08-14 14:36:25",
   "sections": {
     "changelog": "<h4>Fixed</h4>\n<ul>\n<li>`_load_textdomain_just_in_time` notice on every request: calculator discovery moved from `plugins_loaded:20` to `init:0`. Calculator metadata is wrapped in `__()`, and WordPress 6.7+ warns about translations requested before `after_setup_theme`.</li>\n</ul>"
   }
