@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-17-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-18-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -44,6 +44,7 @@
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.5.1](https://img.shields.io/badge/v1.5.1-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
+| [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 
 ---
@@ -764,6 +765,38 @@
 | 1.0.2 | [mvweb-local-business-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip) |
 | 1.0.1 | [mvweb-local-business-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.1.zip) |
 | 1.0.0 | [mvweb-local-business-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128172; MVweb Telegram Hub
+
+> Уведомления о новых заказах WooCommerce в Telegram — своим сообщением, любому числу получателей, с журналом доставки.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.1+ &bull; WooCommerce</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.4</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-latest.zip"><strong>mvweb-telegram-hub-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Заказы с любого оформления** &mdash; и классическое, и блочное; сообщение уходит в фоне, покупатель не ждёт ответа Telegram
+- **Сколько угодно получателей** &mdash; человек, рабочая группа или канал; каждому доставляется отдельно, сбой у одного не касается остальных
+- **Свой шаблон сообщения** &mdash; шестнадцать подстановок с данными заказа; строка, значения которой пусты, исчезает целиком
+- **Пошаговое подключение** &mdash; карточка показывает, какие из четырёх шагов пройдены, и что осталось сделать
+- **Диагностика до первого заказа** &mdash; проверить получателей, отправить тестовое сообщение, найти чаты, в которых участвует бот
+- **Журнал доставки** &mdash; пишет только сбои и повторы и объясняет обычными словами, что ответил Telegram и что с этим делать
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-telegram-hub-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-1.0.0.zip) |
 
 </details>
 
