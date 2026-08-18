@@ -1,15 +1,15 @@
 {
   "name": "mvweb-object-map",
-  "version": "1.0.6",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-object-map/mvweb-object-map-1.0.6.zip",
+  "version": "1.0.7",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-object-map/mvweb-object-map-1.0.7.zip",
   "requires": "6.4",
   "tested": "6.7",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-object-map",
-  "last_updated": "2026-07-06 10:08:03",
+  "last_updated": "2026-08-18 12:45:02",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>The category filter chips now show a color dot matching each category's</li>\n</ul>"
+    "changelog": "<p>See CHANGELOG.md for details.</p>"
   }
 }
