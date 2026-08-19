@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.5.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.2.zip",
+  "version": "1.5.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.3.zip",
   "requires": "6.4",
   "tested": "7.0.4",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-19 14:11:49",
+  "last_updated": "2026-08-19 15:49:43",
   "sections": {
-    "changelog": "<h4>Performance</h4>\n<ul>\n<li>**Live search is roughly three times faster on a large catalog.** The publish/visibility filter was expressed as an `object_id IN (SELECT ... FROM posts)` subquery in the three heaviest queries (ranking, category counts and their coverage aggregate). MySQL 5.7 materializes such a subquery and then drives the whole query from the posts table, scanning it end to end on every keystroke. The filter is now a primary-key join with an explicit join order, so the index table leads through its term key and each post is fetched by primary key instead. Measured on a 15k-object catalog across twelve real queries: 9.8 s total before, 3.5 s after, with byte-identical results.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**Equally relevant results no longer swap places between identical searches.** The result order was decided by the raw floating-point relevance sum, and floating-point addition is not associative — the same product summed in a different row order differs in the last bits (measured: 9e-16 on scores around 60). That invisible noise outranked the deliberate tie-break (sales, then rating, then ID), so products with an equal score could reorder — or cross the cut-off and drop out of the list entirely — whenever the database happened to read rows in a different order. Relevance is now compared at a sane precision, leaving ties to the tie-break that exists for them.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**New relevance setting «Product type first» (Relevance tab, off by default).** Among matches with equal query coverage, it prefers a product whose title *starts* with what was searched for over one that merely mentions it further along. Catalogs name the thing first and qualify it after, so \"Дисплей iPhone 13\" is a screen while \"Проклейка дисплея iPhone 13\" is an adhesive for one — both match the same words, and plain relevance regularly ranks the accessory first. The reason is inverse document frequency working against a mixed-language catalog: when the modules themselves are listed as \"LCD\" (1510 products) the word \"дисплей\" survives almost only in accessory titles (83 products), which makes it rare and therefore heavy, so the accessory wins on the shopper's own word. Comparison runs on the coverage-group stems, so a synonym counts — a search for \"screen\" recognizes a title that opens with \"LCD\". Titles that open with a brand or an article number never earn the flag, so such catalogs keep their existing order. Measured on a 13k-product parts catalog: 4 of 14 sample queries corrected, the other 10 byte-identical, +13 ms per query.</li>\n</ul>"
   }
 }
