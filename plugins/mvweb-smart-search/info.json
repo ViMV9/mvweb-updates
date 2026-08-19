@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.5.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.1.zip",
+  "version": "1.5.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.2.zip",
   "requires": "6.4",
-  "tested": "6.7",
+  "tested": "7.0.4",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-14 16:03:23",
+  "last_updated": "2026-08-19 14:11:49",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Indexing no longer silently no-ops on clustered databases.** The per-object advisory lock treated \"lock service unavailable\" the same as \"lock held by another writer\" and skipped the write in both cases. On MySQL setups that do not provide user-level locks (Galera / Percona XtraDB Cluster and some managed or proxied hosts) `GET_LOCK` returns NULL rather than 1, so every index write was dropped and the index stayed empty. A NULL result now runs the write unlocked; a genuine conflict (another writer holds the lock) still skips, as intended.</li>\n<li>**Manual and background reindex no longer fight each other.** After a schema upgrade the index rebuilds in the background; clicking \"Reindex everything\" while that was running started a second driver over the same cursor, so the two contended per object and the browser progress bar could stall (showing, for example, a stuck \"500 of N\" while the index read empty). The browser now holds a short lease while its tab drives the loop and the scheduled drain yields to it, so exactly one worker runs at a time — the tab while it is open, the cron once it closes.</li>\n</ul>"
+    "changelog": "<h4>Performance</h4>\n<ul>\n<li>**Live search is roughly three times faster on a large catalog.** The publish/visibility filter was expressed as an `object_id IN (SELECT ... FROM posts)` subquery in the three heaviest queries (ranking, category counts and their coverage aggregate). MySQL 5.7 materializes such a subquery and then drives the whole query from the posts table, scanning it end to end on every keystroke. The filter is now a primary-key join with an explicit join order, so the index table leads through its term key and each post is fetched by primary key instead. Measured on a 15k-object catalog across twelve real queries: 9.8 s total before, 3.5 s after, with byte-identical results.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**Equally relevant results no longer swap places between identical searches.** The result order was decided by the raw floating-point relevance sum, and floating-point addition is not associative — the same product summed in a different row order differs in the last bits (measured: 9e-16 on scores around 60). That invisible noise outranked the deliberate tie-break (sales, then rating, then ID), so products with an equal score could reorder — or cross the cut-off and drop out of the list entirely — whenever the database happened to read rows in a different order. Relevance is now compared at a sane precision, leaving ties to the tie-break that exists for them.</li>\n</ul>"
   }
 }
