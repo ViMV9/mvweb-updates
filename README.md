@@ -34,7 +34,7 @@
 | [**Contact Bar**](#-mvweb-contact-bar) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
-| [**Price Importer**](#-mvweb-price-importer) | ![v1.0.27](https://img.shields.io/badge/v1.0.27-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX/XLS |
+| [**Price Importer**](#-mvweb-price-importer) | ![v1.0.28](https://img.shields.io/badge/v1.0.28-793ea4?style=flat-square) | Импорт каталога WooCommerce из CSV/YML/XLSX/XLS |
 | [**Build Calc**](#-mvweb-build-calc) | ![v1.1.2](https://img.shields.io/badge/v1.1.2-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
 | [**Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.8](https://img.shields.io/badge/v1.0.8-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
@@ -314,9 +314,9 @@
 > Импорт каталога товаров WooCommerce из прайс-листов CSV / YML / XLSX / XLS с поддержкой мультискладов и генерацией YML-фидов для Яндекс.Маркета.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.27</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.28</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+ &bull; WooCommerce</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.4</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-latest.zip"><strong>mvweb-price-importer-latest.zip</strong></a></td></tr>
 </table>
 
@@ -343,7 +343,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.27 (последняя) | [mvweb-price-importer-1.0.27.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.27.zip) |
+| 1.0.28 (последняя) | [mvweb-price-importer-1.0.28.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.28.zip) |
+| 1.0.27 | [mvweb-price-importer-1.0.27.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.27.zip) |
 | 1.0.26 | [mvweb-price-importer-1.0.26.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.26.zip) |
 | 1.0.25 | [mvweb-price-importer-1.0.25.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.25.zip) |
 | 1.0.24 | [mvweb-price-importer-1.0.24.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-importer/mvweb-price-importer-1.0.24.zip) |
