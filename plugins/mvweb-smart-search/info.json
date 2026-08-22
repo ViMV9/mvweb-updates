@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.5.10",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.10.zip",
+  "version": "1.5.11",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.5.11.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-08-22 15:29:36",
+  "last_updated": "2026-08-22 16:22:53",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>**The categories filter offers the level the shopper is actually choosing.** A term's count already includes everything filed beneath it, so a parent listed beside its children repeated them: on a parts catalogue the panel opened with \"Запчасти 971\", \"Дисплей 501\" and \"Сенсорный экран 469\" — the same products under three headings — and the values that narrow anything were pushed down the list or off it. Every value that has a descendant in the same list is now dropped, leaving the deepest categories the query reached; a parent whose children the query never touched keeps its place, since for this result set it is a leaf. Measured on a 13k-product catalogue, \"дисплей\" went from three top rows covering the whole result to ten values that each cut it down (iPhone 91, Fly 69, Huawei 57 …), panel built in 44 ms. Each value now carries its parent underneath it, the way the live dropdown already does — without it the two \"Fly\" branches (69 under touchscreens, 36 under displays) were indistinguishable. More values are fetched than shown so the dropped ancestors do not shorten the list.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>**A deep category names both ends of its branch, and the middle opens on a \"?\".** One parent was enough while catalogues were two levels deep; past that it stopped locating anything — \"Копия\" under \"Запчасти → Apple → Модуля\" reads as a parent that says nothing about the section it belongs to, and three sibling values labelled \"Модуля\" are as indistinguishable as no label at all. The line now names the two ends the shopper navigates by, the top section and the immediate parent (\"Аксессуары › Защитные стекла\"), and hides the levels between them behind a \"?\" that opens the whole path with the category itself in bold (\"Аксессуары › Защита дисплея › Защитные стекла › **Huawei**\"). Two levels are the whole branch already, so nothing is hidden and no \"?\" is drawn — a shallow catalogue looks exactly as it did. The path opens on hover and on click, closes on the next click anywhere, and never ticks the filter it sits in. Long names wrap between levels and the \"?\" stays glued to the last word instead of dropping onto a line of its own. Measured on a 13k-product catalogue: no extra database queries at all — the terms are already in cache from the matcher — and about 2 ms on a warm panel.</li>\n</ul>"
   }
 }
