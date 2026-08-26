@@ -46,6 +46,7 @@
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
 | [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
+| [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 
 ---
 
@@ -814,6 +815,37 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-telegram-hub-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128230; MVweb Stock Labels
+
+> Остаток WooCommerce словами вместо точной цифры &mdash; «Мало», «Достаточно», «Много» с вашими диапазонами и цветом.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+ &bull; WooCommerce 11.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-stock-labels/mvweb-stock-labels-latest.zip"><strong>mvweb-stock-labels-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Четыре группы остатка** &mdash; нет в наличии, малый, средний и большой; у каждой свой диапазон, формулировка и цвет
+- **Товары и вариации** &mdash; подмена работает и на карточке, и при выборе варианта, без перезагрузки страницы
+- **Надстройка, а не подмена настроек** &mdash; плагин следует формату отображения запасов WooCommerce и молчит там, где магазин и так не показывает количество
+- **Заказ не затронут** &mdash; покупатель по-прежнему не купит больше, чем есть на складе
+- **Понятный статус в админке** &mdash; страница настроек показывает, что текущие настройки магазина означают для плагина
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-stock-labels-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.0.zip) |
 
 </details>
 
