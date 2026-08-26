@@ -8,7 +8,7 @@
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-stock-labels",
-  "last_updated": "2026-08-26 16:49:34",
+  "last_updated": "2026-08-26 16:56:17",
   "sections": {
     "changelog": "<h4>Changed</h4>\n<ul>\n<li>Only the group wording is coloured now: the label wraps it in `<span class=\"mvweb-sl__value\">`, and the surrounding template text (\"In stock:\") keeps the colour and the weight the theme gives it. The bold toggle follows the same span.</li>\n<li>Because the theme styles the outer element and the plugin the inner one, a theme rule that colours its own stock line no longer competes with the plugin for the same `color`.</li>\n</ul>"
   }
