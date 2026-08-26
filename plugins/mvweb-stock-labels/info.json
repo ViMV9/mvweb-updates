@@ -1,15 +1,15 @@
 {
   "name": "mvweb-stock-labels",
-  "version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.0.zip",
+  "version": "1.0.1",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.1.zip",
   "requires": "7.0",
   "tested": "7.1",
   "requires_php": "8.2",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-stock-labels",
-  "last_updated": "2026-08-26 05:40:51",
+  "last_updated": "2026-08-26 14:13:41",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Initial scaffold.</li>\n<li>WooCommerce guard: admin notice and early exit when WooCommerce is not active.</li>\n<li>Settings model: defaults, group picking and reading of the WooCommerce stock display format.</li>\n<li>Settings API registration with range validation (reversed and overlapping ranges are rejected).</li>\n<li>Settings page on the MVweb Admin UI Kit: group ranges, wording, colours, output template and weight toggle.</li>\n<li>Status block telling the admin what the current WooCommerce stock display format means for the plugin.</li>\n<li>Front-end replacement through the `woocommerce_get_availability` filter, covering simple products and variations.</li>\n<li>Label styles on CSS variables, colours printed inline from the settings.</li>\n<li>Help tab: quick start, how it works and four FAQ entries.</li>\n<li>Russian translation (62 strings).</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Tab navigation on the settings page: the script now matches the UI Kit markup.</li>\n<li>Build script paths pointed at files left over from another plugin.</li>\n<li>Settings notices were registered under a slug the page never rendered, so neither validation errors nor the \"Settings saved\" notice appeared.</li>\n<li>An empty colour field silently stored an empty string instead of falling back to the group default.</li>\n<li>An unknown value of the WooCommerce stock display format is now treated as \"no quantity printed\", matching wc_format_stock_for_display().</li>\n<li>A template with a lone percent sign or an extra specifier made sprintf() throw on every product page render. Such a template is now rejected on save, and the front end falls back to the bare label instead of taking the page down.</li>\n<li>Values read from the option on the front end are sanitized again, guarded by is_scalar(): an option written straight into the database could otherwise print \"Array\" as the label, or take the product page down when it held an object.</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Compatibility with the WooCommerce features \"custom_order_tables\" (HPOS) and \"cart_checkout_blocks\" is now declared, so WooCommerce no longer lists the plugin as incompatible.</li>\n<li>Public helper `mvweb_sl_label_html( $product, $extra_class )` for themes that print the stock line with their own code instead of wc_get_stock_html() — the availability filter cannot reach those. It returns an empty string when there is nothing to replace, so the theme keeps its own output.</li>\n</ul>"
   }
 }
