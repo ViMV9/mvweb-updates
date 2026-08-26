@@ -1,15 +1,15 @@
 {
   "name": "mvweb-stock-labels",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.2.zip",
   "requires": "7.0",
   "tested": "7.1",
   "requires_php": "8.2",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-stock-labels",
-  "last_updated": "2026-08-26 14:13:41",
+  "last_updated": "2026-08-26 16:46:09",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Compatibility with the WooCommerce features \"custom_order_tables\" (HPOS) and \"cart_checkout_blocks\" is now declared, so WooCommerce no longer lists the plugin as incompatible.</li>\n<li>Public helper `mvweb_sl_label_html( $product, $extra_class )` for themes that print the stock line with their own code instead of wc_get_stock_html() — the availability filter cannot reach those. It returns an empty string when there is nothing to replace, so the theme keeps its own output.</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Only the group wording is coloured now: the label wraps it in `<span class=\"mvweb-sl__value\">`, and the surrounding template text (\"In stock:\") keeps the colour and the weight the theme gives it. The bold toggle follows the same span.</li>\n<li>Because the theme styles the outer element and the plugin the inner one, a theme rule that colours its own stock line no longer competes with the plugin for the same `color`.</li>\n</ul>"
   }
 }
