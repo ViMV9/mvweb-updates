@@ -29,7 +29,7 @@
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
 | [**Related Posts**](#-mvweb-related-posts) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Похожие записи со взвешенным подбором и микроразметкой |
-| [**Memcached**](#-mvweb-memcached) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
+| [**Memcached**](#-mvweb-memcached) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
 | [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
 | [**Child Pages**](#-mvweb-child-pages) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
@@ -92,7 +92,7 @@
 > Подключает WordPress к Memcached на любом хостинге: проверяет доступность, тестирует соединение и включает постоянный кеш объектов одной кнопкой.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.2</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-latest.zip"><strong>mvweb-memcached-latest.zip</strong></a></td></tr>
@@ -109,14 +109,15 @@
 - **Не роняет сайт** &mdash; при отказе сервера кеш тихо отступает в пределах запроса
 - **Чужой кеш не трогает** &mdash; предупреждает, если `object-cache.php` уже занят другим плагином
 - **Здоровье сайта и WP-CLI** &mdash; статус в отчёте WordPress и команды `status`, `test`, `enable`, `disable`, `flush`
-- **Мультиязычность** &mdash; английский и русский (149 строк)
+- **Мультиязычность** &mdash; английский и русский (151 строка)
 
 <details>
 <summary><strong>Все релизы</strong></summary>
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.1 (последняя) | [mvweb-memcached-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-1.0.1.zip) |
+| 1.0.2 (последняя) | [mvweb-memcached-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-1.0.2.zip) |
+| 1.0.1 | [mvweb-memcached-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-1.0.1.zip) |
 | 1.0.0 | [mvweb-memcached-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-1.0.0.zip) |
 
 </details>
