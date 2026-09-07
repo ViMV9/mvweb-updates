@@ -1,0 +1,15 @@
+{
+  "name": "mvweb-related-posts",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-related-posts/mvweb-related-posts-1.0.0.zip",
+  "requires": "7.0",
+  "tested": "7.1",
+  "requires_php": "8.2",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-related-posts",
+  "last_updated": "2026-09-07 05:32:14",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Weighted relevance scoring across six factors: shared categories, tags, custom taxonomy terms, title words, content words, freshness.</li>\n<li>Russian stemmer for text similarity, ported from MVweb Smart Links.</li>\n<li>Own index tables (`mvweb_rp_tokens`, `mvweb_rp_index`) with background WP Cron indexing, dirty queue and a transient lock.</li>\n<li>Settings page in MVweb Hub with General, Algorithm, Design, Index and Help tabs on Admin UI Kit v2.</li>\n<li>Three weight presets plus per-factor sliders with an editable number field.</li>\n<li>Editor metabox: pinned posts, exclusions, per-post block toggle, \"never suggest\" flag and score debugging.</li>\n<li>Output as automatic after-content block, `[mvweb_related_posts]` shortcode, `mvweb_rp_related()` / `mvweb_rp_get_related()` PHP functions and a sidebar widget.</li>\n<li>Three overridable templates: cards grid, list with thumbnail, plain links.</li>\n<li>Image cascade (featured image → first content image → bundled placeholder), own `mvweb_rp_thumb` size, CSS aspect-ratio cropping, lazy loading.</li>\n<li>Bundled neutral SVG placeholder for cards without an image.</li>\n<li>Asset versioning by `filemtime()`, so an updated stylesheet or script busts the browser cache immediately.</li>\n<li>Optional JSON-LD `ItemList` markup.</li>\n<li>Rendered block cache: object cache with transient fallback, versioned invalidation.</li>\n<li>Guard against a duplicate block when MVweb Smart Links renders its own.</li>\n<li>English and Russian translations.</li>\n</ul>"
+  }
+}
