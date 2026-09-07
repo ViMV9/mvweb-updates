@@ -1,15 +1,15 @@
 {
   "name": "mvweb-site-optimizer",
-  "version": "1.0.8",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.8.zip",
+  "version": "1.0.9",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.9.zip",
   "requires": "6.4",
-  "tested": "6.7",
+  "tested": "7.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-site-optimizer",
-  "last_updated": "2026-08-11 13:07:16",
+  "last_updated": "2026-09-07 05:44:46",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Свой robots.txt печатался на сайтах, закрытых от индексации.** Проверка видимости в `MVweb_SO_Tab_Seo::render_robots_txt()` сравнивала `'0' === (string) $public`, что рассчитано на старое поведение ядра. Начиная с WP 6.8 `do_robots()` приводит значение к `bool` (`$public = (bool) get_option( 'blog_public' )`), поэтому при снятой галочке «Попросить поисковые системы не индексировать сайт» в фильтр приходит `false`, а `(string) false` даёт пустую строку — условие никогда не выполнялось. В результате на непубличном сайте отдавался кастомный robots.txt с `Sitemap:` и `Allow`-правилами вместо минимального ядрового. Сравнение заменено на `! $public` — корректно и для строки `'0'` (WP 6.6–6.7), и для `false` (WP 6.8+). На индексацию закрытого сайта дефект не влиял: за неё отвечает `wp_robots_noindex()`, ядро `Disallow: /` в robots.txt не выводит начиная с версий этого диапазона.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**Страница MVweb Hub ломалась по вёрстке, когда её отрисовывала копия из этого плагина.** Хаб выводит обёртку `<div class=\"wrap mvweb-hub mvweb-settings\">` и тем самым попадает под двухколоночный grid `.mvweb-settings`, рассчитанный на страницу настроек с сайдбаром: hero и сетка карточек уезжали в узкую первую колонку, заголовки секций — во вторую. В UI Kit для этого есть правило `.mvweb-settings.mvweb-hub { display: block; }`, но в релиз 1.0.8 оно не попало — фикс появился в бойлерплейте уже после сборки версии. `admin/css/admin.css` синхронизирован с эталоном, `admin.min.css` пересобран. Хаб рендерится копией класса того плагина, который выигрывает загрузку, поэтому поломка проявлялась только там, где побеждал Site Optimizer.</li>\n</ul>"
   }
 }
