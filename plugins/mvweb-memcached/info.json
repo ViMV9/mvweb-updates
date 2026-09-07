@@ -1,15 +1,15 @@
 {
   "name": "mvweb-memcached",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-memcached/mvweb-memcached-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-memcached/mvweb-memcached-1.0.2.zip",
   "requires": "7.0",
   "tested": "7.1",
   "requires_php": "8.2",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-memcached",
-  "last_updated": "2026-09-07 12:52:13",
+  "last_updated": "2026-09-07 14:22:54",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Entries stored without an explicit lifetime now expire after an hour instead of a day. A cache flush does not delete keys, it starts a new generation, so the previous ones stayed in memory until they expired: on a shared 128 MB server dozens of dead generations piled up, filled the memory and evicted live data. An hour is enough for the garbage to clear itself.</li>\n<li>Starting a new generation now writes the counter in the format the legacy `memcache` driver reads. It was stored raw, the drop-in treated it as a miss and restarted counting from one — which brought old keys back into reach.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Saving the settings form no longer starts a new key generation. It rewrites the drop-in on every save, and the generation change threw away the working cache and left the previous keys as garbage until they expired — even when nothing in the form had changed. A new generation now starts only when the cache is switched on after being off, which is the case it was written for.</li>\n<li>`install()` reports it when the server refuses to store the new generation: the file is written and the cache is on, but the site may serve data cached before the cache was switched off until it is flushed.</li>\n<li>The outdated-drop-in check now compares the list of non-persistent groups, not just the file version. On a site where the cache was enabled before WooCommerce was activated, `coupons` stayed a persistent group and `wp_cache_flush_group( 'coupons' )` from WooCommerce flushed the whole site cache.</li>\n<li>Changing the server address, port or key prefix starts a new key generation. While the site was writing elsewhere, edits in the database left the previous server's keys untouched, so switching back served data cached before the move.</li>\n<li>The drop-in is no longer reported as outdated right after it has been updated. The comparison reads the configuration WordPress loaded at the start of the request, which the rewrite left behind, so the warning kept showing until the next page load.</li>\n<li>A cache switched on without a fresh key generation now raises the outage banner with a flush button instead of a single message the admin can miss, and `wp mvweb-mc enable` prints it as a warning rather than a success.</li>\n</ul>"
   }
 }
