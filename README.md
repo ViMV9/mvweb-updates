@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-19-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-20-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -28,6 +28,7 @@
 
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
+| [**Related Posts**](#-mvweb-related-posts) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Похожие записи со взвешенным подбором и микроразметкой |
 | [**Memcached**](#-mvweb-memcached) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
 | [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
@@ -48,6 +49,41 @@
 | [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
+
+---
+
+## &#128279; MVweb Related Posts
+
+> Показывает под записью действительно близкие по теме материалы: релевантность считается по шести признакам, с учётом русских словоформ.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-related-posts/mvweb-related-posts-latest.zip"><strong>mvweb-related-posts-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Шесть признаков релевантности** &mdash; общие рубрики, метки и термины своих таксономий, слова заголовка и текста, свежесть записи
+- **Готовые профили** &mdash; блог, каталог услуг, строгая тематичность; каждый признак настраивается ползунком отдельно
+- **Русская морфология** &mdash; записи совпадают, даже когда термин стоит в разных падежах и числах
+- **Видно, почему подобралось** &mdash; в редакторе записи показан список совпадений и вклад каждого признака
+- **Ручной контроль** &mdash; закрепить нужные записи, исключить лишние, спрятать блок на отдельной странице
+- **Четыре способа вывода** &mdash; автоматически после текста, шорткодом, функцией в шаблоне или виджетом
+- **Три варианта вёрстки** &mdash; карточки сеткой, список с миниатюрой, простые ссылки; любой переопределяется в теме
+- **Микроразметка ItemList** &mdash; связи между материалами в машиночитаемом виде, отключается одним тумблером
+- **Быстрый фронтенд** &mdash; подбор считается в фоне, готовый блок кэшируется
+- **Мультиязычность** &mdash; английский и русский
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-related-posts-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-related-posts/mvweb-related-posts-1.0.0.zip) |
+
+</details>
 
 ---
 
