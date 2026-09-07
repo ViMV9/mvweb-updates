@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-18-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-19-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -28,6 +28,7 @@
 
 | Плагин | Версия | Описание |
 |:-------|:------:|:---------|
+| [**Memcached**](#-mvweb-memcached) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
 | [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
 | [**Child Pages**](#-mvweb-child-pages) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
@@ -47,6 +48,41 @@
 | [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
+
+---
+
+## &#9889; MVweb Memcached
+
+> Подключает WordPress к Memcached на любом хостинге: проверяет доступность, тестирует соединение и включает постоянный кеш объектов одной кнопкой.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-latest.zip"><strong>mvweb-memcached-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Два расширения** &mdash; работает и с новым `memcached`, и со старым `memcache`, которое стоит на массовых хостингах
+- **Пошаговая проверка** &mdash; расширение PHP, соединение с сервером, запись и чтение: видно, на каком шаге обрыв
+- **Автопоиск параметров** &mdash; перебирает типовые адреса, порты и Unix-сокеты, если хостинг их не сообщил
+- **Включение одной кнопкой** &mdash; ставит и снимает `object-cache.php`, откат в один клик
+- **Безопасно для магазина** &mdash; корзины, сессии, купоны и объекты заказов в постоянный кеш не попадают
+- **Изоляция на общем сервере** &mdash; ключи сайта помечены уникальным префиксом, сброс не задевает соседей
+- **Не роняет сайт** &mdash; при отказе сервера кеш тихо отступает в пределах запроса
+- **Чужой кеш не трогает** &mdash; предупреждает, если `object-cache.php` уже занят другим плагином
+- **Здоровье сайта и WP-CLI** &mdash; статус в отчёте WordPress и команды `status`, `test`, `enable`, `disable`, `flush`
+- **Мультиязычность** &mdash; английский и русский (149 строк)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-memcached-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-memcached/mvweb-memcached-1.0.0.zip) |
+
+</details>
 
 ---
 
