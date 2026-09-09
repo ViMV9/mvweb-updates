@@ -1,15 +1,15 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.5.zip",
+  "version": "1.6.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.6.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-09-05 13:51:19",
+  "last_updated": "2026-09-09 09:59:45",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**The popular-searches list no longer offers words someone was still typing.** The list is read from the search log, and the log holds a row per distinct query text — which includes every prefix a shopper types on the way to a word. Those prefixes collect hits beside real queries and surface as suggestions: on a 12 500-product shop three of the ten suggestions on offer were \"ipho\", \"iph\" and a half-typed model. A row is now dropped when a more popular row starts with it and the next character there is a letter — a word cut mid-way. Anything else ends the word and the longer query is simply a different one: a space (\"чехол\" under \"чехол iphone\"), punctuation (\"чехол\" under \"чехол-книжка\"), and a digit, which is the case worth naming — model numbers grow by digits, so \"a51\" under \"a515\" is two real models of one line and hiding the shorter would hide a product the shop sells. Two limits come with it, both deliberate: a word form built by adding letters cannot be told from a truncation by shape alone, so a singular goes under a more popular plural; and a number abandoned mid-way stays. Both leave one extra suggestion, where the alternative loses a real one. Measured on that shop's log: nine of the hundred most searched phrases were half-written, none of the single-word queries behind them were touched. The search itself is not affected in any way, only what the empty search box offers, and it costs no extra query and no scheduled task: the list already reads the log behind an hourly cache, and the row that unmasks a half-written word is by definition more popular, so it is already in the same slice — 1.20 ms before against 1.34 ms now, once an hour.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>**A Plus written on the modifier is now read as one.** The variant rule knew the sign only where it sits on the number (\"J6+\"), and a catalogue writes it on the modifier just as readily — \"Redmi Note 12 Pro+\", \"Tab S10 FE+\", \"Realme 9 Pro+\" — where it went unseen and the Pro+ parts became indistinguishable from the Pro ones. They are different devices whose displays and frames do not interchange, and the damage fell on the plain query: measured on a 12 460-product parts shop, \"redmi note 12 pro\" returned eight of its first ten as Pro+ parts, \"realme 9 pro\" three of ten; with the sign read they return one and none, and the Pro+ parts stay on the page, just below. 154 of that shop's titles carry the sign this way. The query side reads it through a space as well, because that is how it is typed — of the plus-bearing queries in the shop's log one was written \"realme 12 pro +\" — while a title keeps a spaced \"+\" as the list of what else is in the box (\"Realme 9 Pro + OCA\", 1 168 titles), which is why the two sides read it differently. What may stand before the sign stays narrow — a digit or a known modifier — and what may follow it narrower still: a letter or a digit behind the sign means it belongs to a code, so \"68+E\" and \"HB444199EBC+ (Honor 4C)\" are left alone. A modifier the list does not carry (\"S6 Edge+\") is still invisible; the `mvweb_ss_model_qualifiers` filter takes catalogue-specific ones.</li>\n</ul>"
   }
 }
