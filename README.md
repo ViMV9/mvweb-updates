@@ -32,7 +32,7 @@
 | [**Memcached**](#-mvweb-memcached) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
 | [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**Data Export**](#-mvweb-data-export) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
-| [**Child Pages**](#-mvweb-child-pages) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
+| [**Child Pages**](#-mvweb-child-pages) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
 | [**Contact Bar**](#-mvweb-contact-bar) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
 | [**Pop-Up**](#-mvweb-pop-up) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Доступный попап с вызовом по шорткоду |
 | [**Sealant Calc**](#-mvweb-sealant-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Калькулятор расхода герметика и клея |
@@ -220,16 +220,16 @@
 > Вывод дочерних страниц в виде стилизованного списка с помощью шорткода.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.2</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-latest.zip"><strong>mvweb-child-pages-latest.zip</strong></a></td></tr>
 </table>
 
 ### Возможности
 
 - **Шорткод `[mvweb-cp]`** &mdash; без атрибутов выводит дочерние текущей страницы, с `id` &mdash; дочерние любой другой
-- **Атрибуты шорткода** &mdash; id, limit, orderby, order, show_image, class, image_size, exclude, columns
+- **Атрибуты шорткода** &mdash; id, limit, orderby, order, show_image, class, image_size, exclude, include, columns
 - **Число колонок** &mdash; авто, 2, 3 или 4 карточки в ряд; на планшетах и телефонах сетка перестраивается сама
 - **Размер изображения** &mdash; на всю ширину карточки, готовый квадрат или свои ширина и высота; обрезка средствами CSS, без создания новых миниатюр на сервере
 - **Миниатюры** &mdash; изображения записей; заглушка для страниц без миниатюры выбирается в настройках через медиабиблиотеку
@@ -246,7 +246,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.0 (последняя) | [mvweb-child-pages-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.1.0.zip) |
+| 1.1.1 (последняя) | [mvweb-child-pages-1.1.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.1.1.zip) |
+| 1.1.0 | [mvweb-child-pages-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.1.0.zip) |
 | 1.0.7 | [mvweb-child-pages-1.0.7.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.7.zip) |
 | 1.0.6 | [mvweb-child-pages-1.0.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.6.zip) |
 | 1.0.5 | [mvweb-child-pages-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-child-pages/mvweb-child-pages-1.0.5.zip) |
