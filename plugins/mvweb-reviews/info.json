@@ -1,0 +1,16 @@
+{
+  "name": "mvweb-reviews",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-reviews/mvweb-reviews-1.0.0.zip",
+  "requires": "7.0",
+  "tested": "7.1",
+  "requires_php": "8.2",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-reviews",
+  "details_url": "https://mvweb.ru/plugins/mvweb-reviews",
+  "last_updated": "2026-09-12 05:09:35",
+  "sections": {
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Review post type `mvweb_review` (private, no public URLs) with the `mvweb_review_group` taxonomy.</li>\n<li>Review fields: rating, city, ordered service, work photos, company reply, pinning, source and source URL.</li>\n<li>Moderation through the native pending/publish statuses, bulk actions and a pending counter in the menu.</li>\n<li>Visitor form shortcode `[mvweb_review_form]` with honeypot, minimum fill time, per-IP limit, optional contact, photo upload and consent checkbox.</li>\n<li>Output shortcode `[mvweb_reviews]` with grid, carousel, list and accordion layouts and per-block attribute overrides.</li>\n<li>Clamped review text with a “Read in full” toggle, initials placeholder instead of a missing photo, work photo lightbox on `<dialog>`, carousel on CSS scroll-snap, AJAX “Show more”.</li>\n<li>Summary rating block and JSON-LD output attached to the Yoast SEO or Rank Math organization node.</li>\n<li>Import of reviews pasted from a map service, CSV import and CSV export.</li>\n<li>Settings page on MVweb Admin UI Kit with General, Appearance, Form, Markup, Import and Help tabs.</li>\n<li>Shortcode button for the classic editor.</li>\n<li>Transient cache for rendered blocks, cleared on any review or settings change.</li>\n<li>Russian translation.</li>\n<li>License check against the update server: a signed `revoked`/`domain_mismatch` verdict closes the settings page and blocks new imports; a missing key, an unreachable server or an unsigned verdict never block anything. License key field and status on the Help tab, `MVWEB_LICENSE_KEY` in `wp-config.php` takes priority over it.</li>\n</ul>"
+  }
+}
