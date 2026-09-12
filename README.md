@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-20-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-21-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -49,6 +49,7 @@
 | [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
+| [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 
 ---
 
@@ -939,6 +940,38 @@
 | 1.0.2 (последняя) | [mvweb-stock-labels-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.2.zip) |
 | 1.0.1 | [mvweb-stock-labels-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.1.zip) |
 | 1.0.0 | [mvweb-stock-labels-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-stock-labels/mvweb-stock-labels-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128172; MVweb Reviews
+
+> Отзывы клиентов на сайте: приём через форму, модерация перед публикацией и вывод в четырёх раскладках.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reviews/mvweb-reviews-latest.zip"><strong>mvweb-reviews-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Четыре раскладки вывода** &mdash; сетка карточек, карусель, лента в одну колонку и компактный аккордеон; каждая настраивается прямо в шорткоде
+- **Форма приёма отзывов** &mdash; с защитой от спама, необязательной загрузкой фото и очередью модерации: ничего не публикуется само
+- **Содержимое карточки** &mdash; оценка, город, что заказывали, фото работ и ответ компании; каждый элемент отключается
+- **Группы отзывов** &mdash; отдельные наборы под разные услуги или разделы сайта
+- **Перенос отзывов** &mdash; вставка текста, скопированного с карт, плюс импорт и экспорт CSV
+- **Разметка JSON-LD** &mdash; описывает компанию для ИИ-поиска, встраивается в граф Yoast или Rank Math
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-reviews-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reviews/mvweb-reviews-1.0.0.zip) |
 
 </details>
 
