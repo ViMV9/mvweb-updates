@@ -1,15 +1,16 @@
 {
   "name": "mvweb-local-business",
-  "version": "1.0.5",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.5.zip",
+  "version": "1.0.6",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-local-business/mvweb-local-business-1.0.6.zip",
   "requires": "6.4",
-  "tested": "7.0.1",
+  "tested": "7.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-local-business",
-  "last_updated": "2026-08-12 11:10:47",
+  "details_url": "https://mvweb.ru/plugins/mvweb-local-business",
+  "last_updated": "2026-09-14 10:20:14",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>The \"Organization name\" and \"Logo\" fields did nothing while Yoast or Rank Math was active: their values were kept over ours, and Yoast falls back to the site title when its own organization name is empty — so the markup carried the site title, not the name entered here. Everything typed into the plugin now wins over the SEO plugin's graph; only the home URL is left to it.</li>\n<li>Filled-in fields that never reached the markup: office/floor (now appended to the street line), additional phone numbers, WhatsApp and Viber (now `contactPoint`), Telegram and MAX (now `sameAs` profile links), payment methods (`paymentAccepted`), languages spoken (`availableLanguage` on the contact point), and the video (`subjectOf` → `VideoObject`).</li>\n<li>The \"On-site visits\" toggle had no effect at all: the service area was written to the markup even with the toggle off. The area now follows the toggle.</li>\n<li>With Rank Math active the page carried two organization nodes sharing one `@id` — exactly the duplicate this plugin exists to prevent. Rank Math keys its graph by role (`publisher`), not by type, so the node was never found and ours was appended alongside it. The node is now looked up by `@id`, which also survives a key rename in a future Rank Math release. Verified on Rank Math 1.0.276.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>The markup is emitted on every page except 404, instead of the homepage only. It described the company, not the page, and with an SEO plugin active it already appeared site-wide — the two paths now behave the same.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>The MVweb Hub page lost its layout: the hub markup carries `.mvweb-settings` to activate the UI Kit, and that class also brings the settings-page grid (a narrow sidebar column plus content), so the hero and the section headings were dealt into two columns and overlapped. The hub now stacks as a single column.</li>\n<li>Installed plugin cards on the hub showed the untranslated description from the plugin file header. The card now uses the translated description each plugin registers with the hub, falling back to the header for inactive plugins.</li>\n</ul>\n<h4>Added</h4>\n<ul>\n<li>Bundled MVweb License client (1.1.0): the plugin identifies the site to the update service, and the settings screen closes if the license for the site is revoked or issued to another domain. Everything already published keeps working.</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Bundled MVweb Hub class updated to 2.6.3.</li>\n<li>MVweb UI Kit (`admin.css`) synced with the reference: the hub stacks without the settings-page grid, checkboxes no longer inherit WordPress core's negative top margin, disabled buttons and links look disabled.</li>\n<li>Tested up to WordPress 7.1.</li>\n</ul>"
   }
 }
