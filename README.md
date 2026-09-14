@@ -39,7 +39,7 @@
 | [**Price Importer**](#-mvweb-price-importer) | ![v1.2.0](https://img.shields.io/badge/v1.2.0-793ea4?style=flat-square) | Импорт каталога WooCommerce из прайс-листа или складской системы |
 | [**Build Calc**](#-mvweb-build-calc) | ![v1.1.2](https://img.shields.io/badge/v1.1.2-793ea4?style=flat-square) | Библиотека строительных калькуляторов по шорткоду |
 | [**Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
-| [**Site Optimizer**](#-mvweb-site-optimizer) | ![v1.0.10](https://img.shields.io/badge/v1.0.10-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
+| [**Site Optimizer**](#-mvweb-site-optimizer) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
 | [**Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 | [**FAQ**](#-mvweb-faq) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
@@ -545,10 +545,10 @@
 
 ## &#9889; MVweb Site Optimizer
 
-> Модульный оптимизатор WordPress: 10 функциональных вкладок чистки `<head>`, SEO, безопасности, производительности и режима обслуживания.
+> Модульный оптимизатор WordPress: 11 функциональных вкладок чистки `<head>`, SEO, безопасности, производительности, порога индексации и режима обслуживания.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.10</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.0</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-latest.zip"><strong>mvweb-site-optimizer-latest.zip</strong></a></td></tr>
@@ -564,17 +564,19 @@
 - **Расширенные настройки** &mdash; кастомные сниппеты в `<head>`/`<body>`, нейтральные ошибки логина, cookie-баннер (152-ФЗ), отключение ревизий или лимит, заголовки `Last-Modified` / `If-Modified-Since` с поддержкой 304, passive event listeners, удаление `?ver=` у CSS/JS
 - **Менеджер редиректов** &mdash; 301/302 с режимами exact и regex, AJAX add/update/delete/toggle
 - **IndexNow** &mdash; автоотправка изменений публичных записей в Яндекс и Bing, виртуальный ключевой файл, дебаунс, журнал последних 200 отправок
+- **Порог индексации** &mdash; недозаполненные товары и категории WooCommerce не попадают в индекс и sitemap, пока их не дозаполнят; режим предпросмотра, работа с Yoast SEO, Rank Math, All in One SEO и без SEO-плагина
 - **Режим обслуживания** &mdash; HTTP 503 + кастомная страница + Retry-After + whitelist IP для тестирования
 - **Аварийное отключение** &mdash; константа `MVWEB_SO_DISABLE` в `wp-config.php` отключает плагин без захода в админку
 - **Встроенная справка** &mdash; вкладка Help с Quick Start и FAQ (18 вопросов)
-- **Мультиязычность** &mdash; английский и русский (i18n ready, 454 строки)
+- **Мультиязычность** &mdash; английский и русский (i18n ready, 551 строка)
 
 <details>
 <summary><strong>Все релизы</strong></summary>
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.10 (последняя) | [mvweb-site-optimizer-1.0.10.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.10.zip) |
+| 1.1.0 (последняя) | [mvweb-site-optimizer-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.1.0.zip) |
+| 1.0.10 | [mvweb-site-optimizer-1.0.10.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.10.zip) |
 | 1.0.9 | [mvweb-site-optimizer-1.0.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.9.zip) |
 | 1.0.8 | [mvweb-site-optimizer-1.0.8.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.8.zip) |
 | 1.0.7 | [mvweb-site-optimizer-1.0.7.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.0.7.zip) |
