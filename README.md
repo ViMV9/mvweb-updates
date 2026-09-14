@@ -47,7 +47,7 @@
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
 | [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
-| [**Local Business**](#-mvweb-local-business) | ![v1.0.5](https://img.shields.io/badge/v1.0.5-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
+| [**Local Business**](#-mvweb-local-business) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 
@@ -850,9 +850,9 @@
 > Разметка Schema.org LocalBusiness для Google и Яндекса — данные компании, часы работы, встраивание в граф Yoast/Rank Math без дублей.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.5</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.6</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.3</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-latest.zip"><strong>mvweb-local-business-latest.zip</strong></a></td></tr>
 </table>
 
@@ -870,7 +870,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.5 (последняя) | [mvweb-local-business-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.5.zip) |
+| 1.0.6 (последняя) | [mvweb-local-business-1.0.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.6.zip) |
+| 1.0.5 | [mvweb-local-business-1.0.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.5.zip) |
 | 1.0.4 | [mvweb-local-business-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.4.zip) |
 | 1.0.3 | [mvweb-local-business-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.3.zip) |
 | 1.0.2 | [mvweb-local-business-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-local-business/mvweb-local-business-1.0.2.zip) |
