@@ -1,15 +1,16 @@
 {
   "name": "mvweb-reg-domain-filter",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-reg-domain-filter/mvweb-reg-domain-filter-1.0.2.zip",
   "requires": "6.4",
-  "tested": "6.7",
+  "tested": "7.1",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-reg-domain-filter",
-  "last_updated": "2026-07-09 13:27:41",
+  "details_url": "https://mvweb.ru/plugins/mvweb-reg-domain-filter",
+  "last_updated": "2026-09-14 08:20:02",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Bundle the update-checker library so GitHub auto-updates work on client installs.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Sync the bundled MVweb Plugins menu loader with the current shared version (2.6.x) to prevent a fatal `Cannot redeclare class MVweb_Menu` on activation when another MVweb plugin's menu hub is already active.</li>\n</ul>"
   }
 }
