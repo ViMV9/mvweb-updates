@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.10",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.10.zip",
+  "version": "1.6.11",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.11.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-09-15 05:45:48",
+  "last_updated": "2026-09-16 09:38:05",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>**Updates now go through the studio's update gateway.** The package carries the licence client (`includes/class-mvweb-license.php`) and hands it the update checker, the same way the other studio plugins do. The site itself is unaffected in every case; what the gateway decides is whether the next update can be downloaded and, for a domain whose access has been withdrawn, whether the settings page opens.</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>**The icon and word display modes no longer flash a full search field while the page loads.** Every rule of the collapsed look keyed on a state class that `public.js` adds on `DOMContentLoaded`, and the script loads in the footer — so the first frames painted the complete bar, with its background, border, category selector and in-field magnifier, and it then shrank to the icon with a width transition, shifting the header around it. Both facts the collapsed look depends on are known without the script: the mode is printed as a class on the form and the breakpoint is fixed at 782px. The collapsed rules are now also stated on the mode classes under the matching media query, so the magnifier (or the word) is drawn collapsed from the first frame, and the JS state class keeps driving only the expand-on-tap logic. Measured with `public.js` blocked, at 390, 600 and 782px: form, field and button boxes are identical to the scripted page, and in a flex header the neighbouring element no longer moves — before the fix it jumped from x=445 to x=105 at 390px. At 783px and wider the bar mode is unchanged, and tap-to-expand opens the overlay with the focused field as before.</li>\n</ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Категории в выпадающих подсказках больше не предлагают разделы без нужной запчасти. Выдача товаров отбор по типу проходила и раньше, а категории — нет: запрос вроде «дисплей для такой-то модели» выводил рядом чехлы, защитные стёкла и задние крышки, потому что название модели встречается и в них. Теперь категория остаётся в подсказках, только если в ней действительно есть названная запчасть. Число рядом с категорией не изменилось — это по-прежнему количество товаров, которое откроется по клику; меняется только состав категорий. Запрос, который тип запчасти не называет, работает как прежде.\n</li></ul>"
   }
 }
