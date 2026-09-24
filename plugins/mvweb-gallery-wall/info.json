@@ -1,15 +1,16 @@
 {
   "name": "mvweb-gallery-wall",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.4.zip",
   "requires": "6.4",
-  "tested": "6.7",
+  "tested": "7.1.2",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-gallery-wall",
-  "last_updated": "2026-07-08 16:49:05",
+  "details_url": "https://mvweb.ru/plugins/mvweb-gallery-wall",
+  "last_updated": "2026-09-24 17:05:41",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Built-in lightbox did not work in the Ticker layout — clicking a photo did nothing. Ticker slides now render the lightbox trigger just like the other layouts (when the built-in lightbox is enabled and the photo has no custom link), so a click opens the photo and lets you browse the whole gallery. Clicks on the duplicated slides (created for the seamless loop) map back to the correct original photo.</li>\n<li>Per-collection boolean toggles (\"Pause on hover\", \"Lightbox\", \"Show collection title\") ignored an unchecked box and fell back to the global default. A native `false` meta is stored as an empty string, which the settings merge treated as \"unset\" and replaced with the global default — so turning a toggle off in a collection had no effect when the global default was on (most visibly, the ticker kept pausing on hover). These booleans are now stored as explicit `'1'`/`'0'` strings, so \"off\" survives the merge. Existing collections that were toggled off before this fix need to be re-saved once.</li>\n</ul>"
+    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Settings page: checkboxes (\"Lightbox\", \"Lazy loading\", \"Pause on hover\", etc.) sat a few pixels above their row label. The label is nudged down to line up with text inputs, but checkbox fields were not — they now get the same top offset and stay on the first text line, so every row lines up. (Shared admin UI Kit fix.)\n</li></ul>"
   }
 }
