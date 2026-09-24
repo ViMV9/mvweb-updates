@@ -41,7 +41,7 @@
 | [**Fireplace Calc**](#-mvweb-fireplace-calc) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Библиотека калькуляторов для каминов, печей, дымоходов и барбекю по шорткоду |
 | [**Site Optimizer**](#-mvweb-site-optimizer) | ![v1.1.2](https://img.shields.io/badge/v1.1.2-793ea4?style=flat-square) | Модульный оптимизатор WordPress: head/body cleanup, SEO, безопасность, performance, maintenance |
 | [**Custom Functions**](#-mvweb-custom-functions) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Выполнение пользовательского PHP-кода из админки с проверкой синтаксиса и защитой от ошибок |
-| [**Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
+| [**Gallery Wall**](#-mvweb-gallery-wall) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Фотогалерея с макетами «сетка», «кирпичная кладка», «выравнивание», «бегущая лента» и лайтбоксом |
 | [**FAQ**](#-mvweb-faq) | ![v1.0.4](https://img.shields.io/badge/v1.0.4-793ea4?style=flat-square) | Блоки «вопрос-ответ» с микроразметкой Schema.org из классического редактора |
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.6.15](https://img.shields.io/badge/v1.6.15-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
@@ -648,9 +648,9 @@
 > Гибкая фотогалерея с четырьмя макетами, встроенным лайтбоксом и фильтром по тегам.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.3</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.4</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.2</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-latest.zip"><strong>mvweb-gallery-wall-latest.zip</strong></a></td></tr>
 </table>
 
@@ -671,7 +671,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.3 (последняя) | [mvweb-gallery-wall-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.3.zip) |
+| 1.0.4 (последняя) | [mvweb-gallery-wall-1.0.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.4.zip) |
+| 1.0.3 | [mvweb-gallery-wall-1.0.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.3.zip) |
 | 1.0.2 | [mvweb-gallery-wall-1.0.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.2.zip) |
 | 1.0.1 | [mvweb-gallery-wall-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.1.zip) |
 | 1.0.0 | [mvweb-gallery-wall-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-gallery-wall/mvweb-gallery-wall-1.0.0.zip) |
