@@ -1,15 +1,16 @@
 {
   "name": "mvweb-data-export",
-  "version": "1.0.7",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-data-export/mvweb-data-export-1.0.7.zip",
+  "version": "1.0.8",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-data-export/mvweb-data-export-1.0.8.zip",
   "requires": "6.6",
-  "tested": "6.7",
+  "tested": "7.1.2",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-data-export",
-  "last_updated": "2026-06-29 07:35:54",
+  "details_url": "https://mvweb.ru/plugins/mvweb-data-export",
+  "last_updated": "2026-09-24 17:41:20",
   "sections": {
-    "changelog": "<h4>Added</h4>\n<ul>\n<li>Автообновление прайса средствами WordPress (WP-Cron) — выбор «Выключено / Каждые 6 часов / Раз в сутки» прямо в настройках, без серверного cron хостинга (использует существующий action `mvweb_de_regen_price` + кастомное расписание `mvweb_de_6h`)</li>\n</ul>\n<h4>Changed</h4>\n<ul>\n<li>Серверный cron упрощён: показывается отдельная команда `wget` (без префикса расписания) для визуальных cron-панелей хостинга (напр. Beget) + полная строка crontab отдельно; пояснение, что в визуальной панели вставляется только команда, а расписание задаётся её полями</li>\n<li>Раздел обновления переоформлен: «Автоматическое обновление» (WP-Cron) в форме настроек, серверный cron — как необязательная альтернатива</li>\n</ul>\n<h4>Fixed</h4>\n<ul>\n<li>Деактивация/удаление: снимается корректное cron-событие `mvweb_de_regen_price` (ранее очищался несуществующий хук)</li>\n</ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Проверка лицензионного ключа при обновлениях\n</li></ul>\n<h4>Changed</h4>\n<ul>\n<li>Обновлён общий административный интерфейс\n</li></ul>"
   }
 }
