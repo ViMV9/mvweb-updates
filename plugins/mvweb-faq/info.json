@@ -1,15 +1,16 @@
 {
   "name": "mvweb-faq",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.4.zip",
   "requires": "6.4",
-  "tested": "6.7",
+  "tested": "7.1.2",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-faq",
-  "last_updated": "2026-07-08 15:11:20",
+  "details_url": "https://mvweb.ru/plugins/mvweb-faq",
+  "last_updated": "2026-09-24 14:58:10",
   "sections": {
-    "changelog": "<h4>Fixed</h4>\n<ul>\n<li>Keep FAQ answers exactly as written: the shortcode content is excluded from</li>\n<li>Cleaner FAQ schema text: HTML entities and non-breaking spaces are normalized</li>\n</ul>"
+    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Drop the deprecated <code>wp_targeted_link_rel()</code> call on answer links. Links that open in a new tab get their <code>noopener</code> behavior from the browser, so the call is no longer needed and stops the deprecation notice on WordPress 6.7+.\n</li></ul>"
   }
 }
