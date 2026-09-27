@@ -1,7 +1,7 @@
 {
   "name": "mvweb-fireplace-calc",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-fireplace-calc/mvweb-fireplace-calc-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-fireplace-calc/mvweb-fireplace-calc-1.0.2.zip",
   "requires": "6.4",
   "tested": "7.1.2",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-fireplace-calc",
   "details_url": "https://mvweb.ru/plugins/mvweb-fireplace-calc",
-  "last_updated": "2026-09-24 15:27:56",
+  "last_updated": "2026-09-27 10:10:33",
   "sections": {
-    "changelog": "<h4>Изменено</h4>\n<ul>\n<li>Синхронизация с общим MVweb Admin UI Kit и MVweb Hub, добавлена проверка лицензии.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Возвращён русский перевод подписей полей и единиц измерения во всех 36 калькуляторах.\n</li>\n<li>Устранено предупреждение WordPress о слишком ранней загрузке перевода плагина.\n</li></ul>"
   }
 }
