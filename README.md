@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-21-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-23-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -50,6 +50,7 @@
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
+| [**Media Control**](#-mvweb-media-control) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Контроль медиатеки: лишние размеры, WebP, очистка старых файлов и поиск неиспользуемых картинок |
 
 ---
 
@@ -1009,6 +1010,39 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-reviews-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-reviews/mvweb-reviews-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128444;&#65039; MVweb Media Control
+
+> Контроль над медиатекой: лишние размеры не создаются, новые картинки сохраняются в WebP, а старые файлы и неиспользуемые картинки убираются безопасно.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-media-control/mvweb-media-control-latest.zip"><strong>mvweb-media-control-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Только нужные размеры** &mdash; отключённые размеры не создаются для новых загрузок, но остаются в списке WordPress, поэтому тема, конструкторы страниц и WooCommerce не ломаются
+- **Видно, кто создаёт размер** &mdash; в таблице указана тема или плагин, который добавил каждый размер, и отметка, что он используется на сайте
+- **WebP при загрузке** &mdash; JPEG, PNG и HEIC сохраняются в WebP вместе со всеми размерами; качество сжатия выбирается на вкладке, оригинал можно удалять
+- **Очистка старых размеров** &mdash; в два шага, с отменой до удаления файлов: сначала размеры убираются из данных картинок, затем удаляются файлы
+- **Перевод медиатеки в WebP** &mdash; в фоне небольшими порциями, с оценкой перед запуском, паузой и заменой ссылок в содержимом сайта
+- **Поиск неиспользуемых картинок** &mdash; находит картинки без ссылок, спорные случаи выносит в отдельный список; выбранные уходят в корзину на 30 дней, откуда их можно вернуть
+- **WP-CLI** &mdash; те же операции из командной строки
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-media-control-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-media-control/mvweb-media-control-1.0.0.zip) |
 
 </details>
 
