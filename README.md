@@ -51,7 +51,7 @@
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 | [**Media Control**](#-mvweb-media-control) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Контроль медиатеки: лишние размеры, WebP, очистка старых файлов и поиск неиспользуемых картинок |
-| [**Browser Push**](#-mvweb-browser-push) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Push-уведомления сотрудникам магазина о новых заказах WooCommerce прямо в браузере |
+| [**Browser Push**](#-mvweb-browser-push) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Push-уведомления сотрудникам магазина о новых заказах WooCommerce прямо в браузере |
 
 ---
 
@@ -1054,7 +1054,7 @@
 > Сотрудники магазина получают уведомление в браузере о каждом новом заказе WooCommerce. Клик открывает заказ в админке. Без сторонних сервисов и подписок.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+ &bull; WooCommerce 11.0+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.2</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-latest.zip"><strong>mvweb-browser-push-latest.zip</strong></a></td></tr>
@@ -1075,7 +1075,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-browser-push-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-1.0.0.zip) |
+| 1.0.1 (последняя) | [mvweb-browser-push-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-1.0.1.zip) |
+| 1.0.0 | [mvweb-browser-push-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-1.0.0.zip) |
 
 </details>
 
