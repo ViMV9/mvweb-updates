@@ -1,0 +1,16 @@
+{
+  "name": "mvweb-browser-push",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-browser-push/mvweb-browser-push-1.0.0.zip",
+  "requires": "7.0",
+  "tested": "7.1.2",
+  "requires_php": "8.2",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/plugins/mvweb-browser-push",
+  "details_url": "https://mvweb.ru/plugins/mvweb-browser-push",
+  "last_updated": "2026-10-06 09:27:25",
+  "sections": {
+    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Push-уведомление сотрудникам магазина о каждом новом заказе: приходит в браузер, клик открывает заказ в админке\n</li>\n<li>Работает без сторонних сервисов и платных подписок\n</li>\n<li>Каждый сотрудник включает уведомления сам в своём профиле, проверяет их кнопкой «Отправить тест» и видит список своих устройств\n</li>\n<li>Уведомления получают роли, отмеченные в настройках (по умолчанию администраторы и менеджеры магазина)\n</li>\n<li>Отправка идёт в фоне: оформление заказа не замедляется. Если уведомление не дошло, плагин повторит попытку\n</li>\n<li>При смене пароля все сохранённые браузеры пользователя отключаются\n</li>\n<li>Страница диагностики и справка в разделе «MVweb Hub → Browser Push»\n</li>\n<li>Русский перевод\n</li></ul>"
+  }
+}
