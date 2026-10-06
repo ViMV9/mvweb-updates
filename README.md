@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-23-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-24-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -51,6 +51,7 @@
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 | [**Media Control**](#-mvweb-media-control) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Контроль медиатеки: лишние размеры, WebP, очистка старых файлов и поиск неиспользуемых картинок |
+| [**Browser Push**](#-mvweb-browser-push) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Push-уведомления сотрудникам магазина о новых заказах WooCommerce прямо в браузере |
 
 ---
 
@@ -1043,6 +1044,38 @@
 | Версия | Скачать |
 |:-------|:--------|
 | 1.0.0 (последняя) | [mvweb-media-control-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-media-control/mvweb-media-control-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128276; MVweb Browser Push
+
+> Сотрудники магазина получают уведомление в браузере о каждом новом заказе WooCommerce. Клик открывает заказ в админке. Без сторонних сервисов и подписок.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+ &bull; WooCommerce 11.0+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.2</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-latest.zip"><strong>mvweb-browser-push-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Уведомление о каждом новом заказе** &mdash; номер, сумма и число позиций; работает и в классическом, и в блочном оформлении заказа
+- **Без сторонних сервисов** &mdash; никаких внешних аккаунтов, ключей и платных подписок
+- **Каждый включает сам** &mdash; сотрудник включает уведомления в своём профиле, проверяет их кнопкой «Отправить тест» и видит список своих устройств
+- **Нужные роли** &mdash; уведомления получают роли, отмеченные в настройках (по умолчанию администраторы и менеджеры магазина)
+- **Не тормозит оформление** &mdash; отправка идёт в фоне, при сбое плагин повторяет попытку
+- **Безопасность** &mdash; в уведомлении нет имён и адресов покупателей, при смене пароля сохранённые браузеры пользователя отключаются
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [mvweb-browser-push-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-browser-push/mvweb-browser-push-1.0.0.zip) |
 
 </details>
 
