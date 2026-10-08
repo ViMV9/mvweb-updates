@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.17",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.17.zip",
+  "version": "1.6.18",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.18.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-08 04:21:51",
+  "last_updated": "2026-10-08 14:53:25",
   "sections": {
-    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Запрос вида «задняя камера iPhone 13» больше не показывает задние крышки. Крышка совпадала с запросом одним словом «задняя», а «камеру» находила в хвосте названия («вырез под камеру»), и крышки занимали почти всю выдачу. Теперь такие товары убираются, если в каталоге есть товар, который называется так же, как запрос. Если такого товара нет, выдача не сужается: «заднее стекло iPhone 13» по-прежнему показывает крышки. Категории в подсказках следуют за выдачей.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Запрос в одной форме слова находит названия в другой: «кормушка» находит «набор кормушек», «кошка» находит «для кошек», «мешок» находит «мешки». Раньше такие формы не считались одним словом, и часть товаров не находилась.\n</li></ul>"
   }
 }
