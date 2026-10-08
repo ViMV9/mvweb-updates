@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-24-793ea4?style=for-the-badge" alt="Плагины"></a>
+  <a href="#-темы"><img src="https://img.shields.io/badge/темы-1-793ea4?style=for-the-badge" alt="Темы"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
   <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
@@ -52,6 +53,13 @@
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 | [**Media Control**](#-mvweb-media-control) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Контроль медиатеки: лишние размеры, WebP, очистка старых файлов и поиск неиспользуемых картинок |
 | [**Browser Push**](#-mvweb-browser-push) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Push-уведомления сотрудникам магазина о новых заказах WooCommerce прямо в браузере |
+
+
+## &#127912; Темы
+
+| Тема | Версия | Описание |
+|:-----|:------:|:---------|
+| [**Brand Market**](#-brand-market) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
 
 ---
 
@@ -1086,6 +1094,39 @@
 
 </details>
 
+
+---
+
+## &#128722; Brand Market
+
+> Светлая фотографичная тема для небольшого интернет-магазина: фото главнее текста, мягкая форма, скупой акцент. Страницы собираются из готовых блоков, каталог работает на WooCommerce или без него.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-latest.zip"><strong>brand-market-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Конструктор страниц** &mdash; 33 блока, у каждого пять видов: слайдер предложений, баннеры, ленты товаров, категории, преимущества, отзывы, вопросы и ответы, прайс, форма заявки
+- **Готовые наборы страниц** &mdash; Главная магазина, страница услуги, «О компании», «Контакты»
+- **Каталог** &mdash; на WooCommerce или на своём типе записей: фильтры, виды «Карточки» и «Таблица», розничная и оптовая цена, заказ в один клик
+- **Магазин целиком** &mdash; корзина, оформление заказа, личный кабинет, избранное, сравнение, боковая корзина
+- **Шапка и подвал из элементов** &mdash; выбор города и филиалы, сайдбары и виджеты, услуги, портфолио, блог
+- **Оформление** &mdash; пять палитр, светлая и тёмная схемы, цвета кнопок, ссылок, полей и бейджей
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [brand-market-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.0.zip) |
+
+</details>
+
 ---
 
 ## &#128295; Установка
@@ -1095,6 +1136,8 @@
 3. Загрузите `.zip` файл и нажмите **Установить**
 4. Активируйте плагин
 5. Будущие обновления будут появляться автоматически в **Консоль &rarr; Обновления**
+
+Тема ставится так же: **Внешний вид &rarr; Темы &rarr; Добавить &rarr; Загрузить тему**, затем **Активировать**.
 
 ---
 
