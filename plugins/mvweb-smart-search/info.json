@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.16",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.16.zip",
+  "version": "1.6.17",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.17.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-07 15:45:00",
+  "last_updated": "2026-10-08 04:21:51",
   "sections": {
-    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Товар, у которого в названии сразу за типом стоит типоразмер — «SSD M.2 NVMe накопитель…», «USB 3.0 флэш-накопитель…» — снова находится по этому типу. В 1.6.15 поиск читал такое название как «устройство плюс модель» и терял слово, которым товар ищут: запрос «ssd» показывал не все накопители. Теперь название считается начатым с устройства только если устройство отделено от запчасти тире, как в «iPhone 5 - Кнопка Home».\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Запрос вида «задняя камера iPhone 13» больше не показывает задние крышки. Крышка совпадала с запросом одним словом «задняя», а «камеру» находила в хвосте названия («вырез под камеру»), и крышки занимали почти всю выдачу. Теперь такие товары убираются, если в каталоге есть товар, который называется так же, как запрос. Если такого товара нет, выдача не сужается: «заднее стекло iPhone 13» по-прежнему показывает крышки. Категории в подсказках следуют за выдачей.\n</li></ul>"
   }
 }
