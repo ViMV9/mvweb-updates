@@ -2,10 +2,10 @@
   <img src=".github/logo.png" alt="MVweb Logo" width="200">
 </p>
 
-<h1 align="center">MVweb &mdash; WordPress-плагины</h1>
+<h1 align="center">MVweb &mdash; плагины и темы для WordPress</h1>
 
 <p align="center">
-  <strong>Плагины для WordPress от студии <a href="https://mvweb.ru">MVweb</a></strong><br>
+  <strong>Плагины и темы для WordPress от студии <a href="https://mvweb.ru">MVweb</a></strong><br>
   Репозиторий автообновлений
 </p>
 
@@ -13,15 +13,15 @@
   <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-24-793ea4?style=for-the-badge" alt="Плагины"></a>
   <a href="#-темы"><img src="https://img.shields.io/badge/темы-1-793ea4?style=for-the-badge" alt="Темы"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
-  <img src="https://img.shields.io/badge/WordPress-6.4+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.4+">
-  <img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+">
+  <img src="https://img.shields.io/badge/WordPress-проверено_7.1+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="Проверено на WordPress 7.1+">
+  <img src="https://img.shields.io/badge/PHP-проверено_8.3+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Проверено на PHP 8.3+">
   <img src="https://img.shields.io/badge/лицензия-GPL--2.0+-green?style=for-the-badge" alt="GPL-2.0+">
 </p>
 
 ---
 
-Этот репозиторий содержит метаданные обновлений и релизные ZIP-архивы плагинов MVweb.
-После установки плагины получают автоматические обновления прямо через панель WordPress &mdash; так же, как плагины из официального каталога.
+Этот репозиторий содержит метаданные обновлений и релизные ZIP-архивы плагинов и тем MVweb.
+После установки плагины и темы получают автоматические обновления прямо через панель WordPress &mdash; так же, как из официального каталога.
 
 ---
 
@@ -1131,7 +1131,7 @@
 
 ## &#128295; Установка
 
-1. Скачайте последний `.zip` нужного плагина по ссылкам выше
+1. Скачайте последний `.zip` нужного плагина или темы по ссылкам выше
 2. В админке WordPress перейдите в **Плагины &rarr; Добавить новый &rarr; Загрузить плагин**
 3. Загрузите `.zip` файл и нажмите **Установить**
 4. Активируйте плагин
@@ -1143,8 +1143,8 @@
 
 ## &#128260; Автообновления
 
-Все плагины MVweb поддерживают автоматические обновления через панель управления WordPress.
-После установки новые версии обнаруживаются автоматически и устанавливаются в один клик &mdash; так же, как плагины из официального каталога WordPress.
+Все плагины и темы MVweb поддерживают автоматические обновления через панель управления WordPress.
+После установки новые версии обнаруживаются автоматически и устанавливаются в один клик &mdash; так же, как из официального каталога WordPress.
 
 ---
 
@@ -1152,9 +1152,11 @@
 
 | | Минимум | Рекомендуется |
 |:--|:--------|:------------|
-| WordPress | 6.4+ | 6.7+ |
-| PHP | 8.0+ | 8.2+ |
+| WordPress | 6.4+ | 7.1+ |
+| PHP | 8.0+ | 8.3+ |
 | MySQL | 5.7+ | 8.0+ |
+
+Минимальные версии у пакетов разные &mdash; точные требования указаны в карточке каждого плагина и темы.
 
 ---
 
@@ -1167,7 +1169,8 @@
 
 ## &#128196; Лицензия
 
-Все плагины распространяются под лицензией [GPL-2.0+](https://www.gnu.org/licenses/gpl-2.0.html).
+Код плагинов и тем распространяется под лицензией [GPL-2.0+](https://www.gnu.org/licenses/gpl-2.0.html).
+Автообновления и поддержка предоставляются по ключу студии MVweb.
 
 ---
 
