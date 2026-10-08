@@ -1,16 +1,16 @@
 {
   "name": "mvweb-faq",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.0.4.zip",
+  "version": "1.1.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-faq/mvweb-faq-1.1.0.zip",
   "requires": "6.4",
-  "tested": "7.1.2",
+  "tested": "7.1.3",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-faq",
   "details_url": "https://mvweb.ru/plugins/mvweb-faq",
-  "last_updated": "2026-09-24 14:58:10",
+  "last_updated": "2026-10-08 05:26:36",
   "sections": {
-    "changelog": "<h4>Changed</h4>\n<ul>\n<li>Drop the deprecated <code>wp_targeted_link_rel()</code> call on answer links. Links that open in a new tab get their <code>noopener</code> behavior from the browser, so the call is no longer needed and stops the deprecation notice on WordPress 6.7+.\n</li></ul>"
+    "changelog": "<h4>Added</h4>\n<ul>\n<li>Accordion icon choice: ten presets (plus to minus, plus to cross, chevrons, arrows, triangles). Each icon turns when an answer opens.\n</li>\n<li>Icon button: optional circle, square or rounded square background behind the icon, with its own background color.\n</li></ul>\n<h4>Changed</h4>\n<ul>\n<li>General tab: design options are grouped in one \"Design\" block — theme styles toggle, icon, button shape, colors, then fonts. Open/close options live in a separate \"Behavior\" block.\n</li></ul>\n<h4>Fixed</h4>\n<ul>\n<li>Turning on \"Use theme styles\" no longer resets the icon color and font settings to defaults on save.\n</li></ul>"
   }
 }
