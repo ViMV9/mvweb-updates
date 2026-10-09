@@ -47,7 +47,7 @@
 | [**Smart Search**](#-mvweb-smart-search) | ![v1.6.18](https://img.shields.io/badge/v1.6.18-793ea4?style=flat-square) | Единый поиск по сайту: живая выпадашка по товарам, записям и страницам, WooCommerce, морфология, аналитика |
 | [**Object Map**](#-mvweb-object-map) | ![v1.0.7](https://img.shields.io/badge/v1.0.7-793ea4?style=flat-square) | Каталог объектов на интерактивной карте Яндекса: метки, кластеры, фильтр, карточки с фото и характеристиками |
 | [**Registration Domain Filter**](#-mvweb-registration-domain-filter) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Ограничение регистрации по доменной зоне e-mail: белый список разрешённых зон |
-| [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Уведомления о новых заказах WooCommerce в Telegram: свой шаблон, любое число чатов, журнал доставки |
+| [**Telegram Hub**](#-mvweb-telegram-hub) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Сайт и Telegram: уведомления о заказах команде и покупателю, новые записи в канал, вход через Telegram |
 | [**Local Business**](#-mvweb-local-business) | ![v1.0.6](https://img.shields.io/badge/v1.0.6-793ea4?style=flat-square) | Разметка Schema.org LocalBusiness для Google и Яндекса: адрес, часы, встраивание в граф Yoast/Rank Math без дублей, сканер главной |
 | [**Stock Labels**](#-mvweb-stock-labels) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Остаток WooCommerce словами вместо цифры: «Мало», «Достаточно», «Много» с настраиваемыми диапазонами и цветом |
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
@@ -933,12 +933,12 @@
 
 ## &#128172; MVweb Telegram Hub
 
-> Уведомления о новых заказах WooCommerce в Telegram — своим сообщением, любому числу получателей, с журналом доставки.
+> Связывает сайт с Telegram: уведомления о заказах команде и покупателю, новые записи в канал и вход через Telegram на витрине.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
-<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.1+ &bull; WooCommerce</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0.4</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.1+ &bull; WooCommerce — для уведомлений о заказах</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-latest.zip"><strong>mvweb-telegram-hub-latest.zip</strong></a></td></tr>
 </table>
 
@@ -950,6 +950,9 @@
 - **Пошаговое подключение** &mdash; карточка показывает, какие из четырёх шагов пройдены, и что осталось сделать
 - **Диагностика до первого заказа** &mdash; проверить получателей, отправить тестовое сообщение, найти чаты, в которых участвует бот
 - **Журнал доставки** &mdash; пишет только сбои и повторы и объясняет обычными словами, что ответил Telegram и что с этим делать
+- **Уведомления покупателю** &mdash; покупатель подключает Telegram на странице заказа или в личном кабинете и получает статусы своих заказов
+- **Новые записи в канал** &mdash; анонс с оформлением статьи, картинкой и кнопкой «Читать на сайте»; работает и без магазина
+- **Вход через Telegram** &mdash; кнопка на витрине для покупателей и читателей, учётная запись создаётся в один шаг
 - **Мультиязычность** &mdash; английский и русский (i18n ready)
 
 <details>
@@ -957,7 +960,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-telegram-hub-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-1.0.0.zip) |
+| 1.1.0 (последняя) | [mvweb-telegram-hub-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-1.1.0.zip) |
+| 1.0.0 | [mvweb-telegram-hub-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-telegram-hub/mvweb-telegram-hub-1.0.0.zip) |
 
 </details>
 
