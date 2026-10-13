@@ -1,0 +1,16 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/journal/journal-1.0.0.zip",
+  "requires": "7.0",
+  "tested": "7.1",
+  "requires_php": "8.2",
+  "author": "MVweb",
+  "author_homepage": "https://mvweb.ru",
+  "homepage": "https://mvweb.ru/themes/journal",
+  "details_url": "https://vimv9.github.io/mvweb-updates/themes/journal/",
+  "last_updated": "2026-10-13 17:04:00",
+  "sections": {
+    "changelog": "<p>Журнал для сайта с полезными статьями и множеством рубрик: удобное чтение и переход от статьи к статье.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Пять видов у каждой страницы и блока: статья, рубрика, автор, поиск, блоки Главной и колонка выбираются в настройках.\n</li>\n<li>Статья для чтения: оглавление, врезки, «Статья полезна?», блок автора, «Читайте также».\n</li>\n<li>«Самое читаемое» за день, неделю, месяц или год.\n</li>\n<li>Готовые страницы: пять вариантов Главной, «О журнале», «Связаться».\n</li>\n<li>Подписка на соцсети и рассылку любого плагина.\n</li>\n<li>Шесть палитр, пять пар шрифтов, светлая и тёмная схемы.\n</li></ul>"
+  }
+}
