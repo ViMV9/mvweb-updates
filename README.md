@@ -59,7 +59,7 @@
 
 | Тема | Версия | Описание |
 |:-----|:------:|:---------|
-| [**Brand Market**](#-brand-market) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
+| [**Brand Market**](#-brand-market) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
 
 ---
 
@@ -1109,7 +1109,7 @@
 > Светлая фотографичная тема для небольшого интернет-магазина: фото главнее текста, мягкая форма, скупой акцент. Страницы собираются из готовых блоков, каталог работает на WooCommerce или без него.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.0.1</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-latest.zip"><strong>brand-market-latest.zip</strong></a></td></tr>
@@ -1130,7 +1130,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [brand-market-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.0.zip) |
+| 1.0.1 (последняя) | [brand-market-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.1.zip) |
+| 1.0.0 | [brand-market-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.0.zip) |
 
 </details>
 
