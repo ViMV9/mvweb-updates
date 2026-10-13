@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#%EF%B8%8F-плагины"><img src="https://img.shields.io/badge/плагины-24-793ea4?style=for-the-badge" alt="Плагины"></a>
-  <a href="#-темы"><img src="https://img.shields.io/badge/темы-1-793ea4?style=for-the-badge" alt="Темы"></a>
+  <a href="#-темы"><img src="https://img.shields.io/badge/темы-2-793ea4?style=for-the-badge" alt="Темы"></a>
   <a href="https://mvweb.ru"><img src="https://img.shields.io/badge/сайт-mvweb.ru-14161b?style=for-the-badge" alt="Сайт"></a>
   <img src="https://img.shields.io/badge/WordPress-проверено_7.1+-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="Проверено на WordPress 7.1+">
   <img src="https://img.shields.io/badge/PHP-проверено_8.3+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Проверено на PHP 8.3+">
@@ -60,6 +60,7 @@
 | Тема | Версия | Описание |
 |:-----|:------:|:---------|
 | [**Brand Market**](#-brand-market) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
+| [**Journal**](#-journal) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Тема журнала для сайта с полезными статьями и множеством рубрик: удобное чтение, оглавление, «Самое читаемое», подписка |
 
 ---
 
@@ -1133,6 +1134,39 @@
 |:-------|:--------|
 | 1.0.1 (последняя) | [brand-market-1.0.1.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.1.zip) |
 | 1.0.0 | [brand-market-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.0.0.zip) |
+
+</details>
+
+---
+
+## &#128214; Journal
+
+> Журнал для сайта с полезными статьями и множеством рубрик: удобное чтение и переход от статьи к статье. Спокойная типографика, светлая и тёмная схемы, шесть палитр.
+
+<table>
+<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
+<tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/themes/journal/journal-latest.zip"><strong>journal-latest.zip</strong></a></td></tr>
+</table>
+
+### Возможности
+
+- **Статья для чтения** &mdash; пять видов, оглавление, врезки, «Статья полезна?», блок автора, «Читайте также»
+- **«Самое читаемое»** &mdash; за день, неделю, месяц или год, в блоках и виджетах
+- **Готовые страницы** &mdash; пять вариантов Главной, «О журнале», «Связаться»
+- **Пять видов у страниц и блоков** &mdash; рубрика, автор, поиск, 404, блоки Главной и колонка выбираются в настройщике
+- **Шапка** &mdash; мега-меню, «Темы дня», объявление над шапкой
+- **Подписка** &mdash; соцсети и рассылка любого плагина
+- **Оформление** &mdash; шесть палитр, пять пар шрифтов, светлая и тёмная схемы
+- **Мультиязычность** &mdash; английский и русский (i18n ready)
+
+<details>
+<summary><strong>Все релизы</strong></summary>
+
+| Версия | Скачать |
+|:-------|:--------|
+| 1.0.0 (последняя) | [journal-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/journal/journal-1.0.0.zip) |
 
 </details>
 
