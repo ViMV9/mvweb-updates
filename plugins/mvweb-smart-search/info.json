@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.18",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.18.zip",
+  "version": "1.6.19",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.19.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-08 14:53:25",
+  "last_updated": "2026-10-14 15:23:29",
   "sections": {
-    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Запрос в одной форме слова находит названия в другой: «кормушка» находит «набор кормушек», «кошка» находит «для кошек», «мешок» находит «мешки». Раньше такие формы не считались одним словом, и часть товаров не находилась.\n</li></ul>"
+    "changelog": "<h4>Изменено</h4>\n<ul>\n<li>Число значений в фильтре на странице результатов больше не ограничено тридцатью. Если в настройке «Значений в фильтре» поставить 0 или оставить поле пустым, панель покажет все категории и бренды, где нашлись товары.\n</li></ul>"
   }
 }
