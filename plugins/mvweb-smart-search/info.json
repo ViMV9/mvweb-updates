@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.20",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.20.zip",
+  "version": "1.6.21",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.21.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-18 15:53:59",
+  "last_updated": "2026-10-18 19:51:37",
   "sections": {
-    "changelog": "<h4>Изменено</h4>\n<ul>\n<li>Профиль «Контентный сайт / блог» выключает настройку «Оставлять только названный тип товара». На сайте без магазина она принимала первое слово названия за тип, и по фамилии человека находились только те, у кого фамилия стоит в названии первой.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>В живом поиске группы и вкладки своих типов записей подписаны их названиями, например «Бойцы» или «Турниры». Раньше все они назывались «Другое».\n</li>\n<li>Список «Профиль каталога» показывает последний применённый профиль. Раньше после применения или сохранения настроек в нём снова стоял первый пункт, хотя выбранный профиль уже действовал.\n</li></ul>"
+    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Тема или другой плагин могут дописывать свои поля в результаты живого поиска и задавать цвет фона под миниатюрой и под большой картинкой в панели справа. Например, прозрачный логотип показывается на фирменном цвете своей лиги или бренда.\n</li></ul>"
   }
 }
