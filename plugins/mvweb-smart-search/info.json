@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.19",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.19.zip",
+  "version": "1.6.20",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.20.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-14 15:23:29",
+  "last_updated": "2026-10-18 15:53:59",
   "sections": {
-    "changelog": "<h4>Изменено</h4>\n<ul>\n<li>Число значений в фильтре на странице результатов больше не ограничено тридцатью. Если в настройке «Значений в фильтре» поставить 0 или оставить поле пустым, панель покажет все категории и бренды, где нашлись товары.\n</li></ul>"
+    "changelog": "<h4>Изменено</h4>\n<ul>\n<li>Профиль «Контентный сайт / блог» выключает настройку «Оставлять только названный тип товара». На сайте без магазина она принимала первое слово названия за тип, и по фамилии человека находились только те, у кого фамилия стоит в названии первой.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>В живом поиске группы и вкладки своих типов записей подписаны их названиями, например «Бойцы» или «Турниры». Раньше все они назывались «Другое».\n</li>\n<li>Список «Профиль каталога» показывает последний применённый профиль. Раньше после применения или сохранения настроек в нём снова стоял первый пункт, хотя выбранный профиль уже действовал.\n</li></ul>"
   }
 }
