@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.2",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.2.zip",
+  "version": "1.1.3",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.3.zip",
   "requires": "7.0",
   "tested": "7.1.3",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-10-19 08:34:17",
+  "last_updated": "2026-10-19 10:02:00",
   "sections": {
-    "changelog": "<p>Удобнее настройка цветов и шапки, ровнее текст страниц с сайдбаром.</p>\n<h4>Изменено</h4>\n<ul>\n<li>У каждого поля цвета в настройках есть кнопка «Сбросить»: она возвращает исходный цвет одним нажатием.\n</li>\n<li>Смена вида шапки сразу расставляет строки шапки так, как задумано у этого вида; дальше их можно поправить.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Текст страницы с сайдбаром занимает всю ширину колонки до сайдбара.\n</li></ul>"
+    "changelog": "<p>Аккуратнее смотрится поиск в полосе меню.</p>\n<h4>Исправлено</h4>\n<ul>\n<li>Поле поиска в полосе меню больше не упирается в её края и подстраивается под высоту, заданную в настройках поиска.\n</li></ul>"
   }
 }
