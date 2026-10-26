@@ -59,7 +59,7 @@
 
 | Тема | Версия | Описание |
 |:-----|:------:|:---------|
-| [**Brand Market**](#-brand-market) | ![v1.1.5](https://img.shields.io/badge/v1.1.5-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
+| [**Brand Market**](#-brand-market) | ![v1.1.6](https://img.shields.io/badge/v1.1.6-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
 | [**Journal**](#-journal) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Тема журнала для сайта с полезными статьями и множеством рубрик: удобное чтение, оглавление, «Самое читаемое», подписка |
 
 ---
@@ -1119,7 +1119,7 @@
 > Светлая фотографичная тема для небольшого интернет-магазина: фото главнее текста, мягкая форма, скупой акцент. Страницы собираются из готовых блоков, каталог работает на WooCommerce или без него.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.5</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.6</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-latest.zip"><strong>brand-market-latest.zip</strong></a></td></tr>
@@ -1141,7 +1141,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.5 (последняя) | [brand-market-1.1.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.5.zip) |
+| 1.1.6 (последняя) | [brand-market-1.1.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.6.zip) |
+| 1.1.5 | [brand-market-1.1.5.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.5.zip) |
 | 1.1.4 | [brand-market-1.1.4.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.4.zip) |
 | 1.1.3 | [brand-market-1.1.3.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.3.zip) |
 | 1.1.2 | [brand-market-1.1.2.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.2.zip) |
