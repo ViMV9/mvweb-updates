@@ -1,7 +1,7 @@
 {
   "name": "mvweb-price-importer",
-  "version": "1.5.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.5.1.zip",
+  "version": "1.5.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-price-importer/mvweb-price-importer-1.5.2.zip",
   "requires": "6.4",
   "tested": "7.1.3",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-price-importer",
   "details_url": "https://mvweb.ru/plugins/mvweb-price-importer",
-  "last_updated": "2026-10-26 10:45:26",
+  "last_updated": "2026-10-26 12:42:57",
   "sections": {
-    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Темы студии могут брать из плагина оптовую, дилерскую цену и любые типы цен МоегоСклада товара — например, чтобы строить по ним цены «от N штук». Импорт и цены на сайте не меняются.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Цены для покупателей: покупатель со своим типом цен теперь получает свою цену и там, где тема или другой плагин показывает товары или принимает заказ без перехода в корзину, — например в избранном и в заказе «в один клик». Такой заказ уходит в МойСклад на контрагента покупателя. В админке и в API для управления магазином цены по-прежнему розничные.\n</li>\n<li>Фото МоегоСклада в «Умном» режиме: фото, удалённое у товара в МоёмСкладе, теперь удаляется и с сайта. Раньше оно оставалось, если на его место ничего не пришло, — например, когда у товара осталось одно фото или фото убрали совсем. Фото, добавленные на сайте вручную, не трогаются.\n</li>\n<li>Галерея товара при обновлении фото из любого источника больше не теряет фото, добавленные на сайте вручную.\n</li></ul>"
   }
 }
