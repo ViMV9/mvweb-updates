@@ -1,7 +1,7 @@
 {
   "name": "mvweb-media-control",
-  "version": "1.0.1",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-media-control/mvweb-media-control-1.0.1.zip",
+  "version": "1.0.2",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-media-control/mvweb-media-control-1.0.2.zip",
   "requires": "7.0",
   "tested": "7.1",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-media-control",
   "details_url": "https://mvweb.ru/plugins/mvweb-media-control",
-  "last_updated": "2026-10-18 06:47:43",
+  "last_updated": "2026-10-28 12:27:53",
   "sections": {
-    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li><strong>Недостающие размеры картинок.</strong> WordPress создаёт размеры только при загрузке, поэтому у картинок, загруженных до смены темы или установки плагина, новых размеров нет, и сайт показывает вместо них полную картинку. Скан на вкладке «Очистка» теперь находит такие картинки и показывает, каких размеров не хватает, а кнопка «Создать недостающие размеры» создаёт их.\n</li></ul>"
+    "changelog": "<h4>Изменено</h4>\n<ul>\n<li><strong>Недостающие размеры: плата за создание видна заранее.</strong> Рядом с каждым размером плагин показывает, сколько места займут новые файлы, а под списком — сколько файлов будет создано всего. Оценка считается по уже существующим файлам этих размеров. Так видно, что кнопка добавит много файлов, прежде чем её нажимать.\n</li></ul>"
   }
 }
