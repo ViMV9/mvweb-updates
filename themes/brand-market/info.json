@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.7",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.7.zip",
+  "version": "1.1.8",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.8.zip",
   "requires": "7.0",
   "tested": "7.1.3",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-10-26 12:30:05",
+  "last_updated": "2026-10-28 06:19:44",
   "sections": {
-    "changelog": "<p>Фото товаров можно листать прямо в каталоге, а оптовые покупатели видят понятную подпись над своей ценой.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Фото товара в каталоге листаются движением мыши, как на маркетплейсах.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Покупатель со своим типом цен видит над ценой его название, а не «Розница».\n</li></ul>"
+    "changelog": "<p>Тема готова для статейных сайтов и журналов.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Готовая главная страница для статейного сайта в один клик.\n</li>\n<li>Своя колонка виджетов у статьи и у страницы автора.\n</li>\n<li>Рекламное место в колонке и внутри текста статьи.\n</li>\n<li>Самые читаемые статьи за сегодня, неделю, месяц или год.\n</li>\n<li>Виджеты соцсетей и автора и блок «Подписка» в нескольких видах на выбор.\n</li>\n<li>Автор, просмотры и комментарии на карточке статьи.\n</li></ul>"
   }
 }
