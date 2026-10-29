@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.22",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.22.zip",
+  "version": "1.6.23",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.23.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-29 12:05:48",
+  "last_updated": "2026-10-29 20:09:52",
   "sections": {
-    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Порядок групп в живом поиске задаётся перетаскиванием типов записей на вкладке «Поведение» или стрелками рядом с ними. Свои типы записей, например «Бойцы» или «Бои», можно поставить выше записей и страниц. Прежний выбор порядка сохраняется.\n</li>\n<li>На странице результатов поиска результаты можно показывать блоками по типам в том же порядке. Настройка «Группировать по типам», по умолчанию выключена.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>В Safari и на iPhone пункты истории и результаты живого поиска открываются, когда поиск стоит во всплывающем окне. Раньше список результатов закрывался раньше, чем срабатывало нажатие.\n</li></ul>"
   }
 }
