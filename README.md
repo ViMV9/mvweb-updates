@@ -59,7 +59,7 @@
 
 | Тема | Версия | Описание |
 |:-----|:------:|:---------|
-| [**Brand Market**](#-brand-market) | ![v1.1.9](https://img.shields.io/badge/v1.1.9-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
+| [**Brand Market**](#-brand-market) | ![v1.1.10](https://img.shields.io/badge/v1.1.10-793ea4?style=flat-square) | Светлая фотографичная тема для небольшого интернет-магазина: конструктор страниц, каталог, корзина и личный кабинет |
 | [**Journal**](#-journal) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-793ea4?style=flat-square) | Тема журнала для сайта с полезными статьями и множеством рубрик: удобное чтение, оглавление, «Самое читаемое», подписка |
 
 ---
@@ -1127,7 +1127,7 @@
 > Светлая фотографичная тема для небольшого интернет-магазина: фото главнее текста, мягкая форма, скупой акцент. Страницы собираются из готовых блоков, каталог работает на WooCommerce или без него.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.9</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.10</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.4</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-latest.zip"><strong>brand-market-latest.zip</strong></a></td></tr>
@@ -1141,7 +1141,7 @@
 - **Магазин целиком** &mdash; корзина, оформление заказа, личный кабинет, избранное, сравнение, боковая корзина
 - **Боксы** &mdash; наборы товаров со скидкой на весь набор, со сроком и лимитом покупок
 - **Статьи и журнал** &mdash; свои колонки у статьи и автора, рекламные места, самое читаемое за период, виджеты соцсетей и автора
-- **Шапка и подвал из элементов** &mdash; выбор города и филиалы со своими телефонами, мессенджерами и картой у каждого города, сайдбары и виджеты, услуги, портфолио, блог
+- **Шапка и подвал из элементов** &mdash; выбор города и филиалы со своими телефонами, мессенджерами и картой у каждого города, список адресов в шапке и микроразметка каждой точки, сайдбары и виджеты, услуги, портфолио, блог
 - **Оформление** &mdash; пять палитр, семь стилей иконок, светлая и тёмная схемы, цвета кнопок, ссылок, полей и бейджей
 - **Мультиязычность** &mdash; английский и русский (i18n ready)
 
@@ -1150,7 +1150,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.9 (последняя) | [brand-market-1.1.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.9.zip) |
+| 1.1.10 (последняя) | [brand-market-1.1.10.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.10.zip) |
+| 1.1.9 | [brand-market-1.1.9.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.9.zip) |
 | 1.1.8 | [brand-market-1.1.8.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.8.zip) |
 | 1.1.7 | [brand-market-1.1.7.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.7.zip) |
 | 1.1.6 | [brand-market-1.1.6.zip](https://github.com/ViMV9/mvweb-updates/raw/main/themes/brand-market/brand-market-1.1.6.zip) |
