@@ -750,7 +750,7 @@
 <table>
 <tr><td><strong>Версия</strong></td><td>1.6.22</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.3</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.4</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-smart-search/mvweb-smart-search-latest.zip"><strong>mvweb-smart-search-latest.zip</strong></a></td></tr>
 </table>
 
