@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.9",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.9.zip",
+  "version": "1.1.10",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.10.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-10-29 13:12:32",
+  "last_updated": "2026-10-29 14:40:11",
   "sections": {
-    "changelog": "<p>Сети с точками в нескольких городах: посетитель видит контакты своего города.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>У каждой точки свои мессенджеры, а шапка, подвал и контакты показывают мессенджеры выбранного города.\n</li>\n<li>Мессенджеры точки прямо в её карточке в блоке филиалов.\n</li>\n<li>Окна заявки и покупки в один клик звонят в выбранный город.\n</li>\n<li>Своя карта у каждого города, в том числе в подвале.\n</li>\n<li>Выбранный город сайт помнит год.\n</li></ul>"
+    "changelog": "<p>Несколько точек в одном городе: посетитель видит все адреса сразу, а поисковики — каждую точку отдельно.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Если в городе несколько точек, в шапке появляется список всех адресов с часами работы и маршрутом.\n</li>\n<li>Поисковики видят каждую точку отдельно: адрес, телефон и часы работы.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Если у точек города разный график, часы работы показываются у каждой точки.\n</li>\n<li>Самовывоз в корзине показывает все адреса города.\n</li>\n<li>Мелкие исправления.\n</li></ul>"
   }
 }
