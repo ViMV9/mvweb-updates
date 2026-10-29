@@ -31,7 +31,7 @@
 |:-------|:------:|:---------|
 | [**Related Posts**](#-mvweb-related-posts) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Похожие записи со взвешенным подбором и микроразметкой |
 | [**Memcached**](#-mvweb-memcached) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Кеш объектов Memcached: проверка, подключение и включение одной кнопкой |
-| [**Price Table**](#-mvweb-price-table) | ![v1.1.15](https://img.shields.io/badge/v1.1.15-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
+| [**Price Table**](#-mvweb-price-table) | ![v1.1.16](https://img.shields.io/badge/v1.1.16-793ea4?style=flat-square) | Прайс-калькулятор с интеграцией Google Sheets |
 | [**Data Export**](#-mvweb-data-export) | ![v1.0.8](https://img.shields.io/badge/v1.0.8-793ea4?style=flat-square) | Экспорт записей, страниц, CPT и WooCommerce в CSV/TXT + прайс-лист для клиентов |
 | [**Child Pages**](#-mvweb-child-pages) | ![v1.1.2](https://img.shields.io/badge/v1.1.2-793ea4?style=flat-square) | Вывод дочерних страниц по шорткоду |
 | [**Contact Bar**](#-mvweb-contact-bar) | ![v1.0.8](https://img.shields.io/badge/v1.0.8-793ea4?style=flat-square) | Плавающая контактная панель в стиле Liquid Glass |
@@ -141,9 +141,9 @@
 > Интерактивный прайс-калькулятор с каскадными выпадающими списками на основе Google Sheets.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.1.15</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.16</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 6.4+ &bull; PHP 8.0+</td></tr>
-<tr><td><strong>Проверено до</strong></td><td>WordPress 7.0</td></tr>
+<tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.4</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-latest.zip"><strong>mvweb-price-table-latest.zip</strong></a></td></tr>
 </table>
 
@@ -164,7 +164,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.1.15 (последняя) | [mvweb-price-table-1.1.15.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.15.zip) |
+| 1.1.16 (последняя) | [mvweb-price-table-1.1.16.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.16.zip) |
+| 1.1.15 | [mvweb-price-table-1.1.15.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.15.zip) |
 | 1.1.13 | [mvweb-price-table-1.1.13.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.13.zip) |
 | 1.1.12 | [mvweb-price-table-1.1.12.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.12.zip) |
 | 1.1.11 | [mvweb-price-table-1.1.11.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-price-table/mvweb-price-table-1.1.11.zip) |
