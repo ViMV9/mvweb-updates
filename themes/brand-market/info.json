@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.10",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.10.zip",
+  "version": "1.1.11",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.11.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-10-29 14:40:11",
+  "last_updated": "2026-10-29 15:33:11",
   "sections": {
-    "changelog": "<p>Несколько точек в одном городе: посетитель видит все адреса сразу, а поисковики — каждую точку отдельно.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Если в городе несколько точек, в шапке появляется список всех адресов с часами работы и маршрутом.\n</li>\n<li>Поисковики видят каждую точку отдельно: адрес, телефон и часы работы.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Если у точек города разный график, часы работы показываются у каждой точки.\n</li>\n<li>Самовывоз в корзине показывает все адреса города.\n</li>\n<li>Мелкие исправления.\n</li></ul>"
+    "changelog": "<p>Подробная инструкция по теме: всё, что она умеет, и как собрать на ней сайт под свою задачу.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Инструкция по теме прямо из админки: все настройки, блоки, виджеты и модули с понятными объяснениями.\n</li>\n<li>Пошаговые рецепты для интернет-магазина, сервиса по ремонту, юридической компании, клиники и журнала.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Подсказки в настройках точнее описывают, что они делают.\n</li>\n<li>Мелкие исправления.\n</li></ul>"
   }
 }
