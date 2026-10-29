@@ -1,7 +1,7 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.21",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.21.zip",
+  "version": "1.6.22",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.22.zip",
   "requires": "6.4",
   "tested": "7.1",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-18 19:51:37",
+  "last_updated": "2026-10-29 12:05:48",
   "sections": {
-    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Тема или другой плагин могут дописывать свои поля в результаты живого поиска и задавать цвет фона под миниатюрой и под большой картинкой в панели справа. Например, прозрачный логотип показывается на фирменном цвете своей лиги или бренда.\n</li></ul>"
+    "changelog": "<h4>Добавлено</h4>\n<ul>\n<li>Порядок групп в живом поиске задаётся перетаскиванием типов записей на вкладке «Поведение» или стрелками рядом с ними. Свои типы записей, например «Бойцы» или «Бои», можно поставить выше записей и страниц. Прежний выбор порядка сохраняется.\n</li>\n<li>На странице результатов поиска результаты можно показывать блоками по типам в том же порядке. Настройка «Группировать по типам», по умолчанию выключена.\n</li></ul>"
   }
 }
