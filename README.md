@@ -53,7 +53,7 @@
 | [**Reviews**](#-mvweb-reviews) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Отзывы клиентов с модерацией, четырьмя раскладками вывода, формой приёма и разметкой JSON-LD |
 | [**Media Control**](#-mvweb-media-control) | ![v1.0.2](https://img.shields.io/badge/v1.0.2-793ea4?style=flat-square) | Контроль медиатеки: лишние размеры, WebP, очистка старых файлов и поиск неиспользуемых картинок |
 | [**Browser Push**](#-mvweb-browser-push) | ![v1.0.3](https://img.shields.io/badge/v1.0.3-793ea4?style=flat-square) | Push-уведомления сотрудникам магазина о новых заказах WooCommerce прямо в браузере |
-| [**Backup**](#-mvweb-backup) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-793ea4?style=flat-square) | Бэкап сайта в приватный репозиторий GitHub: база данных, медиафайлы и код выбранных тем и плагинов |
+| [**Backup**](#-mvweb-backup) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-793ea4?style=flat-square) | Бэкап сайта в приватный репозиторий GitHub и восстановление из него на том же или новом домене |
 
 
 ## &#127912; Темы
@@ -1130,10 +1130,10 @@
 
 ## &#128190; MVweb Backup
 
-> Бэкап сайта в приватный репозиторий GitHub: база данных, медиафайлы и код выбранных тем и плагинов. Запускается из cron сервера, по желанию шифруется открытым ключом.
+> Бэкап сайта в приватный репозиторий GitHub: база данных, медиафайлы и код сайта. Запускается из cron сервера, по желанию шифруется открытым ключом. Скрипт восстановления поднимает сайт из бэкапа на пустом сервере.
 
 <table>
-<tr><td><strong>Версия</strong></td><td>1.0.0</td></tr>
+<tr><td><strong>Версия</strong></td><td>1.1.0</td></tr>
 <tr><td><strong>Требования</strong></td><td>WordPress 7.0+ &bull; PHP 8.2+</td></tr>
 <tr><td><strong>Проверено до</strong></td><td>WordPress 7.1.4</td></tr>
 <tr><td><strong>Скачать</strong></td><td><a href="https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-backup/mvweb-backup-latest.zip"><strong>mvweb-backup-latest.zip</strong></a></td></tr>
@@ -1141,7 +1141,9 @@
 
 ### Возможности
 
-- **База данных и код** &mdash; дамп базы и архив отмеченных тем и плагинов уходят файлами релизов GitHub, хранятся две последние копии
+- **База данных и код** &mdash; дамп базы и архив папки контента с файлами корня сайта уходят файлами релизов GitHub: 30 копий базы и 5 копий кода, каждая сверяется после загрузки
+- **Восстановление** &mdash; скрипт по SSH поднимает сайт из бэкапа на пустом сервере, на том же или новом домене, и выводит отчёт со следующими шагами
+- **Частота по частям** &mdash; своя частота для базы, медиафайлов и кода, готовые строки cron и предупреждение, если бэкап опаздывает
 - **Медиафайлы архивами по месяцам** &mdash; заново загружаются только изменившиеся архивы; миниатюры не сохраняются, фото товаров WooCommerce — по выбору
 - **Шифрование** &mdash; по желанию открытым ключом: секретный ключ остаётся только у владельца, команда расшифровки — в справке
 - **Токен вне базы** &mdash; доступ к GitHub задаётся в файле конфигурации сайта и не попадает в бэкап
@@ -1154,7 +1156,8 @@
 
 | Версия | Скачать |
 |:-------|:--------|
-| 1.0.0 (последняя) | [mvweb-backup-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-backup/mvweb-backup-1.0.0.zip) |
+| 1.1.0 (последняя) | [mvweb-backup-1.1.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-backup/mvweb-backup-1.1.0.zip) |
+| 1.0.0 | [mvweb-backup-1.0.0.zip](https://github.com/ViMV9/mvweb-updates/raw/main/plugins/mvweb-backup/mvweb-backup-1.0.0.zip) |
 
 </details>
 
