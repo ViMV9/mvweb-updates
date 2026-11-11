@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.16",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.16.zip",
+  "version": "1.1.17",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.17.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-11-11 07:06:16",
+  "last_updated": "2026-11-11 07:24:47",
   "sections": {
-    "changelog": "<p>Покупатель видит, что уже лежит в корзине, прямо в каталоге.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Товар в корзине виден прямо в каталоге: вместо кнопки «В корзину» появляется счётчик, которым можно добавить ещё или убрать товар, не уходя со страницы.\n</li></ul>"
+    "changelog": "<p>Покупатель сразу видит, что товар уже в корзине.</p>\n<h4>Изменено</h4>\n<ul>\n<li>Товар в корзине заметнее в каталоге: надпись «В корзине» с количеством и крупные круглые кнопки, удобные для пальца.\n</li></ul>"
   }
 }
