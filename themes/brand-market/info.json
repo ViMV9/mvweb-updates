@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.13",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.13.zip",
+  "version": "1.1.14",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.14.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-11-10 05:51:43",
+  "last_updated": "2026-11-11 02:44:59",
   "sections": {
-    "changelog": "<p>Шапка в цветах вашего логотипа, товары в наличии первыми и аккуратный слайдер на телефоне.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Свой цвет полосы меню в шапке, чтобы шапка совпадала с цветами логотипа.\n</li>\n<li>Значок партнёра или разработчика в подвале можно вывести одним логотипом, без текста ссылки.\n</li>\n<li>Покупатель может показать сначала товары в наличии, а очерёдность пунктов сортировки вы задаёте сами.\n</li></ul>\n<h4>Изменено</h4>\n<ul>\n<li>Слайдер с плашкой на телефоне стал легче и аккуратнее, а заголовки слайдов читаются чётче.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Мелкие исправления.\n</li></ul>"
+    "changelog": "<p>Контакты в шапке на виду, а оптовикам удобнее собирать большой заказ.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Новый вид шапки: телефон, адрес и часы работы крупно, со значками и подписями.\n</li>\n<li>Под адресом можно рассказать, как вас найти: покупатель откроет пояснение одной кнопкой.\n</li>\n<li>Покупатель может выключить выезд корзины при добавлении товара: удобно, когда в заказе много товаров.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Мелкие исправления.\n</li></ul>"
   }
 }
