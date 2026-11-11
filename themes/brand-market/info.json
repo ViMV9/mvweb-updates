@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.18",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.18.zip",
+  "version": "1.1.19",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.19.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-11-11 07:52:55",
+  "last_updated": "2026-11-11 10:44:05",
   "sections": {
-    "changelog": "<p>Товар в корзине одинаково удобно видно в любом виде каталога.</p>\n<h4>Исправлено</h4>\n<ul>\n<li>Товар в корзине аккуратно смотрится и в табличном виде каталога: поле количества показывает, сколько уже в корзине, и меняет его.\n</li></ul>"
+    "changelog": "<p>Покупатель сразу видит, как можно оплатить заказ, а карту на странице контактов ничто не закрывает.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>Логотипы способов оплаты в подвале: карты, быстрые оплаты и банки России и Беларуси, а также свои логотипы. Они спокойно смотрятся на подвале любого цвета и становятся цветными при наведении.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Карточку с контактами поверх карты можно свернуть, чтобы пользоваться картой, и развернуть снова.\n</li></ul>"
   }
 }
