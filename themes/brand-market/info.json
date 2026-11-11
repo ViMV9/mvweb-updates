@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.17",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.17.zip",
+  "version": "1.1.18",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.18.zip",
   "requires": "7.0",
   "tested": "7.1.4",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-11-11 07:24:47",
+  "last_updated": "2026-11-11 07:52:55",
   "sections": {
-    "changelog": "<p>Покупатель сразу видит, что товар уже в корзине.</p>\n<h4>Изменено</h4>\n<ul>\n<li>Товар в корзине заметнее в каталоге: надпись «В корзине» с количеством и крупные круглые кнопки, удобные для пальца.\n</li></ul>"
+    "changelog": "<p>Товар в корзине одинаково удобно видно в любом виде каталога.</p>\n<h4>Исправлено</h4>\n<ul>\n<li>Товар в корзине аккуратно смотрится и в табличном виде каталога: поле количества показывает, сколько уже в корзине, и меняет его.\n</li></ul>"
   }
 }
