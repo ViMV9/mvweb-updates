@@ -1,16 +1,16 @@
 {
   "name": "mvweb-smart-search",
-  "version": "1.6.23",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.23.zip",
+  "version": "1.6.24",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-smart-search/mvweb-smart-search-1.6.24.zip",
   "requires": "6.4",
-  "tested": "7.1",
+  "tested": "7.1.4",
   "requires_php": "8.0",
   "author": "MVweb",
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-smart-search",
   "details_url": "https://mvweb.ru/plugins/mvweb-smart-search",
-  "last_updated": "2026-10-29 20:09:52",
+  "last_updated": "2026-11-16 06:56:54",
   "sections": {
-    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>В Safari и на iPhone пункты истории и результаты живого поиска открываются, когда поиск стоит во всплывающем окне. Раньше список результатов закрывался раньше, чем срабатывало нажатие.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>В живом поиске результаты со словом, набранным целиком, стоят выше результатов со словами, которые поиск дописал по его началу. Раньше редкие дописанные слова поднимали случайные результаты над точными совпадениями.\n</li></ul>"
   }
 }
