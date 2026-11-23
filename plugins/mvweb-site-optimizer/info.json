@@ -1,7 +1,7 @@
 {
   "name": "mvweb-site-optimizer",
-  "version": "1.1.4",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.1.4.zip",
+  "version": "1.1.5",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/plugins/mvweb-site-optimizer/mvweb-site-optimizer-1.1.5.zip",
   "requires": "6.4",
   "tested": "7.1.4",
   "requires_php": "8.0",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/plugins/mvweb-site-optimizer",
   "details_url": "https://mvweb.ru/plugins/mvweb-site-optimizer",
-  "last_updated": "2026-10-30 11:24:48",
+  "last_updated": "2026-11-23 05:51:43",
   "sections": {
-    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Режим обслуживания: администратор иногда видел заглушку вместо сайта, хотя был залогинен. На части хостингов сервер ненадолго запоминал заглушку, показанную гостю, и отдавал её всем, кто открывал ту же страницу. Теперь заглушка не сохраняется.\n</li></ul>"
+    "changelog": "<h4>Исправлено</h4>\n<ul>\n<li>Автоматический alt у картинок: на страницах разделов, категорий и в лентах картинка без описания, которая не прикреплена к записи, получала название случайной записи со страницы. Теперь такой картинке чужое название не подставляется.\n</li></ul>"
   }
 }
