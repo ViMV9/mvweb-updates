@@ -1,7 +1,7 @@
 {
   "name": "brand-market",
-  "version": "1.1.23",
-  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.23.zip",
+  "version": "1.1.24",
+  "download_url": "https://raw.githubusercontent.com/ViMV9/mvweb-updates/main/themes/brand-market/brand-market-1.1.24.zip",
   "requires": "7.0",
   "tested": "7.1.5",
   "requires_php": "8.2",
@@ -9,8 +9,8 @@
   "author_homepage": "https://mvweb.ru",
   "homepage": "https://mvweb.ru/themes/brand-market",
   "details_url": "https://vimv9.github.io/mvweb-updates/themes/brand-market/",
-  "last_updated": "2026-11-23 16:02:44",
+  "last_updated": "2026-11-25 13:49:08",
   "sections": {
-    "changelog": "<p>Посетитель, который смотрит сайт с компьютера, начинает переписку в мессенджере со своего телефона за пару секунд.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>QR-код мессенджера в контактах: посетитель наводит мышь на кнопку чата, сканирует код телефоном и сразу попадает в переписку с вами.\n</li></ul>\n<h4>Исправлено</h4>\n<ul>\n<li>Картинки разделов услуг подписаны их названиями, это полезно для поиска по картинкам.\n</li></ul>"
+    "changelog": "<p>Покупатель, который заберёт заказ сам, не вводит адрес доставки.</p>\n<h4>Добавлено</h4>\n<ul>\n<li>При оформлении заказа с самовывозом поля адреса скрыты и не требуются: покупатель заполняет только контакты. Самовывоз из настроек WooCommerce получил значок дома.\n</li></ul>"
   }
 }
